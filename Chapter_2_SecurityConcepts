@@ -1,1 +1,75 @@
+Confidentiality, Integrity, Availability (CIA)
+Non-Repudiation
+Authentication, Authorization, Accounting (AAA)
+Gap Analysis
+Zero Trust
+Physical Security
+Deception and Disruption Technology
+
+CIA Triad
+  -Confidentiality
+    -Safeguards information from unauthorized access and disclosure
+  -Integrity
+    - ensure data remains accurate and trustworthy throughout its lifecycle
+  -availability
+    - ensures systems and data are accessible and usable when needed by authorized users
+
+non-repudiation (ensures that someone cannot deny the validity of something, such as authorship of a statement
+  - a legal concept widely used in information security to provide proof of the origin an dintegrity of data
+  - digital signatures are commonly used to provide non-repudiation in digital communications or storage
+
+AAA
+  Authentication
+    - ensures the validity of someones identity and prevents unauthorized access
+  Authorizations
+    -determines what actions users are allowed to perform after they have been authenticated
+  Accounting
+    - Involves tracking and recording users' activities and resource use
+
+Gap Analysis (strategic planning tool used to evaluate differences between the current state and an ideal/desired state)
+  - helps pinpoint deficiencies in cybersecurity measures, whether in a technology, software, personnel training, or policy enforcement
+  - enables organizations to address and close these gaps effectively
+
+Zero Trust (network security concept centered on not trusting any entity or device by default)
+  - allows access based on various known factors rather than relying on inherent trust
+  - establishes trust through mechanisms such as authentication, authorization, and validation of security posture
+  - Control Plane
+    - adaptive identity
+    - threat scope reduction  
+    - policy-driven access control
+    - secured zones
+    - policy engine
+    - policy administrator
+  - Data Plane
+    - Subject/system
+    - Policy Enforcement Point (PEP)
+    - Implicit trust zones
+
+Physical Security
+  - badges
+  - fencing
+  - video surveillance
+  - security guards
+  - sensors
+  - lighting
+  - barricades
+
+Deception and Disruption Technology
+  - Deception (involves the use of decoys, traps, and other deceptive measures to mislead and thwart attackers
+  - disruption (invovles techniques and tools that disrupt or impair attackers' ability to execute their malicious activities
+    ie. honefiles, honepots, honeynets, honeytokens
+
+honeyfiles (files created to serve as bait for potential attackers, designed to lure them into interaction)
+  - serve as decoys within a network
+  - security teams can study the attackers' behavior without disturbing normal organizational operations
+
+honeypot (decoy system or network segment designed to attract and trap potential attackers)
+  - mimics legitimate systems or services to lure attackers into interacting with it, allowing security teams to monitor and analyze their behavior
+
+honeynets (network of interconnected honeypots and other decoy systems designed to deceive and trap potential attackers)
+  - provides a comprehensive view of attacker tactics, techniques, procedures (TTPs) by simulating a full scale network segment
+
+honeytokens (pieces of fake or fabricated data placed within a system or network to detect unauthorized access or activity)
+  - serve as indicators of compromise, alerting security teams to potential breaches or suspicious behavior
+  - designed to appear as legitimate or valuable data to attackers, which entices attackers to interact with or access them
 
