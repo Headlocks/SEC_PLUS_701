@@ -1,1 +1,16 @@
+Public Key Infrastructure (PKI)
 
+  - PKI encompasses key management, certificate authorities (CA), intermediate CAs, and registration authorities (RAs)
+  - PKI enables secure connections for websites, email transmissions, and remote access by utilizing asymmetric key pairs consisting of public and private keys
+  - Private keys are kept secret, while public keys can be distributed. private key escrow may be provided by trusted third parties
+  - Certificate Revocation List (CRL) and Onlince Certificate Status Protocol (OCSP) check if a cert is revoked
+
+Encryption
+  - Converts information into a coded format to prevent unauthorized access
+  - different levels of encryption offer varying degrees of protection
+    - full-disk encryption secures an entire hard drive, including data, files, and the operating systems
+    - partition encryption involves treating portions of a disk as separate units
+    - file encryption, or encrypting individual files, adds an additional layer of security
+
+Transport/Communication
+  - Data security and encryption is essential, whether the data is at rest, in transit, or in use.
