@@ -5,6 +5,16 @@ Public Key Infrastructure (PKI)
   - Private keys are kept secret, while public keys can be distributed. private key escrow may be provided by trusted third parties
   - Certificate Revocation List (CRL) and Onlince Certificate Status Protocol (OCSP) check if a cert is revoked
 
+Encryption
+  - Converts information into a coded format to prevent unauthorized access
+  - different levels of encryption offer varying degrees of protection
+    - full-disk encryption secures an entire hard drive, including data, files, and the operating systems
+    - partition encryption involves treating portions of a disk as separate units
+    - file encryption, or encrypting individual files, adds an additional layer of security
+
+Transport/Communication
+  - Data security and encryption is essential, whether the data is at rest, in transit, or in use.
+
 Cryptographic Algorithm
 
   Hashing
@@ -16,28 +26,70 @@ Cryptographic Algorithm
   symmetric
     - 1 key same key
     - good for speed, and large data
+    - uses a single key for both encryption and decryption
 
   assymetric
     - 2 keys different keys
     - slower process, but with far better security
     - PKI's
+    - employs a pair of keys: a public key for encryption and a private key for decyrption
 
   Public Keys
     - anybody can access it, designed for public
+
   Private Keys
     - for the recipient only
+
   Recovery Keys
     - a duplication of a private key
     - stored in "Key Escrow"
     - need a recovery agent in order to access the "Key Escrow"
 
-Encryption
-  - Converts information into a coded format to prevent unauthorized access
-  - different levels of encryption offer varying degrees of protection
-    - full-disk encryption secures an entire hard drive, including data, files, and the operating systems
-    - partition encryption involves treating portions of a disk as separate units
-    - file encryption, or encrypting individual files, adds an additional layer of security
+Key Exchange
+  - also known as a key establishment, is a cryptographic process that enables two parties to exchange cryptographic keys
+  - Internet Key Exchange (IKE)
 
-Transport/Communication
-  - Data security and encryption is essential, whether the data is at rest, in transit, or in use.
+Algorithms, Key Length, Tools
 
+  Algorithms
+    - mathematical formulas used in cryptographic processes
+  Key Length:
+    - the number of bits in an encryption algorithm's key; longer keys typically provide stronger encryption
+  tools:
+    - specialized technologies and protocols for securing and managing digital information throughout its lifecycle
+
+Key Management System (KMS)
+  - safeguards digital data by managing codes used to lock and unlock data
+    -main functions
+      - generates cryptographic keys
+      - stores keys securely
+      - exchange keys
+      - key use and access control
+      - key replacement and rotation
+
+Top 4 Key Exchange Algorithms
+
+  RSA (Rivest-Shamir-Adleman)
+
+    - Based on the difficulty of factoring large prime numbers.
+    - Widely used for secure key exchange and digital signatures.
+    - Vulnerable to certain attacks if not properly implemented (e.g., small key sizes).
+
+  Diffie-Hellman (DH)
+
+    - Allows two parties to securely share a secret key over a public channel.
+    - Based on the discrete logarithm problem.
+    - Vulnerable to man-in-the-middle attacks if authentication is not used.
+
+  Elliptic Curve Diffie-Hellman (ECDH)
+
+    - A variant of Diffie-Hellman using elliptic curve cryptography (ECC).
+    - Provides higher security with smaller key sizes compared to traditional DH.
+    - More efficient and faster than RSA and DH in terms of computation.
+
+  Post-Quantum Key Exchange Algorithms (e.g., NTRU, Kyber)
+
+    - Designed to be resistant to attacks by quantum computers.
+    - Based on lattice-based cryptography and other quantum-safe methods.
+    - Currently being standardized by NIST for post-quantum security.
+  
