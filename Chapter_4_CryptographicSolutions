@@ -92,4 +92,24 @@ Top 4 Key Exchange Algorithms
     - Designed to be resistant to attacks by quantum computers.
     - Based on lattice-based cryptography and other quantum-safe methods.
     - Currently being standardized by NIST for post-quantum security.
-  
+
+Trusted Platform Module and Hardware Security Module
+  Trusted Platform Module (TPM)
+    - a hardwrae based security technology using a secure cryptoprocessor chip to execute cryptographic operations, generate and manage cryptographic keys, authenticate platform devices, and ensure platform integrity by storing security measurements
+
+  Hardware Security Module (HSM)
+    - a physical device serving as a secure cryptoprocessor, providing faster encryption than software-based solutions, and generally tamper-proof
+    - similar to a military "KG"
+
+Rainbow tables
+  - Rainbow tables are precomputed tables that map hashed values to their corresponding plaintext inputs, allowing for faster reverse-engineering of hashed passwords.
+
+Secure Enclave
+  - is a hardware-based feature found in devices like iPhones
+    - segregates encryption tasks and runs on a separate microprocessor with its own operating system
+    - designed to resist tampering, it prevents access to its data through strict protocols
+    - the enclave is resistant ot software and hardware attacks
+
+
+
+
