@@ -1,74 +1,78 @@
-Confidentiality, Integrity, Availability (CIA)
-Non-Repudiation
-Authentication, Authorization, Accounting (AAA)
-Gap Analysis
-Zero Trust
-Physical Security
-Deception and Disruption Technology
+# Chapter 2: Security Concepts
 
-CIA Triad
-  - Confidentiality
-    - Safeguards information from unauthorized access and disclosure
-  - Integrity
-    - Ensures data remains accurate and trustworthy throughout its lifecycle
-  - Availability
-    - Ensures systems and data are accessible and usable when needed by authorized users
+## Confidentiality, Integrity, Availability (CIA)
+- **Confidentiality**
+  - Safeguards information from unauthorized access and disclosure
+- **Integrity**
+  - Ensures data remains accurate and trustworthy throughout its lifecycle
+- **Availability**
+  - Ensures systems and data are accessible and usable when needed by authorized users
 
-Non-Repudiation (ensures that someone cannot deny the validity of something, such as the authorship of a statement)
-  - A legal concept widely used in information security to provide proof of the origin and integrity of data
-  - Digital signatures are commonly used to provide non-repudiation in digital communications or storage
+## Non-Repudiation
+- Ensures that a party cannot deny the authenticity of their signature on a document or a sent message
+- Provides proof of the origin and integrity of data
+- Digital signatures are commonly used to provide non-repudiation in digital communications or storage
 
-AAA
-  - Authentication
-    - Ensures the validity of someone's identity and prevents unauthorized access
-  - Authorization
-    - Determines what actions users are allowed to perform after they have been authenticated
-  - Accounting
-    - Involves tracking and recording users' activities and resource use
+## Authentication, Authorization, Accounting (AAA)
+- **Authentication**
+  - Ensures the validity of someone's identity and prevents unauthorized access
+- **Authorization**
+  - Determines what actions users are allowed to perform after they have been authenticated
+- **Accounting**
+  - Involves tracking and recording users' activities and resource usage
 
-Gap Analysis (a strategic planning tool used to evaluate differences between the current state and an ideal or desired state)
-  - Helps pinpoint deficiencies in cybersecurity measures, whether in technology, software, personnel training, or policy enforcement
-  - Enables organizations to address and close these gaps effectively
+## Gap Analysis
+- A strategic planning tool used to evaluate differences between the current state and an ideal or desired state
+- Helps pinpoint deficiencies in cybersecurity measures, whether in technology, software, personnel training, or policy enforcement
+- Enables organizations to address and close these gaps effectively
 
-Zero Trust (network security concept centered on not trusting any entity or device by default)
-  - Allows access based on various known factors rather than relying on inherent trust
-  - Establishes trust through mechanisms such as authentication, authorization, and validation of security posture
-  - Control Plane
-    - Adaptive identity
-    - Threat scope reduction  
-    - Policy-driven access control
-    - Secured zones
-    - Policy engine
-    - Policy administrator
-  - Data Plane
-    - Subject/system
-    - Policy Enforcement Point (PEP)
-    - Implicit trust zones
+## Zero Trust
+- A network security concept centered on not trusting any entity or device by default
+- Grants access based on verified factors rather than inherent trust
+- Establishes trust through mechanisms such as authentication, authorization, and validation of security posture
 
-Physical Security
-  - Badges
-  - Fencing
-  - Video surveillance
-  - Security guards
-  - Sensors
-  - Lighting
-  - Barricades
+### Control Plane
+- Adaptive identity
+- Threat scope reduction
+- Policy-driven access control
+- Secured zones
+- Policy engine
+- Policy administrator
 
-Deception and Disruption Technology
-  - Deception (involves the use of decoys, traps, and other deceptive measures to mislead and thwart attackers)
-  - Disruption (involves techniques and tools that disrupt or impair attackers' ability to execute their malicious activities)
-    - Honeyfiles, honeypots, honeynets, honeytokens
+### Data Plane
+- Subject/system
+- Policy Enforcement Point (PEP)
+- Implicit trust zones
 
-Honeyfiles (files created to serve as bait for potential attackers, designed to lure them into interaction)
-  - Serve as decoys within a network
-  - Security teams can study the attackers' behavior without disturbing normal organizational operations
+## Physical Security
+- Badges
+- Fencing
+- Video surveillance
+- Security guards
+- Sensors
+- Lighting
+- Barricades
 
-Honeypot (a decoy system or network segment designed to attract and trap potential attackers)
-  - Mimics legitimate systems or services to lure attackers into interacting with it, allowing security teams to monitor and analyze their behavior
+## Deception and Disruption Technology
+- **Deception**
+  - Involves the use of decoys, traps, and other deceptive measures to mislead and thwart attackers
+- **Disruption**
+  - Involves techniques and tools that disrupt or impair attackers' ability to execute their malicious activities
+  - Honeyfiles, honeypots, honeynets, honeytokens
 
-Honeynets (a network of interconnected honeypots and other decoy systems designed to deceive and trap potential attackers)
-  - Provides a comprehensive view of attacker tactics, techniques, and procedures (TTPs) by simulating a full-scale network segment
+### Honeyfiles
+- Serve as decoys within a network
+- Security teams can study the attackers' behavior without disturbing normal organizational operations
 
-Honeytokens (pieces of fake or fabricated data placed within a system or network to detect unauthorized access or activity)
-  - Serve as indicators of compromise, alerting security teams to potential breaches or suspicious behavior
-  - Designed to appear as legitimate or valuable data to attackers, which entices attackers to interact with or access them
+### Honeypot
+- A decoy system or network segment designed to attract and trap potential attackers
+- Mimics legitimate systems or services to lure attackers into interacting with it, allowing security teams to monitor and analyze their behavior
+
+### Honeynets
+- A network of interconnected honeypots and other decoy systems designed to deceive and trap potential attackers
+- Provides a comprehensive view of attacker tactics, techniques, and procedures (TTPs) by simulating a full-scale network segment
+
+### Honeytokens
+- Pieces of fake or fabricated data placed within a system or network to detect unauthorized access or activity
+- Serve as indicators of compromise, alerting security teams to potential breaches or suspicious behavior
+- Designed to appear as legitimate or valuable data to attackers, which entices attackers to interact with or access them
