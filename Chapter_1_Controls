@@ -1,0 +1,84 @@
+Control Categories
+Control Types
+
+
+Control categories
+  - technical controls
+  - managerial controls
+  - operational controls
+  - physical controls 
+
+Technical Controls (logical controls implemented by a computer)
+  - authentications
+  - access control
+  - auditing
+  - cryptography
+  - firewalls
+  - session locks
+  - radius servers
+  - raid 5 (understand this, important)
+
+managerial controls (reflect decisions made by an organizations managers and executives, control risk management and how data security is administrated)
+  - security policies and procedures
+  - personnel background checks
+
+Operational Controls (carried out by people to enhance individual and group system security
+  - user training
+  - computer support
+  - baseline configuration dev
+  - facility design
+  - incident handling
+  - disaster recovery plans
+
+physical controls (serve as teh first line of defense in controlling access to an organization)
+  - ensuring that entrances are secure
+  - secure physical equipment
+  - logging and surveilling visitors
+
+
+control types
+  - preventative controls
+  - deterrent
+  - detective
+  - corrective
+  - directive
+
+preventive controls (are implemented proactively to thwar incidents before they occur)
+  - access lists
+  - passwords
+  - fences
+
+deterrent controls (aim to deter threat actors from launching offensive assaults on an organizations environment)
+  - similar to preventive, but focus on discouraging attackers solely because teh control exists
+  - alarm system signs
+  - web banner warning that unauthorized login attempts are being monitored
+
+detective controls (designed to detect and monitor unauthorized behaviors and other hazards)
+  - audit logs
+  - intrustion detection systems (IDS)
+  - motion detection
+  - alarms
+  - CCTV
+  - Security information and event management systems (SIEM)
+  - Network intrusion detection systems (NIDS)
+
+corrective controls (meant to be implemented after and incident to limit damage and facilitate quick rocovery)
+  - essential for restoring systems and mitigating harmful effects post-incident
+  - tape backup
+  - hot sites
+  - quarantining an infected computer
+
+compensating controls (security requirements that are impractical or too challenging to implement
+  - alternatives to costly or difficult-to-deploy security measures
+  - use with caution as they do not provide the same level of security as replaced controls
+
+directive controls (guide the operation and use of systems within an organization
+  - direct individuals toward secure behavior and establish a security-conscious culture
+  - standards
+  - procedures
+  - policy guidelines
+  - security awareness training
+
+
+
+
