@@ -1,1 +1,92 @@
+Business Processes Imapcting Security operations
+Technical Implications
+Documentation
+Version Control
 
+Business Proccesses Impacting Security Operations
+  - Business Processes are the organized steps that companies use to achieve their goals or provide services effectively.
+    -impact on security operations
+      - if the approval process isnt robust, it could lead to changes that introduce vulnerabilties
+      - clear ownership protocols ensure that each asset has someone responsible for its security
+
+Approval Process, Ownership, and Stakeholders
+  Approval Process
+    - determines how security affecting changes are authorized and who has the authority to make those decisions
+  Ownership
+    - refers to the individual or team responsible for specific assets and accountable for their security
+  Stakeholders
+    - individuals or grups with vested inerest in an organizations security practices
+
+Impact Analysis and Test Results
+  impact analysis
+    - involves evaluating the potential effects of changes on an organizations security landscape
+
+  test results  
+    - activities like penetration tets, vulnerability assessments, and simulated attacks provide critical insights into the effectiveness of newly implemented security measres
+
+Backout Plan, Maintenance Window, Standard Operating Procedure (SOP)
+
+  Backout Plan
+    - detailed procedure aimed at reversing changes that negatively affect security or business operations in IT systems or processes
+
+  Maintenence Window
+    - scheduled timeframe for implementing system updates or changes, chosen strategically to minimize disruptions
+
+  SOPs
+    - step-by-step instruction sets designed to guide workers through complex routine operations, ensuring consistency and adherence to best practices
+
+Technical Implications
+  - encompass the potential consequences of technology-related dcisions or events within teh cybersecurity landscape
+    - changes to network infrastructure
+    - adjustments to security protocols
+    - requirements for increasing server capacity due to new software or systems
+
+Allow Lists & Block Lists/Deny Lists
+  Allow Lists (or whitelists are lists of approved inputs that are permitted to be intered on a system)
+  Block Lists (or deny lists are collections of specific elements, characters, or patterns that cannot be input
+
+Restricted Activities
+  - are specific actions or operations within a computer or network system that are limited or prohibited to maintain cybersecurity standards
+    - these restrictions are typically introduced during employee onboarding through key documentaion like acceptable use policies (AUPs)
+
+Downtime, Service Restart, Application Restart
+
+  Downtime
+    - periods when a system, network, software application is unavailable
+  service restart    
+    - involves stopping and retarting a system service to implement updates, patches, or configuration changes
+  application restart
+    - like a service restart but it involves restarting a specific software application
+
+Legacy Applications and Dependencies
+  Legacy applications
+    - older software programs that continue to play a critical role in an organizations operations
+  dependencies
+    - relationships in which one component or service relies on another for proper functioning
+
+Documentation
+  - written material that provides information about systems or processes
+    - user guides
+    - technical specificiations
+    - system descriptions
+
+Updating Diagrams
+  Diagrams
+    - serve as maps or blueprints of networks or process flowcharts, providing visual representations
+      - updating diagrams involves editing existing diagrams of systems or networks to reflect any changes since the diagrams creation
+      - poorly documented changes can lead to instability and downtime
+
+Updating Policies/Procedures
+
+  Policies
+    - dictate the rules governing the use of security of IT systems
+  Procedures
+    - outline the specific steps to implement these rules
+      - regular revision of policies and procedures is essential to keep them aligned with technological advancements, environmental changes, or system modifications
+
+version control
+  - a system that records changes made to a file or set of files over time
+    - allows users to:
+      - track modifications
+      - identify when and by whom changes were made
+      - rever to earlier versions if necessary
