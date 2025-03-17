@@ -1,84 +1,102 @@
-Control Categories
-Control Types
+# Control Categories and Types
 
+## Control Categories
+- Technical Controls
+- Managerial Controls
+- Operational Controls
+- Physical Controls
 
-Control categories
-  - technical controls
-  - managerial controls
-  - operational controls
-  - physical controls 
+---
 
-Technical Controls (logical controls implemented by a computer)
-  - authentications
-  - access control
-  - auditing
-  - cryptography
-  - firewalls
-  - session locks
-  - radius servers
-  - raid 5 (understand this, important)
+### Technical Controls
+*Logical controls implemented by a computer*
+- Authenticators
+- Access control
+- Auditing
+- Cryptography
+- Firewalls
+- Session locks
+- RADIUS servers
+- RAID 5 (understand this, important)
 
-managerial controls (reflect decisions made by an organizations managers and executives, control risk management and how data security is administrated)
-  - security policies and procedures
-  - personnel background checks
+---
 
-Operational Controls (carried out by people to enhance individual and group system security
-  - user training
-  - computer support
-  - baseline configuration dev
-  - facility design
-  - incident handling
-  - disaster recovery plans
+### Managerial Controls
+*Reflect decisions made by an organization's managers and executives, control risk management, and how data security is administered*
+- Security policies and procedures
+- Personnel background checks
 
-physical controls (serve as teh first line of defense in controlling access to an organization)
-  - ensuring that entrances are secure
-  - secure physical equipment
-  - logging and surveilling visitors
+---
 
+### Operational Controls
+*Carried out by people to enhance individual and group system security*
+- User training
+- Computer support
+- Baseline configuration development
+- Facility design
+- Incident handling
+- Disaster recovery plans
 
-control types
-  - preventative controls
-  - deterrent
-  - detective
-  - corrective
-  - directive
+---
 
-preventive controls (are implemented proactively to thwar incidents before they occur)
-  - access lists
-  - passwords
-  - fences
+### Physical Controls
+*Serve as the first line of defense in controlling access to an organization*
+- Ensuring that entrances are secure
+- Securing physical equipment
+- Logging and surveilling visitors
 
-deterrent controls (aim to deter threat actors from launching offensive assaults on an organizations environment)
-  - similar to preventive, but focus on discouraging attackers solely because teh control exists
-  - alarm system signs
-  - web banner warning that unauthorized login attempts are being monitored
+---
 
-detective controls (designed to detect and monitor unauthorized behaviors and other hazards)
-  - audit logs
-  - intrustion detection systems (IDS)
-  - motion detection
-  - alarms
-  - CCTV
-  - Security information and event management systems (SIEM)
-  - Network intrusion detection systems (NIDS)
+## Control Types
 
-corrective controls (meant to be implemented after and incident to limit damage and facilitate quick rocovery)
-  - essential for restoring systems and mitigating harmful effects post-incident
-  - tape backup
-  - hot sites
-  - quarantining an infected computer
+### Preventive Controls
+*Implemented proactively to thwart incidents before they occur*
+- Access lists
+- Passwords
+- Fences
 
-compensating controls (security requirements that are impractical or too challenging to implement
-  - alternatives to costly or difficult-to-deploy security measures
-  - use with caution as they do not provide the same level of security as replaced controls
+---
 
-directive controls (guide the operation and use of systems within an organization
-  - direct individuals toward secure behavior and establish a security-conscious culture
-  - standards
-  - procedures
-  - policy guidelines
-  - security awareness training
+### Deterrent Controls
+*Aim to deter threat actors from launching offensive assaults on an organization's environment*
+- Similar to preventive but focus on discouraging attackers solely because the control exists
+- Alarm system signs
+- Web banner warning that unauthorized login attempts are being monitored
 
+---
 
+### Detective Controls
+*Designed to detect and monitor unauthorized behaviors and other hazards*
+- Audit logs
+- Intrusion detection systems (IDS)
+- Motion detection
+- Alarms
+- CCTV
+- Security Information and Event Management systems (SIEM)
+- Network intrusion detection systems (NIDS)
 
+---
 
+### Corrective Controls
+*Meant to be implemented after an incident to limit damage and facilitate quick recovery*
+- Essential for restoring systems and mitigating harmful effects post-incident
+- Tape backup
+- Hot sites
+- Quarantining an infected computer
+
+---
+
+### Compensating Controls
+*Security requirements that are impractical or too challenging to implement*
+- Alternatives to costly or difficult-to-deploy security measures
+- Use with caution as they do not provide the same level of security as replaced controls
+
+---
+
+### Directive Controls
+*Guide the operation and use of systems within an organization*
+- Direct individuals toward secure behavior and establish a security-conscious culture
+- Standards
+- Procedures
+- Policy guidelines
+- Security awareness training
