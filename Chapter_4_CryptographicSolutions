@@ -5,6 +5,32 @@ Public Key Infrastructure (PKI)
   - Private keys are kept secret, while public keys can be distributed. private key escrow may be provided by trusted third parties
   - Certificate Revocation List (CRL) and Onlince Certificate Status Protocol (OCSP) check if a cert is revoked
 
+Cryptographic Algorithm
+
+  Hashing
+     - strictly for integrity checking
+
+  symmetric and assymetric cryptgoraphy
+    - for confidentiality
+
+  symmetric
+    - 1 key same key
+    - good for speed, and large data
+
+  assymetric
+    - 2 keys different keys
+    - slower process, but with far better security
+    - PKI's
+
+  Public Keys
+    - anybody can access it, designed for public
+  Private Keys
+    - for the recipient only
+  Recovery Keys
+    - a duplication of a private key
+    - stored in "Key Escrow"
+    - need a recovery agent in order to access the "Key Escrow"
+
 Encryption
   - Converts information into a coded format to prevent unauthorized access
   - different levels of encryption offer varying degrees of protection
@@ -14,3 +40,4 @@ Encryption
 
 Transport/Communication
   - Data security and encryption is essential, whether the data is at rest, in transit, or in use.
+
