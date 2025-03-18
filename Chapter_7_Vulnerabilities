@@ -1,1 +1,49 @@
+Application Layer
+  - is a gateway to user interactions and data, making it a common target of attacks
+    buffer overflow
+      - involves a program writing more data to a buffer than it can hold, introducing a vulnerability
+    memory injection
+      - involves injecting malicious code into a systems memory
+    race condition    
+      - weakness occurs when multiple processes or threads try to access a system at once
+    malicious update
+      - involves altering software or firmware with harmful code via na update that appears legitimate
+
+Operating Sysem (OS)-based vulnerabilities
+  - result from improper configuration, outdated components, and design flaws
+  mitigation strategies
+    - regular OS updates and patch management
+    - principle of least privilege
+    - robust monitoring
+    - logging
+
+web-based vulnerabilities
+  - weakness in web applications and services
+  structured query language injection (SQLi)
+    - vulnerabilities are flaws that attackers can use to manipulate SQL queries in web applications
+  cross-site scripting (XSS)
+    - vulnerabilities enable the injection of malicious scripts into web pages
+
+hardware vulnerabilities
+  - involve the exploitable weaknesses of a system's physical devices and components
+  firmware vulnerabilities
+    - weaknesses are in the software that manages hardware functions
+  end-of-life (EOL) hardware
+    - no longer receives essential security updates from the vendor
+  legacy hardware 
+    - is no longer supported by its vendor at all
+
+virtualization techonlogy
+  - creation of virtual instances of physical hardware. vulnerabilities may lead to unauthorized use of virtual resources.
+  virtual machine (VM) escape
+    - occurs when an attacker breaks out of a virtual machine to access the host system
+  resource reuse
+    - involves sharing physical resources among multiple virtual instances. it introduces the risk of data leaks between virtual environments.
+
+cloud specific
+  - cloud offers various on-demand services to extend computer capabilities
+    - software as a servie (SaaS)
+    - infrastructure as a service (IaaS)
+    - Platform as a service (Paas)
+    - Security as a service (SECaaS)
 
