@@ -53,6 +53,11 @@
     - Agentless security:
       - Centralized; it enables monitoring and protection without installing software on individual client devices.
 
+## Unsupported Systems and Applications
+- Software tools or platforms lacking regular updates, security patches, or technical support from developers or vendors.
+  - May occur when software reaches its official end-of-life (EOL) or a company goes out of business.
+  - Unaddressed vulnerabilities are prime targets for cybercriminals.
+
 ## Unsecure Networks
 - Lack appropriate security measures. They expose individuals and organizations to cyber threats such as data theft, unauthorized access, and remote device control.
   - Wireless networks:
