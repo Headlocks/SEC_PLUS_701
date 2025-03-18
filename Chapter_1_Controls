@@ -6,8 +6,6 @@
 - Operational Controls
 - Physical Controls
 
----
-
 ### Technical Controls
 *Logical controls implemented by a computer*
 - Authenticators
@@ -19,14 +17,10 @@
 - RADIUS servers
 - RAID 5 (understand this, important)
 
----
-
 ### Managerial Controls
 *Reflect decisions made by an organization's managers and executives, control risk management, and how data security is administered*
 - Security policies and procedures
 - Personnel background checks
-
----
 
 ### Operational Controls
 *Carried out by people to enhance individual and group system security*
@@ -37,15 +31,11 @@
 - Incident handling
 - Disaster recovery plans
 
----
-
 ### Physical Controls
 *Serve as the first line of defense in controlling access to an organization*
 - Ensuring that entrances are secure
 - Securing physical equipment
 - Logging and surveilling visitors
-
----
 
 ## Control Types
 
@@ -55,15 +45,11 @@
 - Passwords
 - Fences
 
----
-
 ### Deterrent Controls
 *Aim to deter threat actors from launching offensive assaults on an organization's environment*
 - Similar to preventive but focus on discouraging attackers solely because the control exists
 - Alarm system signs
 - Web banner warning that unauthorized login attempts are being monitored
-
----
 
 ### Detective Controls
 *Designed to detect and monitor unauthorized behaviors and other hazards*
@@ -75,8 +61,6 @@
 - Security Information and Event Management systems (SIEM)
 - Network intrusion detection systems (NIDS)
 
----
-
 ### Corrective Controls
 *Meant to be implemented after an incident to limit damage and facilitate quick recovery*
 - Essential for restoring systems and mitigating harmful effects post-incident
@@ -84,14 +68,10 @@
 - Hot sites
 - Quarantining an infected computer
 
----
-
 ### Compensating Controls
 *Security requirements that are impractical or too challenging to implement*
 - Alternatives to costly or difficult-to-deploy security measures
 - Use with caution as they do not provide the same level of security as replaced controls
-
----
 
 ### Directive Controls
 *Guide the operation and use of systems within an organization*
