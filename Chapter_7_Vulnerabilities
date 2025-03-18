@@ -6,6 +6,7 @@ Application Layer
       - involves injecting malicious code into a systems memory
     race condition    
       - weakness occurs when multiple processes or threads try to access a system at once
+      - Time of check (TOC), Time of use (TOU)
     malicious update
       - involves altering software or firmware with harmful code via na update that appears legitimate
 
