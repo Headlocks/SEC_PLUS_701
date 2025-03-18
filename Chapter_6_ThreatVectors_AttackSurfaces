@@ -102,6 +102,11 @@
   - Involves using voice calls, often over VoIP systems, to deceive individuals into revealing sensitive information.
 - Smishing:
   - A combination of "SMS" and "phishing," involves sending deceptive SMS messages to trick recipients into clicking malicious links or downloading malware onto their mobile devices.
+- Skimming:
+  - involve the unauthorized capture of sensitive information, such as payment data or credit card details, through various illicit methods
+- Shimming:
+  - It is a form of malicious software designed to bypass security measures and gain access to the system, often used to steal data or gain access to sensitive information. 
+  - Works by inserting malicious code into a legitimate process or application. The shim typically operates at the kernel level, making it difficult to detect.
 - Misinformation:
   - Refers to false or misleading information that's spread without malicious intent.
 - Disinformation:
