@@ -146,7 +146,7 @@ key stretching
   pepper  
     - another randomly generated value added to a password hash, kept secret and separate from the hashed password
 
-Blockcahin & Open Public Ledger
+Blockchain & Open Public Ledger
   blockchain
     - a secure and immutable digital ledger technology that records transactions across a network of computer systems in a decentralized manner
       - prevents alteration or fraud
@@ -161,4 +161,23 @@ Certificates
   certificate authorites (CA)
     - entities, typically, servers, responsible for issuing certificates to users in a Public Key Infrastructure (PKI) system, serving as trusted third parties to validate identities and secure digital exchanges
 
+Block Cipher
+  - Take data and split it into equal blocks. each block can be encrypted individually or together. a buffer will be added if more data is needed at the end of a block.
 
+Modes of Operation
+  Counter Mode (CTR or CTM)
+    - turns a block cipher into a stream cipher
+Message Authentication Code (MAC)
+  - verify sender and reciever traffic
+Hash-Based Message Authentication Code (HMAC)
+  - integrity checking is conducting within the algorithm
+
+CCMP - CTR (Control Mode) CBC (cypher block chain) MAC (Message Authentication Code) Protocol
+  - ensures all the bits are chained together
+
+Randomization
+  - Salt
+  - IV
+  - NONCE
+
+  
