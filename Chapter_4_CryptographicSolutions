@@ -6,7 +6,7 @@ Public Key Infrastructure (PKI)
   - Certificate Revocation List (CRL) and Onlince Certificate Status Protocol (OCSP) check if a cert is revoked
 
 Encryption
-  - Converts information into a coded format to prevent unauthorized access
+  - Converts information into a coded format to prevent unauthorized access. (Confidentiality purposes)
   - different levels of encryption offer varying degrees of protection
     - full-disk encryption secures an entire hard drive, including data, files, and the operating systems
     - partition encryption involves treating portions of a disk as separate units
@@ -19,6 +19,8 @@ Cryptographic Algorithm
 
   Hashing
      - strictly for integrity checking
+      - Secure Hashing Algorithm (SHA) splits into 1 and 2 family
+      - Message Digest (MD)
 
   symmetric and assymetric cryptgoraphy
     - for confidentiality
@@ -110,6 +112,53 @@ Secure Enclave
     - designed to resist tampering, it prevents access to its data through strict protocols
     - the enclave is resistant ot software and hardware attacks
 
+Obfuscation & Steganography
 
+  obfuscation
+    - a technique used to protect sensitive information by altering or disguising the original data to prevent easy comprehension or access by unauthorized users
+
+  steganography
+    - the practice of concealing secret messages within seemingly innocuous carriers
+      - audio steg
+      - video steg    
+      - image steg
+
+Hashing & Salting
+  Hashing
+    - a one-way function that maps data to a fixed-length value, primarily for authentication and ensuring data integrity by verifying that it hasnt been altered
+  salting
+    - adding random data to password before hashing to enhance security
+
+Digital Signatures
+  - a mathematical scheme used to verify the authenticity and integrity of a digital message or document
+    - three algorithms used in a digital signature
+      - key generation algorithm
+      - signing algorithm
+      - signature verifying algorithm
+    - two properties required for a digital signature
+      - authenticity verification
+      - private key
+
+key stretching
+  - cryptographic technique used to enhance the security of weak keys against brute-force attacks
+  salt
+    - randomly generated data added to a password before hashing to prevent the same password from producing the same hash value
+  pepper  
+    - another randomly generated value added to a password hash, kept secret and separate from the hashed password
+
+Blockcahin & Open Public Ledger
+  blockchain
+    - a secure and immutable digital ledger technology that records transactions across a network of computer systems in a decentralized manner
+      - prevents alteration or fraud
+  open public ledger
+    - a component of blockchain technology that organizes transaction information into block that are chained together chronologically
+      - verifies transaction authenticity
+      - prevents double spending without the need for a cental authority
+
+Certificates
+  certificate
+    - a digital document issued by a Certificate Authority (CA) to verify the identity of the certificate holder and ensure the legitimacy of online communications
+  certificate authorites (CA)
+    - entities, typically, servers, responsible for issuing certificates to users in a Public Key Infrastructure (PKI) system, serving as trusted third parties to validate identities and secure digital exchanges
 
 
