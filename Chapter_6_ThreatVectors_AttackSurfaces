@@ -1,115 +1,115 @@
-Message-based Communication threats
-  - poses significant security risks due ot its widespread use, users' trust in platforms, and the potential for immediate damage
-    examples
-      -email  
-      - Short Message Service (SMS)
-      - Instant Messaging (IM)
-      - Spam and Spam over Internet Messaging (SPIM)
-    Mitigation
-      - user training and awareness
-      - spam filters
-      - secure email gateways
+# Chapter 6: Threat Vectors and Attack Surfaces
 
-Image-Based threats
-  - involve using digital images to exploit vulnerabilities in software and systems
-    examples
-      - using images in a phishing attack
-      - disguising malware as an image file
-    mitigation
-      - user training and awareness
-      - using up-to-date antivirus/anti-malware software
+## Message-based Communication Threats
+- Pose significant security risks due to its widespread use, users' trust in platforms, and the potential for immediate damage.
+  - Examples:
+    - Email
+    - Short Message Service (SMS)
+    - Instant Messaging (IM)
+    - Spam and Spam over Internet Messaging (SPIM)
+  - Mitigation:
+    - User training and awareness
+    - Spam filters
+    - Secure email gateways
 
-file-based threats
-  - leverage common file formats such as .doc and .jpg to conceal harmful scripts and execute malicious activities
-    - malicious code is embedded within or attached to these files, which are distributed via email attachments, downloads from websites, and file-sharing services
-  mitigation
-    - user training and awareness
-    - file scanning
-    - strict file permissions
+## Image-Based Threats
+- Involve using digital images to exploit vulnerabilities in software and systems.
+  - Examples:
+    - Using images in a phishing attack
+    - Disguising malware as an image file
+  - Mitigation:
+    - User training and awareness
+    - Using up-to-date antivirus/anti-malware software
 
-voice call threats
-  - involve malicious activities conducted through phone calls
-    - attackers aim to deceive or manipulate individuals into disclosing information by pretending to be trusted entities
-    mitigation
-      - user training and awareness
-      - secure call authentication
-      - report suspicious calls
+## File-Based Threats
+- Leverage common file formats such as .doc and .jpg to conceal harmful scripts and execute malicious activities.
+  - Malicious code is embedded within or attached to these files, which are distributed via email attachments, downloads from websites, and file-sharing services.
+  - Mitigation:
+    - User training and awareness
+    - File scanning
+    - Strict file permissions
 
-removable device threats
-  - involve using portable storage devices that transmit malware. examples are USB drives, external hard drives, and memory cards.
-    - when an infected device connects to a computer, it may execute malicious code and spread malware to connected systems
-  mitigation
-    - user training and awareness
-    - scan devices for malware
-    - restrict device use
+## Voice Call Threats
+- Involve malicious activities conducted through phone calls.
+  - Attackers aim to deceive or manipulate individuals into disclosing information by pretending to be trusted entities.
+  - Mitigation:
+    - User training and awareness
+    - Secure call authentication
+    - Report suspicious calls
 
-vulnerable software
-  - has exploitable flaws or weaknesses in its code or design
-    - two approaches help protect vulnerable software
-      - client-based security
-        - involves installing software agents on client devices for active monitoring and protection
-      - agentless security
-        - centralized; it enables monitoring and protection without installing software on individual client devices
+## Removable Device Threats
+- Involve using portable storage devices that transmit malware. Examples are USB drives, external hard drives, and memory cards.
+  - When an infected device connects to a computer, it may execute malicious code and spread malware to connected systems.
+  - Mitigation:
+    - User training and awareness
+    - Scan devices for malware
+    - Restrict device use
 
-Unsecure networks
-  - lack appropriate security measures. they expose individuals and organizations to cyber threats such as data theft, unauthorized access, and remote device control.
-  wireless networks
-    - vulvnerable to unauthorized access and eavesdropping if improperly configured or lacking encryption
-  wired networks
-    - more secure than wireless networks, but vulnerable without proper segmentation and access controls
-  bluetooth networks
-    - exploitable if devices are set to "discoverable" mode or if bluetooth vulnerabilities are not patched
+## Vulnerable Software
+- Has exploitable flaws or weaknesses in its code or design.
+  - Two approaches help protect vulnerable software:
+    - Client-based security:
+      - Involves installing software agents on client devices for active monitoring and protection.
+    - Agentless security:
+      - Centralized; it enables monitoring and protection without installing software on individual client devices.
 
-open service ports
-  - ports are network communication endpoints that are accessible and unguarded
-  mitigation
-    - firewall configuration
-    - port scanning
-    - monitoring and logging
+## Unsecure Networks
+- Lack appropriate security measures. They expose individuals and organizations to cyber threats such as data theft, unauthorized access, and remote device control.
+  - Wireless networks:
+    - Vulnerable to unauthorized access and eavesdropping if improperly configured or lacking encryption.
+  - Wired networks:
+    - More secure than wireless networks, but vulnerable without proper segmentation and access controls.
+  - Bluetooth networks:
+    - Exploitable if devices are set to "discoverable" mode or if Bluetooth vulnerabilities are not patched.
 
-default credentials
-  - simple default passwords that ship with hardware and software
-    - default creds post significant security risks, yet organizations often leave them unchanged
-    - credential harvesting exacerbates the problem. attackers post harvested usernames and passwords on platforms like pastebin and github.
+## Open Service Ports
+- Ports are network communication endpoints that are accessible and unguarded.
+  - Mitigation:
+    - Firewall configuration
+    - Port scanning
+    - Monitoring and logging
 
-supply chain
-  - a network of organizations, resources, and processes involved in creating, producing, and delivering products or services.
-  managed service providers (MSPs)
-    - organizations that manage IT services for other companies, offering efficiency but potentially introducing risks
-  vendors
-    - companies providing products or services to other businesses
-  suppliers
-    - providers of raw materials or components used in manufacturing
+## Default Credentials
+- Simple default passwords that ship with hardware and software.
+  - Default credentials pose significant security risks, yet organizations often leave them unchanged.
+  - Credential harvesting exacerbates the problem. Attackers post harvested usernames and passwords on platforms like Pastebin and GitHub.
 
-human vectors & social engineering
-  human vectors
-    - individuals manipulated into giving access to sensitive information or systems
-  social engineering
-    - encompasses a broad range of techniques aimed at manipulating the human psyche
+## Supply Chain
+- A network of organizations, resources, and processes involved in creating, producing, and delivering products or services.
+  - Managed Service Providers (MSPs):
+    - Organizations that manage IT services for other companies, offering efficiency but potentially introducing risks.
+  - Vendors:
+    - Companies providing products or services to other businesses.
+  - Suppliers:
+    - Providers of raw materials or components used in manufacturing.
 
-types of social engineering attacks
-  phishing
-    - involves fraudulent attempts to obtain private information by masquerading as someone else
-  vishing or voice phishing 
-    - involves using voice calls, often over VoIP systems, to deceive individuals into revealing sensitive information
-  smishing
-    - a combination of "SMS" and "phishing," involves sending deceptive SMS messages to trick recipients into clicking malicious links or downloading malware onto their mobile devices
-  misinformation
-    - refers to false or misleading information tahts spread without malicious intent
-  disinformation
-    - false or misleading information that is intentionally deceptive
-  impersonation
-    - involves pretending to be someone else to gain trust or access
-  business email compromise (BEC)
-    - sophisticated scam that compromises legitimate business email accounts to conduct unauthorized transfers or funds
-  pretexting
-    - attacker invents a scenario (a pretext) to persuade a victim to divulge information
-  watering hole attack
-    - attacker load malware onto sites that the targets frequently visit
-  brand impersonation
-    - involves attackers posing as trusted brands such as banks and technology companies
-  typosquatting
-    - involves attackers maliciously using domain names that are typo version of legitimate domains
+## Human Vectors & Social Engineering
+### Human Vectors
+- Individuals manipulated into giving access to sensitive information or systems.
 
+### Social Engineering
+- Encompasses a broad range of techniques aimed at manipulating the human psyche.
 
-
+### Types of Social Engineering Attacks
+- Phishing:
+  - Involves fraudulent attempts to obtain private information by masquerading as someone else.
+- Vishing or Voice Phishing:
+  - Involves using voice calls, often over VoIP systems, to deceive individuals into revealing sensitive information.
+- Smishing:
+  - A combination of "SMS" and "phishing," involves sending deceptive SMS messages to trick recipients into clicking malicious links or downloading malware onto their mobile devices.
+- Misinformation:
+  - Refers to false or misleading information that's spread without malicious intent.
+- Disinformation:
+  - False or misleading information that is intentionally deceptive.
+- Impersonation:
+  - Involves pretending to be someone else to gain trust or access.
+- Business Email Compromise (BEC):
+  - Sophisticated scam that compromises legitimate business email accounts to conduct unauthorized transfers of funds.
+- Pretexting:
+  - Attacker invents a scenario (a pretext) to persuade a victim to divulge information.
+- Watering Hole Attack:
+  - Attacker loads malware onto sites that the targets frequently visit.
+- Brand Impersonation:
+  - Involves attackers posing as trusted brands such as banks and technology companies.
+- Typosquatting:
+  - Involves attackers maliciously using domain names that are typo versions of legitimate domains.
