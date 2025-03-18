@@ -200,6 +200,7 @@
 ### Certificate
 
 - A digital document issued by a Certificate Authority (CA) to verify the identity of the certificate holder and ensure the legitimacy of online communications.
+- Privacy Enhanced Mail (PEM) is the most generated certificate
 
 ### Certificate Authorities (CA)
 
