@@ -1,1 +1,55 @@
+Message-based Communication threats
+  - poses significant security risks due ot its widespread use, users' trust in platforms, and the potential for immediate damage
+    examples
+      -email  
+      - Short Message Service (SMS)
+      - Instant Messaging (IM)
+      - Spam and Spam over Internet Messaging (SPIM)
+    Mitigation
+      - user training and awareness
+      - spam filters
+      - secure email gateways
+
+Image-Based threats
+  - involve using digital images to exploit vulnerabilities in software and systems
+    examples
+      - using images in a phishing attack
+      - disguising malware as an image file
+    mitigation
+      - user training and awareness
+      - using up-to-date antivirus/anti-malware software
+
+file-based threats
+  - leverage common file formats such as .doc and .jpg to conceal harmful scripts and execute malicious activities
+    - malicious code is embedded within or attached to these files, which are distributed via email attachments, downloads from websites, and file-sharing services
+  mitigation
+    - user training and awareness
+    - file scanning
+    - strict file permissions
+
+voice call threats
+  - involve malicious activities conducted through phone calls
+    - attackers aim to deceive or manipulate individuals into disclosing information by pretending to be trusted entities
+    mitigation
+      - user training and awareness
+      - secure call authentication
+      - report suspicious calls
+
+removable device threats
+  - involve using portable storage devices that transmit malware. examples are USB drives, external hard drives, and memory cards.
+    - when an infected device connects to a computer, it may execute malicious code and spread malware to connected systems
+  mitigation
+    - user training and awareness
+    - scan devices for malware
+    - restrict device use
+
+vulnerable software
+  - has exploitable flaws or weaknesses in its code or design
+    - two approaches help protect vulnerable software
+      - client-based security
+        - involves installing software agents on client devices for active monitoring and protection
+      - agentless security
+        - centralized; it enables monitoring and protection without installing software on individual client devices
+
+
 
