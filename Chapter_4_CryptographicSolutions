@@ -205,6 +205,8 @@
 ### Certificate Authorities (CA)
 
 - Entities, typically servers, responsible for issuing certificates to users in a Public Key Infrastructure (PKI) system, serving as trusted third parties to validate identities and secure digital communications.
+- root is the main certificate authority. 
+- Certificate Signing Request (CSR) is how you reach out to a Registration Authority (RA).
 
 ## Block Cipher
 
