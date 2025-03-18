@@ -51,5 +51,65 @@ vulnerable software
       - agentless security
         - centralized; it enables monitoring and protection without installing software on individual client devices
 
+Unsecure networks
+  - lack appropriate security measures. they expose individuals and organizations to cyber threats such as data theft, unauthorized access, and remote device control.
+  wireless networks
+    - vulvnerable to unauthorized access and eavesdropping if improperly configured or lacking encryption
+  wired networks
+    - more secure than wireless networks, but vulnerable without proper segmentation and access controls
+  bluetooth networks
+    - exploitable if devices are set to "discoverable" mode or if bluetooth vulnerabilities are not patched
+
+open service ports
+  - ports are network communication endpoints that are accessible and unguarded
+  mitigation
+    - firewall configuration
+    - port scanning
+    - monitoring and logging
+
+default credentials
+  - simple default passwords that ship with hardware and software
+    - default creds post significant security risks, yet organizations often leave them unchanged
+    - credential harvesting exacerbates the problem. attackers post harvested usernames and passwords on platforms like pastebin and github.
+
+supply chain
+  - a network of organizations, resources, and processes involved in creating, producing, and delivering products or services.
+  managed service providers (MSPs)
+    - organizations that manage IT services for other companies, offering efficiency but potentially introducing risks
+  vendors
+    - companies providing products or services to other businesses
+  suppliers
+    - providers of raw materials or components used in manufacturing
+
+human vectors & social engineering
+  human vectors
+    - individuals manipulated into giving access to sensitive information or systems
+  social engineering
+    - encompasses a broad range of techniques aimed at manipulating the human psyche
+
+types of social engineering attacks
+  phishing
+    - involves fraudulent attempts to obtain private information by masquerading as someone else
+  vishing or voice phishing 
+    - involves using voice calls, often over VoIP systems, to deceive individuals into revealing sensitive information
+  smishing
+    - a combination of "SMS" and "phishing," involves sending deceptive SMS messages to trick recipients into clicking malicious links or downloading malware onto their mobile devices
+  misinformation
+    - refers to false or misleading information tahts spread without malicious intent
+  disinformation
+    - false or misleading information that is intentionally deceptive
+  impersonation
+    - involves pretending to be someone else to gain trust or access
+  business email compromise (BEC)
+    - sophisticated scam that compromises legitimate business email accounts to conduct unauthorized transfers or funds
+  pretexting
+    - attacker invents a scenario (a pretext) to persuade a victim to divulge information
+  watering hole attack
+    - attacker load malware onto sites that the targets frequently visit
+  brand impersonation
+    - involves attackers posing as trusted brands such as banks and technology companies
+  typosquatting
+    - involves attackers maliciously using domain names that are typo version of legitimate domains
+
 
 
