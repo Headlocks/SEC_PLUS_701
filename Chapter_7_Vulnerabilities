@@ -8,7 +8,7 @@ Application Layer
       - weakness occurs when multiple processes or threads try to access a system at once
       - Time of check (TOC), Time of use (TOU)
     malicious update
-      - involves altering software or firmware with harmful code via na update that appears legitimate
+      - involves altering software or firmware with harmful code via an update that appears legitimate
 
 Operating Sysem (OS)-based vulnerabilities
   - result from improper configuration, outdated components, and design flaws
