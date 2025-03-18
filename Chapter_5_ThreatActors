@@ -1,1 +1,66 @@
+Threat Actors
+  - understanding the characteristics and traits of different types of attackers is crucial for effective cybersecurity defense
+  - threat actors vary widely in their expertise and resources. they range from inexperienced individuals to highly skilled syndicates and agents of nation-states
+  - threat actors have diverse motivations such as financial gain, intellectual property theft, and causing disruption/chaos
 
+Types of Threat Actors
+  Unskilled attackers
+    - alsow known as script kiddies, lack technical skills and often rely on readily available malicious code copied from the internet
+  Hacktivists
+    - combine hacking skills with activist motives, targeting organizations or systems to promote social or political agendas
+  Cybercriminals
+    - operating either independently or in syndicates, are motivated mainly by financial gain. they may use considerable resources and sophistication in their attacks.
+  Advanced Persistent Threats (APTs)
+    - highly sophisticated and well-funded attackers with extensive resources and extremely high motivation. theyre often associated with nation-states.
+  insider threats
+    - individuals within organizations who exploit their authorized access for malicious purposes.
+  Shadow IT
+    - invloves employees using an organization's IT systems and services without the IT departments knowledge
+
+Attributes of Actors
+  Hacktivists
+    - typically motivated by social or political issues
+    - often choose disruptive tactics such as DoS/DDos attacks and website defacement
+  Criminals
+    - typically motivated by financial gain
+    - engage in activities such as theft and fraud to generate profit
+  Nation-State Actors
+    - varied motivations such as advancing an industry or causing political instability
+    - may engage in intellectual property theft or disrupt critical infrastructure
+  Internal Actors (insiders)
+    - varied motivations such as ethical concerns, personal grievances, and financial gain
+    - may engage in intellectual property theft, disrupt critical infrastructure, or exploit vulnerabilities for personal gain
+
+Motivation
+  - the reason or drive behind an inviduals or groups actions
+    - common motivations are financial gain, ideological beliefs, revenge, and recognition
+    - understanding these motivations is crucial for developing strategies to mitigate and respond to cybersecurity threats effectively
+
+threat actor motivation
+  data exfiltration
+    - transferring data from a computer system or network to an external location or entity without authorization
+  espionage
+    - spying aimed at obtaining secret or confidential information
+  service disruption
+    - action aimed at halting or interrupting services or operations
+  blackmail
+    - threatening to disclose embarrassing or damaging information unless certain demands, often financial, are met
+  financial gain
+    - aiming to increase ones wealth or financial resources through illicit means
+  philosophical/political beliefs
+    - acting upon deeply held convictions or ideologies related to political or philosophical concepts
+  ethics
+    - acting upon accepted standards of behavior; guided by principles of morality, integrity, and fairness
+  revenge
+    - seeking retaliation or retribution against perceived injustices or wrongdoings
+  disruption/chaos
+    - creating disorder to destabilize normal operations
+
+War
+  Cyber warfare
+    - state-sponsored, politically motivated attack on an adversary's information systems.
+      - poses significant threats to national security
+      - often focuses on systems and assets vital to the functioning of a society or nation
+        - power grids
+        - communication networks
+        - government systems
