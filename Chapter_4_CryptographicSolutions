@@ -1,183 +1,234 @@
-Public Key Infrastructure (PKI)
+## Public Key Infrastructure (PKI)
 
-  - PKI encompasses key management, certificate authorities (CA), intermediate CAs, and registration authorities (RAs)
-  - PKI enables secure connections for websites, email transmissions, and remote access by utilizing asymmetric key pairs consisting of public and private keys
-  - Private keys are kept secret, while public keys can be distributed. private key escrow may be provided by trusted third parties
-  - Certificate Revocation List (CRL) and Onlince Certificate Status Protocol (OCSP) check if a cert is revoked
+- PKI encompasses key management, certificate authorities (CAs), intermediate CAs, and registration authorities (RAs).
+- PKI enables secure connections for websites, email transmissions, and remote access by utilizing asymmetric key pairs consisting of public and private keys.
+- Private keys are kept secret, while public keys can be distributed. Private key escrow may be provided by trusted third parties.
+- Certificate Revocation List (CRL) and Online Certificate Status Protocol (OCSP) check if a certificate is revoked.
 
-Encryption
-  - Converts information into a coded format to prevent unauthorized access. (Confidentiality purposes)
-  - different levels of encryption offer varying degrees of protection
-    - full-disk encryption secures an entire hard drive, including data, files, and the operating systems
-    - partition encryption involves treating portions of a disk as separate units
-    - file encryption, or encrypting individual files, adds an additional layer of security
+## Encryption
 
-Transport/Communication
-  - Data security and encryption is essential, whether the data is at rest, in transit, or in use.
+- Converts information into a coded format to prevent unauthorized access (Confidentiality purposes).
+- Different levels of encryption offer varying degrees of protection:
+  - Full-disk encryption secures an entire hard drive, including data, files, and the operating systems.
+  - Partition encryption involves treating portions of a disk as separate units.
+  - File encryption, or encrypting individual files, adds an additional layer of security.
 
-Cryptographic Algorithm
+## Transport/Communication
 
-  Hashing
-     - strictly for integrity checking
-      - Secure Hashing Algorithm (SHA) splits into 1 and 2 family
-      - Message Digest (MD)
+- Data security and encryption are essential, whether the data is at rest, in transit, or in use.
 
-  symmetric and assymetric cryptgoraphy
-    - for confidentiality
+## Cryptographic Algorithm
 
-  symmetric
-    - 1 key same key
-    - good for speed, and large data
-    - uses a single key for both encryption and decryption
+### Hashing
 
-  assymetric
-    - 2 keys different keys
-    - slower process, but with far better security
-    - PKI's
-    - employs a pair of keys: a public key for encryption and a private key for decyrption
+- Strictly for integrity checking.
+  - Secure Hashing Algorithm (SHA) splits into 1 and 2 family.
+  - Message Digest (MD).
 
-  Public Keys
-    - anybody can access it, designed for public
+### Symmetric and Asymmetric Cryptography
 
-  Private Keys
-    - for the recipient only
+- Used for confidentiality.
 
-  Recovery Keys
-    - a duplication of a private key
-    - stored in "Key Escrow"
-    - need a recovery agent in order to access the "Key Escrow"
+#### Symmetric
 
-Key Exchange
-  - also known as a key establishment, is a cryptographic process that enables two parties to exchange cryptographic keys
-  - Internet Key Exchange (IKE)
+- Uses a single key for both encryption and decryption.
+- Good for speed and large data.
 
-Algorithms, Key Length, Tools
+#### Asymmetric
 
-  Algorithms
-    - mathematical formulas used in cryptographic processes
-  Key Length:
-    - the number of bits in an encryption algorithm's key; longer keys typically provide stronger encryption
-  tools:
-    - specialized technologies and protocols for securing and managing digital information throughout its lifecycle
+- Employs a pair of keys: a public key for encryption and a private key for decryption.
+- Slower process, but with far better security.
+- Used in PKI.
 
-Key Management System (KMS)
-  - safeguards digital data by managing codes used to lock and unlock data
-    -main functions
-      - generates cryptographic keys
-      - stores keys securely
-      - exchange keys
-      - key use and access control
-      - key replacement and rotation
+### Public Keys
 
-Top 4 Key Exchange Algorithms
+- Anybody can access it, designed for public use.
 
-  RSA (Rivest-Shamir-Adleman)
+### Private Keys
 
-    - Based on the difficulty of factoring large prime numbers.
-    - Widely used for secure key exchange and digital signatures.
-    - Vulnerable to certain attacks if not properly implemented (e.g., small key sizes).
+- For the recipient only.
 
-  Diffie-Hellman (DH)
+### Recovery Keys
 
-    - Allows two parties to securely share a secret key over a public channel.
-    - Based on the discrete logarithm problem.
-    - Vulnerable to man-in-the-middle attacks if authentication is not used.
+- A duplication of a private key.
+- Stored in "Key Escrow".
+- Requires a recovery agent to access the "Key Escrow".
 
-  Elliptic Curve Diffie-Hellman (ECDH)
+## Key Exchange
 
-    - A variant of Diffie-Hellman using elliptic curve cryptography (ECC).
-    - Provides higher security with smaller key sizes compared to traditional DH.
-    - More efficient and faster than RSA and DH in terms of computation.
+- Also known as key establishment, is a cryptographic process that enables two parties to exchange cryptographic keys.
+- Internet Key Exchange (IKE).
 
-  Post-Quantum Key Exchange Algorithms (e.g., NTRU, Kyber)
+## Algorithms, Key Length, Tools
 
-    - Designed to be resistant to attacks by quantum computers.
-    - Based on lattice-based cryptography and other quantum-safe methods.
-    - Currently being standardized by NIST for post-quantum security.
+### Algorithms
 
-Trusted Platform Module and Hardware Security Module
-  Trusted Platform Module (TPM)
-    - a hardwrae based security technology using a secure cryptoprocessor chip to execute cryptographic operations, generate and manage cryptographic keys, authenticate platform devices, and ensure platform integrity by storing security measurements
+- Mathematical formulas used in cryptographic processes.
 
-  Hardware Security Module (HSM)
-    - a physical device serving as a secure cryptoprocessor, providing faster encryption than software-based solutions, and generally tamper-proof
-    - similar to a military "KG"
+### Key Length
 
-Rainbow tables
-  - Rainbow tables are precomputed tables that map hashed values to their corresponding plaintext inputs, allowing for faster reverse-engineering of hashed passwords.
+- The number of bits in an encryption algorithm's key; longer keys typically provide stronger encryption.
 
-Secure Enclave
-  - is a hardware-based feature found in devices like iPhones
-    - segregates encryption tasks and runs on a separate microprocessor with its own operating system
-    - designed to resist tampering, it prevents access to its data through strict protocols
-    - the enclave is resistant ot software and hardware attacks
+### Tools
 
-Obfuscation & Steganography
+- Specialized technologies and protocols for securing and managing digital information throughout its lifecycle.
 
-  obfuscation
-    - a technique used to protect sensitive information by altering or disguising the original data to prevent easy comprehension or access by unauthorized users
+## Key Management System (KMS)
 
-  steganography
-    - the practice of concealing secret messages within seemingly innocuous carriers
-      - audio steg
-      - video steg    
-      - image steg
+- Safeguards digital data by managing codes used to lock and unlock data.
 
-Hashing & Salting
-  Hashing
-    - a one-way function that maps data to a fixed-length value, primarily for authentication and ensuring data integrity by verifying that it hasnt been altered
-  salting
-    - adding random data to password before hashing to enhance security
+### Main Functions
 
-Digital Signatures
-  - a mathematical scheme used to verify the authenticity and integrity of a digital message or document
-    - three algorithms used in a digital signature
-      - key generation algorithm
-      - signing algorithm
-      - signature verifying algorithm
-    - two properties required for a digital signature
-      - authenticity verification
-      - private key
+- Generates cryptographic keys.
+- Stores keys securely.
+- Exchanges keys.
+- Key use and access control.
+- Key replacement and rotation.
 
-key stretching
-  - cryptographic technique used to enhance the security of weak keys against brute-force attacks
-  salt
-    - randomly generated data added to a password before hashing to prevent the same password from producing the same hash value
-  pepper  
-    - another randomly generated value added to a password hash, kept secret and separate from the hashed password
+## Top 4 Key Exchange Algorithms
 
-Blockchain & Open Public Ledger
-  blockchain
-    - a secure and immutable digital ledger technology that records transactions across a network of computer systems in a decentralized manner
-      - prevents alteration or fraud
-  open public ledger
-    - a component of blockchain technology that organizes transaction information into block that are chained together chronologically
-      - verifies transaction authenticity
-      - prevents double spending without the need for a cental authority
+1. **RSA (Rivest-Shamir-Adleman)**
 
-Certificates
-  certificate
-    - a digital document issued by a Certificate Authority (CA) to verify the identity of the certificate holder and ensure the legitimacy of online communications
-  certificate authorites (CA)
-    - entities, typically, servers, responsible for issuing certificates to users in a Public Key Infrastructure (PKI) system, serving as trusted third parties to validate identities and secure digital exchanges
+   - Based on the difficulty of factoring large prime numbers.
+   - Widely used for secure key exchange and digital signatures.
+   - Vulnerable to certain attacks if not properly implemented (e.g., small key sizes).
 
-Block Cipher
-  - Take data and split it into equal blocks. each block can be encrypted individually or together. a buffer will be added if more data is needed at the end of a block.
+2. **Diffie-Hellman (DH)**
 
-Modes of Operation
-  Counter Mode (CTR or CTM)
-    - turns a block cipher into a stream cipher
-Message Authentication Code (MAC)
-  - verify sender and reciever traffic
-Hash-Based Message Authentication Code (HMAC)
-  - integrity checking is conducting within the algorithm
+   - Allows two parties to securely share a secret key over a public channel.
+   - Based on the discrete logarithm problem.
+   - Vulnerable to man-in-the-middle attacks if authentication is not used.
 
-CCMP - CTR (Control Mode) CBC (cypher block chain) MAC (Message Authentication Code) Protocol
-  - ensures all the bits are chained together
+3. **Elliptic Curve Diffie-Hellman (ECDH)**
 
-Randomization
-  - Salt
-  - IV
-  - NONCE
+   - A variant of Diffie-Hellman using elliptic curve cryptography (ECC).
+   - Provides higher security with smaller key sizes compared to traditional DH.
+   - More efficient and faster than RSA and DH in terms of computation.
 
-  
+4. **Post-Quantum Key Exchange Algorithms** (e.g., NTRU, Kyber)
+
+   - Designed to be resistant to attacks by quantum computers.
+   - Based on lattice-based cryptography and other quantum-safe methods.
+   - Currently being standardized by NIST for post-quantum security.
+
+## Trusted Platform Module and Hardware Security Module
+
+### Trusted Platform Module (TPM)
+
+- A hardware-based security technology using a secure cryptoprocessor chip to execute cryptographic operations, generate and manage cryptographic keys, authenticate platform devices, and ensure platform integrity.
+
+### Hardware Security Module (HSM)
+
+- A physical device serving as a secure cryptoprocessor, providing faster encryption than software-based solutions, and generally tamper-proof.
+
+## Rainbow Tables
+
+- Precomputed tables that map hashed values to their corresponding plaintext inputs, allowing for faster reverse-engineering of hashed passwords.
+
+## Secure Enclave
+
+- A hardware-based feature found in devices like iPhones.
+- Segregates encryption tasks and runs on a separate microprocessor with its own operating system.
+- Designed to resist tampering, it prevents access to its data through strict protocols.
+- The enclave is resistant to software and hardware attacks.
+
+## Obfuscation & Steganography
+
+### Obfuscation
+
+- A technique used to protect sensitive information by altering or disguising the original data to prevent easy comprehension or access by unauthorized users.
+
+### Steganography
+
+- The practice of concealing secret messages within seemingly innocuous carriers:
+  - Audio steganography.
+  - Video steganography.
+  - Image steganography.
+
+## Hashing & Salting
+
+### Hashing
+
+- A one-way function that maps data to a fixed-length value, primarily for authentication and ensuring data integrity by verifying that it hasn't been altered.
+
+### Salting
+
+- Adding random data to a password before hashing to enhance security.
+
+## Digital Signatures
+
+- A mathematical scheme used to verify the authenticity and integrity of a digital message or document.
+
+### Three Algorithms Used in a Digital Signature
+
+1. Key generation algorithm.
+2. Signing algorithm.
+3. Signature verifying algorithm.
+
+### Two Properties Required for a Digital Signature
+
+1. Authenticity verification.
+2. Private key.
+
+## Key Stretching
+
+- A cryptographic technique used to enhance the security of weak keys against brute-force attacks.
+
+### Salt
+
+- Randomly generated data added to a password before hashing to prevent the same password from producing the same hash value.
+
+### Pepper
+
+- Another randomly generated value added to a password hash, kept secret and separate from the hashed password.
+
+## Blockchain & Open Public Ledger
+
+### Blockchain
+
+- A secure and immutable digital ledger technology that records transactions across a network of computer systems in a decentralized manner.
+- Prevents alteration or fraud.
+
+### Open Public Ledger
+
+- A component of blockchain technology that organizes transaction information into blocks that are chained together chronologically.
+- Verifies transaction authenticity.
+- Prevents double spending without the need for a central authority.
+
+## Certificates
+
+### Certificate
+
+- A digital document issued by a Certificate Authority (CA) to verify the identity of the certificate holder and ensure the legitimacy of online communications.
+
+### Certificate Authorities (CA)
+
+- Entities, typically servers, responsible for issuing certificates to users in a Public Key Infrastructure (PKI) system, serving as trusted third parties to validate identities and secure digital communications.
+
+## Block Cipher
+
+- Takes data and splits it into equal blocks. Each block can be encrypted individually or together. A buffer will be added if more data is needed at the end of a block.
+
+## Modes of Operation
+
+### Counter Mode (CTR or CTM)
+
+- Turns a block cipher into a stream cipher.
+
+### Message Authentication Code (MAC)
+
+- Verifies sender and receiver traffic.
+
+### Hash-Based Message Authentication Code (HMAC)
+
+- Integrity checking is conducted within the algorithm.
+
+### CCMP - CTR (Counter Mode) CBC (Cipher Block Chaining) MAC (Message Authentication Code) Protocol
+
+- Ensures all the bits are chained together.
+
+## Randomization
+
+- Salt.
+- IV (Initialization Vector).
+- NONCE.
