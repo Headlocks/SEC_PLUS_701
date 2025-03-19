@@ -1,1 +1,90 @@
 ## Chapter 9: Mitigation Techniques to secure the Enterprise
+
+Segmentation 
+  - divides a computer network into subnetworks or segments. it enhances security through isolation, limiting access to sensitive information
+    for proper implementation:
+      - understand data flows
+      - understand business needs
+      - adhere to policies and protocols
+
+Access Control Lists (ACLs) 
+  - can grant or deny network resource permissions to specific IP addresses, proocols, or ports
+  network ACLs can operate at different levels of the OSI model
+    - layer 2
+    - layer 3
+    - layer 4
+
+Permissions
+  - define the rights to preform actions on a system and are associated with files, directories, or processes
+    windows
+      - permisions are managed using security identifiers (SIDs) and ACLs
+    linux
+      - file permissions are presented symbolically or numerically. linux has fewer permissions than windows
+    best practices
+      - best practice for permissions include granting them to security groups rather than individual users and using central management for easier control
+
+isolation
+  - is the process of separating a suspected infected device from the rest of the computing environment
+  considerations when dealing with a compromised endpoint
+    - does it hold data that cannot be obtained from another source?
+    - can you safely reimage the device?
+    - can you wait until the investigation is completed before attempting any action?
+
+patching
+  - involves updating or fixing software applications, drivers, and operating systems by applying patches or updates
+    - updates can address known security vulnerabilities, enhance performance, and introduce new features
+    - regular patching is crucial for system security
+    - industries vary in their approaches to patching based on operational demands and threat environments
+
+encryption
+  - converts information into a coded form, rendering it unreadable without the correct decryption key or algorithm
+    - prevents unauthorized access
+    - safeguards teh confidentiality and integrity of data
+
+monitoring
+  - the ongoing observation and anlysis of systems activties to identify and respond to potential security incidents
+  offers real-time insights into system activities
+    - network traffic
+    - user behavior
+    - system performance
+    - logs
+
+least privilege
+  - the principle of least privilege advocates for granting individuals or systems only the necessary access or permissions to perform their tasks
+    - limiting access to the minimal level needed reduces potential damage from errors and malicious actions
+    examples
+      - in a hospital, nurses may access patient medical records but not financial data
+      - IT technicians may update system software but cannot access HR records
+
+Configuration Enforcement
+  - ensures that system settings, policies, and controls are consistently applied throughout an organizations network, systems, and devices
+  stategies for enforcement
+    - group policy
+    - ensuring uniform compliance with security standards
+    - reducing exploitable weaknesses such as common passwords
+
+decommissioning
+  - involves the planned removal of hardware, software, or subystems from active service as part of lifecycle management
+    - essential when systems reach the end of their usable life or become obsolete
+    - mitigates security risks by safely retiring obsolte or unused systems without leaving vulnerabilities for exploitation
+    - may require physical destruction of hardware
+
+Hardening Techniques
+  - systematic measures to minimize the attack surfaces of systems and reduce vulnerabilities
+    encryption
+      - transform data into a coded form to protect confidentiality and integrity, both in storage and transmission
+    installation of endpoint protection
+      - deploy security solutions tailored to defend user devices against malware, phishing, and other threats
+    host-based firewalls
+      - install software firewalls on individual devices to control incoming and outgoing traffic
+    host-based intrusion prevention system (HIPS)
+        - provide real-time protection against known and unknown threats by monitoring host system behavior
+    disable ports/protocols
+        - identify and close unused or unnecessary ports and protocols to limit potential entry points for attackers
+    change default passwords
+        - change default credentials to solid and unique credentials to prevent unauthorized access
+    remove unnecessary software
+        - identify and remove unused or outdated software to reduce potential vulnerabilities
+
+
+
