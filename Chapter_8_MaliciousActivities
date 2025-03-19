@@ -1,105 +1,99 @@
 ## Chapter 8: Indicators of Malicious Activity
 
-Malware Attacks
-  Malware
-    - is a software designed to infiltrate, damage, or gather information from a system without user consent.
-      - security professionals define and categorize malware to inform preventive measures
-      - when malware is identified, removal or quarantine is crucial
+### Malware Attacks
+- **Malware:**
+  - is software designed to infiltrate, damage, or gather information from a system without user consent.
+  - Security professionals define and categorize malware to inform preventive measures.
+  - When malware is identified, removal or quarantine is crucial.
 
-Types of Malware Attacks
-  Ransomware
-    - restricts access to a computer system and demands payment for decryption. its often propagated via phishing.
-  Trojans
-    - masquerade as legitimate software but perform malicious functions. they're often downloaded unknowingly.
-  Worms
-    - self-replicate to spread accross networks, exploiting security vulnerabilities in operating systems and applications.
-  Spyware
-    - secretly monitors and collects user activity, potentially compromising sensitive information
-  Bloatware
-    - consumes excessive system resources and can hinder system performance
-  Viruses
-    - infect computers when executed by users and spread copies of themselves throughout the system.
-  Keyloggers
-    - hardware and software capture keystrokes to steal sensitive data
-  Logic bombs
-    - initiate malicious functions under specific conditions, blurring the line between malware and malware delivery systems
-  Rootkits
-    - gain administrator-level control over computer systems wthout detection
+### Types of Malware Attacks
+- **Ransomware:**
+  - Restricts access to a computer system and demands payment for decryption. It's often propagated via phishing.
+- **Trojans:**
+  - Masquerade as legitimate software but perform malicious functions. They're often downloaded unknowingly.
+- **Worms:**
+  - Self-replicate to spread across networks, exploiting security vulnerabilities in operating systems and applications.
+- **Spyware:**
+  - Secretly monitors and collects user activity, potentially compromising sensitive information.
+- **Bloatware:**
+  - Consumes excessive system resources and can hinder system performance.
+- **Viruses:**
+  - Infect computers when executed by users and spread copies of themselves throughout the system.
+- **Keyloggers:**
+  - Hardware and software capture keystrokes to steal sensitive data.
+- **Logic bombs:**
+  - Initiate malicious functions under specific conditions, blurring the line between malware and malware delivery systems.
+- **Rootkits:**
+  - Gain administrator-level control over computer systems without detection.
 
-Physical Attacks 
-  - target tangible components of information systems, such as hardware devices, data storage mediums, and physical locations
-    - brute force
-    - physical brute force
-    - RFID cloning
-    - Environmental
+### Physical Attacks
+- Target tangible components of information systems, such as hardware devices, data storage mediums, and physical locations.
+  - Brute force
+  - Physical brute force
+  - RFID cloning
+  - Environmental
 
-Network Attacks
-  - aim to compromise network services and affect data availability, integrity, and confidentiality
-  DDOS attacks
-    - overwhelm target systems with traffic, often by spoofing the victim's IP address
-    amplified DDOS attacks
-      - send small request to vulnerable servers that trigger large responses
-    reflected DDOS attacks
-      - use legitimate services to bounce and redirect traffic to the victim
-  DNS attacks
-    - disrupt the translation of domain names into IP addresses, redirecting users to malicious sites or rendering legitimate sites unavailable
-  wireless attacks
-    - exploit vulnerabilities in Wi-Fi networks
-  on-path attacks
-    - intercept communication between two parties and may also alter data
-  credential replay
-    - involves capturing valid user credentials and reusing them for unauthorized access
-  malicious code
-    - includes viruses, worms, and trojan horses
+### Network Attacks
+- Aim to compromise network services and affect data availability, integrity, and confidentiality.
+- **DDoS attacks:**
+  - Overwhelm target systems with traffic, often by spoofing the victim's IP address.
+- **Amplified DDoS attacks:**
+  - Send small requests to vulnerable servers that trigger large responses.
+- **Reflected DDoS attacks:**
+  - Use legitimate services to bounce and redirect traffic to the victim.
+- **DNS attacks:**
+  - Disrupt the translation of domain names into IP addresses, redirecting users to malicious sites or rendering legitimate sites unavailable.
+- **Wireless attacks:**
+  - Exploit vulnerabilities in Wi-Fi networks.
+- **On-path attacks:**
+  - Intercept communication between two parties and may also alter data.
+- **Credential replay:**
+  - Involves capturing valid user credentials and reusing them for unauthorized access.
+- **Malicious code:**
+  - Includes viruses, worms, and trojan horses.
 
-application attacks
-  - exploit software application weaknesses, potentially resulting in unauthroized access, data theft, or system disruption
-    - injection
-    - buffer overflow
-    - replay
-    - privilege escalation
-    - forgery
-    - directory traversal
+### Application Attacks
+- Exploit software application weaknesses, potentially resulting in unauthorized access, data theft, or system disruption.
+  - Injection
+  - Buffer overflow
+  - Replay
+  - Privilege escalation
+  - Forgery
+  - Directory traversal
 
-cryptographic attacks
-  - target weak implementations of cryptography
-    downgrade attacks
-      - force the use of a weaker cryptographic algorithm instead of a stronger one, often leveraging legacy systems with outdate algorithms
-    birthday attacks
-      - are aimed at producing two messages with the same hash function, resulting in collision
-    collision
-      - occurs when two different files produce the same hash value, compromising data integrity
+### Cryptographic Attacks
+- Target weak implementations of cryptography.
+- **Downgrade attacks:**
+  - Force the use of a weaker cryptographic algorithm instead of a stronger one, often leveraging legacy systems with outdated algorithms.
+- **Birthday attacks:**
+  - Are aimed at producing two messages with the same hash function, resulting in a collision.
+- **Collision:**
+  - Occurs when two different files produce the same hash value, compromising data integrity.
 
-password attacks
-  - are unauthorized attempts to gain access to a asystem or account by exploiting weaknesses in password security
-  password spraying
-    - involves trying to compromise a system by attempting many usernames in combination with a few common passwors
-  brute-force attacks 
-    - use random characters and numbers to try to crack passwords
+### Password Attacks
+- Are unauthorized attempts to gain access to a system or account by exploiting weaknesses in password security.
+- **Password spraying:**
+  - Involves trying to compromise a system by attempting many usernames in combination with a few common passwords.
+- **Brute-force attacks:**
+  - Use random characters and numbers to try to crack passwords.
 
-indicators
-  - are the behaviors, patterns, and anomalies within a system or a network that may signify unauthorized access, malware infection, or other cyber threats
-  account lockout
-    - lockouts after failed login attempts could indicate brute-force attacks
-  concurrent sessions
-    - multiple simultaneous sessions from a single account suggests unauthorized access
-  block content
-    - increased instances of blocked content signal potential security threats or increased risk exposure
-  impossible travel
-    - login attempts from geographically distant locations in an unrealistic timeframe suggest compromised credentials
-  resource consumption
-    - abnormal increases in resource usage (CPU, memory, network bandwidth) may indicate malware or DDoS attacks
-  resource inaccessibility
-    - the sudden inability to access essential resources like files or databases could signify ransomware or malicious activity
-  out-of-cycle logging
-    - logging activities outside of nromal patterns may indiicate intrusion attempts or unauthorized access
-  mission logs
-    - the sudden disappearance or alteration of log files suggests attempts to cover tracks. regular monitoring is crucial for detection
-  published/documented indicators
-    - monitoring sources that share known threats can aid in early threat detection
-
-
-
-
-
-
+### Indicators
+- Are the behaviors, patterns, and anomalies within a system or a network that may signify unauthorized access, malware infection, or other cyber threats.
+- **Account lockout:**
+  - Lockouts after failed login attempts could indicate brute-force attacks.
+- **Concurrent sessions:**
+  - Multiple simultaneous sessions from a single account suggest unauthorized access.
+- **Block content:**
+  - Increased instances of blocked content signal potential security threats or increased risk exposure.
+- **Impossible travel:**
+  - Login attempts from geographically distant locations in an unrealistic timeframe suggest compromised credentials.
+- **Resource consumption:**
+  - Abnormal increases in resource usage (CPU, memory, network bandwidth) may indicate malware or DDoS attacks.
+- **Resource inaccessibility:**
+  - The sudden inability to access essential resources like files or databases could signify ransomware or malicious activity.
+- **Out-of-cycle logging:**
+  - Logging activities outside of normal patterns may indicate intrusion attempts or unauthorized access.
+- **Mission logs:**
+  - The sudden disappearance or alteration of log files suggests attempts to cover tracks. Regular monitoring is crucial for detection.
+- **Published/documented indicators:**
+  - Monitoring sources that share known threats can aid in early threat detection.
