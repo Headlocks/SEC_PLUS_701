@@ -50,5 +50,84 @@ cloud specific
     - Infrastructure as a service (IaaS)
       - cloud service provides the hardware, sd hardware, virtualization, or the network
     - Security as a service (SECaaS)
-      - cloud service provides remote cyber security and IT
+      - cloud service provider (CSP), provides remote cyber security and IT
+Cloud Specific
+  - cloud environments may be public, private, hybrid, or community
+  public
+    - applications and storage are offered to the general public over the internet. examples are free web email services and scalable pay-as-you-go business services
+  private
+    - designed for a particular organization and gives the security administrator some control over data and infrastructure. resources could come from the organization itself or a third party.
+  hybrid
+    - mixing elements of public and private clouds, hybrid environments user servers from the organization and the cloud. confidential data is typically kept in-house
+  community 
+    - public/private mix, multiple organizations can share the public portion
+Cloud Specific
+  cloud security concerns
+    - lack of privacy
+    - lack of accountability
+    - improper authentication
+    - data recovery problems
+  mitigation
+    - strict access policies
+    - strong passwords and MFA
+    - encryption
+    - documentation of stored items
+  social media security
+    - users post information that could compromise security
+    - difficult to track all social media platforms and applications; consider using allow lists and deny lists
+  peer-to-peer (P2P) networks
+    - used for file sharing, gaming, and streming media
+    - potential for malware and system infiltration
+  dark web
+    - a P2P system popular for facilitating illegal activities
+    - employees might connect cloud resources, so auditing is important
+    - directly monitoring the dark web can introduce risk. monitoring can be outsourced.
+
+Supply Chain
+  service provider vulnrabilities
+    - a service providers breaches or weaknesses can impact organizational security
+  hardware provider vulnerablities
+    - counterfeit components
+    - compromised firmware
+    - tampering
+  software provider vulnerabilties
+    - weaknesses in products or services
+    - varied vulnerabilities such as coding errors or malicious insertions
+
+cryptographic vulnerabilities
+  - weaknesses in encryption and decryption. they could involve outdated algorithms, weak keys, or flaw implementations
+  mitigation
+    - select proper cryptographic standards
+    - update regularly
+
+misconfiguration
+  - is the incorrect setup of software, hardware, or networks. it can lead to unauthorized access or the exposure of sensitive information.
+  mitigation strategies
+    - regular systems audits
+    - using documented configuration standards
+    - using automated configuration management tools
+
+mobile device
+  side loading
+    - installing applications from sources outside the official app store
+    mitigation
+      - device policies
+      - user education
+  jailbreaking
+    - refers to removing restrictions imposed by the manufacturer or carrier
+    mitigation
+      - device policies
+      - user education
+      - jailbreaking detection
+
+zero-day vulnerabilities
+  - is a flaw thats disclosed before its patch is released
+  zero-day protection
+    - is a collective term for the related preventative measures:
+      - use a new OS with built-in protections
+      - use multiple firewall layers
+      - use approved application lists
+      - install updates/patches regularly
+
+
 
