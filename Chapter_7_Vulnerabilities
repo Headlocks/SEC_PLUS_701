@@ -1,133 +1,107 @@
-Application Layer
-  - is a gateway to user interactions and data, making it a common target of attacks
-    buffer overflow
-      - involves a program writing more data to a buffer than it can hold, introducing a vulnerability
-    memory injection
-      - involves injecting malicious code into a systems memory
-    race condition    
-      - weakness occurs when multiple processes or threads try to access a system at once
-      - Time of check (TOC), Time of use (TOU)
-    malicious update
-      - involves altering software or firmware with harmful code via an update that appears legitimate
+# Vulnerabilities
 
-Operating Sysem (OS)-based vulnerabilities
-  - result from improper configuration, outdated components, and design flaws
-  mitigation strategies
-    - regular OS updates and patch management
-    - principle of least privilege
-    - robust monitoring
-    - logging
+## Application Layer
+- **Gateway to user interactions and data**, making it a common target of attacks.
+  - **Buffer overflow**: involves a program writing more data to a buffer than it can hold, introducing a vulnerability.
+  - **Memory injection**: involves injecting malicious code into a system's memory.
+  - **Race condition**: occurs when multiple processes or threads try to access a system at once.
+    - Time of Check (TOC), Time of Use (TOU)
+  - **Malicious update**: involves altering software or firmware with harmful code via an update that appears legitimate.
 
-web-based vulnerabilities
-  - weakness in web applications and services
-  structured query language injection (SQLi)
-    - vulnerabilities are flaws that attackers can use to manipulate SQL queries in web applications
-  cross-site scripting (XSS)
-    - vulnerabilities enable the injection of malicious scripts into web pages
+## Operating System (OS)-based Vulnerabilities
+- Result from improper configuration, outdated components, and design flaws.
+  - **Mitigation strategies**:
+    - Regular OS updates and patch management.
+    - Principle of least privilege.
+    - Robust monitoring and logging.
 
-hardware vulnerabilities
-  - involve the exploitable weaknesses of a system's physical devices and components
-  firmware vulnerabilities
-    - weaknesses are in the software that manages hardware functions
-  end-of-life (EOL) hardware
-    - no longer receives essential security updates from the vendor
-  legacy hardware 
-    - is no longer supported by its vendor at all
+## Web-based Vulnerabilities
+- Weaknesses in web applications and services.
+  - **Structured Query Language Injection (SQLi)**: vulnerabilities that allow attackers to manipulate SQL queries in web applications.
+  - **Cross-Site Scripting (XSS)**: vulnerabilities that enable the injection of malicious scripts into web pages.
 
-virtualization techonlogy
-  - creation of virtual instances of physical hardware. vulnerabilities may lead to unauthorized use of virtual resources.
-  virtual machine (VM) escape
-    - occurs when an attacker breaks out of a virtual machine to access the host system
-  resource reuse
-    - involves sharing physical resources among multiple virtual instances. it introduces the risk of data leaks between virtual environments.
+## Hardware Vulnerabilities
+- Involve the exploitable weaknesses of a system's physical devices and components.
+  - **Firmware vulnerabilities**: weaknesses in the software that manages hardware functions.
+  - **End-of-life (EOL) hardware**: no longer receives essential security updates from the vendor.
+  - **Legacy hardware**: no longer supported by its vendor at all.
 
-cloud specific
-  - cloud offers various on-demand services to extend computer capabilities
-    - Platform as a service (PaaS)
-      - cloud service provides the IaaS, PaaS, and the software
-    - Software as a servie (SaaS)
-      - cloud service provides the IaaS and the OS.
-    - Infrastructure as a service (IaaS)
-      - cloud service provides the hardware, sd hardware, virtualization, or the network
-    - Security as a service (SECaaS)
-      - cloud service provider (CSP), provides remote cyber security and IT
-Cloud Specific
-  - cloud environments may be public, private, hybrid, or community
-  public
-    - applications and storage are offered to the general public over the internet. examples are free web email services and scalable pay-as-you-go business services
-  private
-    - designed for a particular organization and gives the security administrator some control over data and infrastructure. resources could come from the organization itself or a third party.
-  hybrid
-    - mixing elements of public and private clouds, hybrid environments user servers from the organization and the cloud. confidential data is typically kept in-house
-  community 
-    - public/private mix, multiple organizations can share the public portion
-Cloud Specific
-  cloud security concerns
-    - lack of privacy
-    - lack of accountability
-    - improper authentication
-    - data recovery problems
-  mitigation
-    - strict access policies
-    - strong passwords and MFA
-    - encryption
-    - documentation of stored items
-  social media security
-    - users post information that could compromise security
-    - difficult to track all social media platforms and applications; consider using allow lists and deny lists
-  peer-to-peer (P2P) networks
-    - used for file sharing, gaming, and streming media
-    - potential for malware and system infiltration
-  dark web
-    - a P2P system popular for facilitating illegal activities
-    - employees might connect cloud resources, so auditing is important
-    - directly monitoring the dark web can introduce risk. monitoring can be outsourced.
+## Virtualization Technology
+- Creation of virtual instances of physical hardware may lead to unauthorized use of virtual resources.
+  - **Virtual machine (VM) escape**: occurs when an attacker breaks out of a virtual machine to access the host system.
+  - **Resource reuse**: involves sharing physical resources among multiple virtual instances, introducing the risk of data leaks between virtual environments.
 
-Supply Chain
-  service provider vulnrabilities
-    - a service providers breaches or weaknesses can impact organizational security
-  hardware provider vulnerablities
-    - counterfeit components
-    - compromised firmware
-    - tampering
-  software provider vulnerabilties
-    - weaknesses in products or services
-    - varied vulnerabilities such as coding errors or malicious insertions
+## Cloud Specific
+- Cloud offers various on-demand services to extend computing capabilities:
+  - **Platform as a Service (PaaS)**: cloud service provides the IaaS, PaaS, and the software.
+  - **Software as a Service (SaaS)**: cloud service provides the IaaS and the OS.
+  - **Infrastructure as a Service (IaaS)**: cloud service provides the hardware, SD hardware, virtualization, or the network.
+  - **Security as a Service (SECaaS)**: cloud service provider (CSP) provides remote cybersecurity and IT.
 
-cryptographic vulnerabilities
-  - weaknesses in encryption and decryption. they could involve outdated algorithms, weak keys, or flaw implementations
-  mitigation
-    - select proper cryptographic standards
-    - update regularly
+### Cloud Environments
+- **Public**: applications and storage are offered to the general public over the internet, such as free web email services and scalable pay-as-you-go business services.
+- **Private**: designed for a particular organization, giving the security administrator some control over data and infrastructure. Resources could come from the organization itself or a third party.
+- **Hybrid**: mixing elements of public and private clouds, hybrid environments use servers from the organization and the cloud. Confidential data is typically kept in-house.
+- **Community**: a mix of public/private, where multiple organizations can share the public portion.
 
-misconfiguration
-  - is the incorrect setup of software, hardware, or networks. it can lead to unauthorized access or the exposure of sensitive information.
-  mitigation strategies
-    - regular systems audits
-    - using documented configuration standards
-    - using automated configuration management tools
+### Cloud Security Concerns
+- Lack of privacy
+- Lack of accountability
+- Improper authentication
+- Data recovery problems
 
-mobile device
-  side loading
-    - installing applications from sources outside the official app store
-    mitigation
-      - device policies
-      - user education
-  jailbreaking
-    - refers to removing restrictions imposed by the manufacturer or carrier
-    mitigation
-      - device policies
-      - user education
-      - jailbreaking detection
+### Mitigation Strategies
+- Strict access policies
+- Strong passwords and multi-factor authentication (MFA)
+- Encryption
+- Documentation of stored items
 
-zero-day vulnerabilities
-  - is a flaw thats disclosed before its patch is released
-  zero-day protection
-    - is a collective term for the related preventative measures:
-      - use a new OS with built-in protections
-      - use multiple firewall layers
-      - use approved application lists
-      - install updates/patches regularly
+## Social Media Security
+- Users post information that could compromise security.
+- Difficult to track all social media platforms and applications; consider using allow lists and deny lists.
 
+## Peer-to-Peer (P2P) Networks
+- Used for file sharing, gaming, and streaming media.
+- Potential for malware and system infiltration.
 
+## Dark Web
+- A P2P system popular for facilitating illegal activities.
+- Employees might connect cloud resources, so auditing is important.
+- Directly monitoring the dark web can introduce risk; monitoring can be outsourced.
 
+## Supply Chain Vulnerabilities
+- **Service provider vulnerabilities**: a service provider's breaches or weaknesses can impact organizational security.
+- **Hardware provider vulnerabilities**: counterfeit components, compromised firmware, tampering.
+- **Software provider vulnerabilities**: weaknesses in products or services, varied vulnerabilities such as coding errors or malicious insertions.
+
+## Cryptographic Vulnerabilities
+- Weaknesses in encryption and decryption, such as outdated algorithms, weak keys, or flawed implementations.
+  - **Mitigation strategies**:
+    - Select proper cryptographic standards.
+    - Update regularly.
+
+## Misconfiguration
+- Incorrect setup of software, hardware, or networks can lead to unauthorized access or the exposure of sensitive information.
+  - **Mitigation strategies**:
+    - Regular systems audits.
+    - Using documented configuration standards.
+    - Using automated configuration management tools.
+
+## Mobile Device Vulnerabilities
+- **Side loading**: installing applications from sources outside the official app store.
+  - **Mitigation**:
+    - Device policies
+    - User education
+- **Jailbreaking**: removing restrictions imposed by the manufacturer or carrier.
+  - **Mitigation**:
+    - Device policies
+    - User education
+    - Jailbreaking detection
+
+## Zero-day Vulnerabilities
+- A flaw that is disclosed before its patch is released.
+  - **Zero-day protection**:
+    - Use a new OS with built-in protections.
+    - Use multiple firewall layers.
+    - Use approved application lists.
+    - Install updates/patches regularly.
