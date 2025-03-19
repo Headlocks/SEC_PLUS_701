@@ -1,1 +1,109 @@
 ## Chapter 10: Security Implications of Architecture Models
+
+cloud computing
+    - offers on-demand services that extend computer or network capabilities
+    benefits
+      - lower costs
+      - reduced administartion and maintenance
+      - increased reliability
+      - improved scalability
+      - higher performance (potentially)
+    concerns
+      - lack of administrative control
+      - security
+
+Infrastructure as Code (IaC)
+  - invovles managing and provisioning computer data centers through machine-readable definition files
+    - replaces physical hardware configuration and interactive configuration tools
+    - provides the scalability and integrations necessary for modern applications and deployments
+
+servless architecture
+  - uses cloud platforms like AWS, Azure, and Google Cloud to host and develop code
+    - doesnt mean the absence of servers; rather, cloud providers dynamically manage server allocation and provisioning
+    - example: AWS Lambda is a popular serverless architecture.
+
+network infrastructure
+  - encompasses an organization's essential hardware and software for network connectivity, communication, operations, and management
+
+on-premises computing architecture
+  - involves housing and managing hardware, software, servers, and network resources within an organizations physical location
+    - organizations have complete control over and responsibility for their IT infrastructures, including management, maintenance, and security
+    - may involve increased costs and complexity, requiring dedicated personnel and equipment for effective management and mainenance
+
+Centralized versu Decentralized
+  centralized access control
+    - one entity is responsible for adminstering access to resources
+    - characterized by consolidating control, data storage, and processing in a single location or server
+    - offers uniformity and consistency in decision-making
+  decentralized access control
+    - more than one entity is responsible for administering access to resources
+    - distributes data and control across multiple locations, servers, or nodes
+    - offers higher resilience, flexibility, and autonomy
+
+containerization and virtualization
+  containerization
+    - packaging applications in containers makes sharing and deployment easier
+    - applications consist of language runtimes, libraries, and source code, which can introduce dependencies
+  virtualization
+    - creates multiple simulated environments or dedicated resources from a single physical hardware system
+    - benefits include cost reduction, resource optimization, and scalability
+
+Internet of Things (IoT)
+  - encompasses interconnected physical devices that exchange data over the internet or other networks
+    - components
+      - sensors
+      - smart devices
+      - wearables
+      - facility automation
+    - weak defaults
+
+Industrial Control Systems (ICS) / Supervisory Control and Data Acquisition (SCADA)
+  - ICSs and SCADA enable organizations to monitor equipment processes, collect data, perform anallysis, and remotely control devices and processes
+    - play a crucial role in maintaining efficiency, enabling data-driven decisions, and mitigating downtime in industrial settings
+    - to defend against cyberattacks, SCADA networks should be isolated from corporate networks
+
+Real-Time Operating System (RTOS)
+  - RTOS rapidly switches between tasks, giving the illusion of simultaneous execution of multiple programs on a single processing core
+    - provides hard real-time responses with fast and deterministic reactions to external events
+    - security measures
+      - minimize the attack surface by disabling unnecessary features, services, and access
+      - assume that external systems are insecure
+
+embedded systems
+  - are specialized computer systems designed for specific functions within larger systems, often with significant design constraints
+    - constrains include cost, long lifecycle, real-time requirements, and reliability needs
+    - often optimized for lifecycle and business-driven factors rather than security or maximum computing throughput
+
+high availability (HA)
+  - refers to operational performance, usually uptime. it ensure users' ability to access a system or service without interruptions.
+  principles of system design
+    - eliiminate single points of failure
+    - reliable crossover
+    - detection of failures
+
+considerations
+  availability
+    - ensuring continuous business operations with redundant components, load balancing, and failover mechanisms
+  resilience
+    - building comprehensive preventive mreasures and recovery strategies to withstand failures and attacks
+  cost
+    - balancing expenses in acquisition, implementation, operation, and mainenance while optimizing resource utilization
+  responsiveness
+    - optimizing performance and automating taks to efficiently meet user demands
+  scalability
+    - designing systems capable of growing or shrinking in response to changes in demand
+  ease of deployment
+    - simplifying implementation through standardized configurations and automation
+  risk transference
+    - strategically shifting risks to other parties while maintaining accountability
+  ease of recover
+    - establishing robust distaster recovery and business continuity plans to minimize downtime
+  patch availability
+    - ensuring timely access to software updates and fixes
+  inability to patch
+    - the challenge of being unable to apply critical security updates, often because of legacy systems or technical constraints
+  power
+    - optimizing energy efficiency and resilience against power-based attacks across the entire network
+  computing resources
+    - effectively distributing and optimizing hardware and software components for data processing and computation
+
