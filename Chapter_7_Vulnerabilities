@@ -43,8 +43,12 @@ virtualization techonlogy
 
 cloud specific
   - cloud offers various on-demand services to extend computer capabilities
-    - software as a servie (SaaS)
-    - infrastructure as a service (IaaS)
     - Platform as a service (PaaS)
+      - cloud service provides the IaaS, PaaS, and the software
+    - Software as a servie (SaaS)
+      - cloud service provides the IaaS and the OS.
+    - Infrastructure as a service (IaaS)
+      - cloud service provides the hardware, sd hardware, virtualization, or the network
     - Security as a service (SECaaS)
+      - cloud service provides remote cyber security and IT
 
