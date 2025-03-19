@@ -17,3 +17,11 @@ Types of Malware Attacks
     - secretly monitors and collects user activity, potentially compromising sensitive information
   Bloatware
     - consumes excessive system resources and can hinder system performance
+  Viruses
+    - infect computers when executed by users and spread copies of themselves throughout the system.
+  Keyloggers
+    - hardware and software capture keystrokes to steal sensitive data
+  Logic bombs
+    - initiate malicious functions under specific conditions, blurring the line between malware and malware delivery systems
+  Rootkits
+    - gain administrator-level control over computer systems wthout detection
