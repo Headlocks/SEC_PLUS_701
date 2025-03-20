@@ -99,6 +99,19 @@
 
 ### Virtual Private Network (VPN)
 - Establishes a secure connection between two or more devices over the internet, even if they are not on the same private network.
+  L2TP (Layer 2 Tunneling Protocol)
+    - L2TP is typically used with IPsec to create a secure VPN tunnel. It establishes the tunnel, but does not provide encryption, which is handled by IPsec.
+    - UDP port 500 (used by IKE to manage encryption keys and perform key exchange)
+    - UDP port 4500 (used for IPsec Network Address Translation Traversal, or NAT-T, to handle devices behind NAT routers)
+    - UDP port 1701 (used for L2TP traffic)
+
+  IPsec (Internet Protocol Security)
+    - Transport mode
+      - AH (Authentication Header) (IP protocol number 51)
+      - Provides integrity and authenticity of the data but does not encrypt the payload.
+    - Tunnel mode
+      - ESP (Encapsulating Security Payload) (IP protocol number 50)
+      - Provides confidentiality (encryption) as well as integrity and authenticity for the data. It encrypts the entire IP packet, making it ideal for VPNs.
 
 ### Remote Access
 - Allows authorized users to connect to a network, systems, or application from a location outside the organization's physical premises.
