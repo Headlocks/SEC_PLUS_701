@@ -1,0 +1,91 @@
+High Availability (HA)
+  - ensure that a system or application remains accessible and operational over an extended period
+    - redundant hardware
+      - multiple instances of critical hardware components eliminate single points of failure
+    - automated backups
+      - regularly scheduled backups are automated to ensure that the most recent data is always available for recovery
+    - failover mechanims
+      - configuration allows the system or network to switch to a standby system or network automatically if the primary one fails
+
+cloud environments
+  - in cloud computing, availability is often determined by the storage class
+    - different availability metrics influence costs
+    - storage class selection should be based on a thorough risk analysis
+    - recommendation: select applications with greater storage availability for mission-critical uses
+
+site considerations
+  - hot site
+    - a near duplicate of the organizations original site that can be up and running within minutes
+  - warm site
+    - contains computers, phones, and servers but may require configuration before use
+  - cold site
+    - provides basic office infrastructure, but extensive computer configuration and data restoration would be needed before use
+  - geographically distant site
+    - computing environment, such as a data center, located at least 50 miles from the main compute campus data center
+
+platform diversity
+  - is the implementation of varied hardware or software platforms within an organizations IT environment
+    - reduces systemic risks associated with a single point of failure
+    - benefits
+      - reslience: increased ability to withstand security incidents and technical failures
+      - enhanced recovery: improved capacity to recover from incidents due to diversified platforms
+
+multi-cloud system
+  - involves using multiple cloud service platforms (AWS, Azure, Google Cloud) to fulfill diverse computational and storage needs
+    - reduces dependency on a single cloud service provider
+    - benefits
+      - risk mitigation
+      - high availability
+      - robust disaster recovery
+
+continuity of operations
+  - is a federal initiative encouraging organizations to plan for the continuation of critical operations under various emergency circumstances
+  - procedures in a cointinuity plan
+    - alerting, activating, notifying, and deploying employees
+    - identifying critical business functions
+    - establishing an alternative facility or work-from-home process
+    - creating a roster of personnel with authority and knowledge of business operational functions
+
+capacity planning
+  - is the process of determining future resource requirements such as people, technology, and infrastructure
+    - considerations
+      - people: staffing requirements to maintain and operate systems efficiently
+      - technology: computational power, software, and hardware needed to meet future demands
+      - infrastructure: physical or virtual resources to support technology and personnel
+
+testing
+  - tabletop exercises
+    - validate and improve incident response plans (IRPs) through real-life scenario simulations
+    - gauge team performance against predefined questions and scenarios
+  - failover testing
+    - involves switching operational functions from primary to secondary systems to assess continuity during system failures
+    - tests redundancy mechanisms and contingency plans
+  - simulations
+    - provides structured exercises to practice incident response procedures in simulated realistic scenarios
+    - helps identify deficiencies, improve response capabilities, and validate readiness
+  - parallel processing
+    - runs same tasks concurrently in primary and secondary systems
+    - verifies backup systems operational reliability and accuracy
+
+backups
+  - duplicate copy of data and system configurations stored separately from the original
+    - types of backups
+      - full backup
+      - incremental backup
+      - differential backup
+      - mirror backup
+      - continuous data protection (CDP)
+      - cloud backup
+      - virtual backup
+      - bare-metal backup
+
+power management
+  - involves provisioning, controlling, and efficientlly utilizing electricity to maintain uninterrupted facility operation
+    - uninterruptible power supply (UPS)
+      - offer emergency power during main power failures by storing energy in batteries or supercapacitors
+    - generators
+      - supply power during complete power loss or in areas without standard electrical service, converting mechanical or chemical energy into electrical energy
+
+
+
+
