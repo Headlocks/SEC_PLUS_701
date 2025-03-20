@@ -82,7 +82,12 @@
 ### Port Security
 - Vital for safeguarding network access and preventing unauthorized devices from communicating through network ports.
 - 802.1X authentication standard provides port-based network access control.
-- EAP is a universal authentication framework that defines message formats. It is frequently used with 802.1X.
+- Extensible Authentication Protocol (EAP) is a universal authentication framework that defines message formats. It is frequently used with 802.1X.
+  - PEAP (Protected Extensible Authentication Protocol)
+    - adds an encapsulated encrypted layer over EAP with TLS.
+  - EAP-FAST
+  - EAP-TLS
+  - EAP-TTLS
 
 ### Firewall Types
 - Network security device or software that acts as a barrier between a trusted internal network and untrusted external networks such as the internet.
