@@ -1,1 +1,112 @@
 ## Chapter 11: Secure Enterprise Infrastructure
+
+Device Placement
+  - is the thoughtful positioning of hardware devices within a network
+  considerations
+    - security requirements
+    - network efficiency
+    - accessiblity
+  examples
+    - place firewalls close to the network perimeter to prevent unauthorized access
+    - position snesitive data servers in secure locations to minimize exposure to therats
+
+security zones
+  - segregated areas in a network under specific security policies and controls
+  internal zones
+    - trusted segments in which sensitive or internal data is processed
+  external zones
+    - areas allowing connections from public internet or other untrusted networks
+  screened subnet
+    - specialized external zone that isolates public-facing services from the internet
+  specialized zones
+    - zones designed to meet regulatory compliance requirements
+
+attack surface
+  - all the vulnerabilities and potential access points an attacker could use to gain access to the system
+  Larger Surface = Greater Risk
+  Strategies ot reduce the attack surface
+    - turn off unnecessary services
+    - close open ports
+    - apply patches and updates
+    - use firewalls
+    - implement strong authentication
+
+connectivity
+  - how network, systems, and applications connect and communicate
+  security considerations
+    - encrypt data in transit
+    - secure connection endpoints
+    - employ secure protocols
+    - use VPNs or firewalls
+  remember connectivity when designing new systems with other departments
+
+failure modes
+  fail-open configuration    
+    - system remains available if a portion fails
+  fail-closed configuration
+    - entire systems becomes inaccessible if a portion fails
+  examples
+    - DNS server: may fail open to continue servicing other zones, but the database server may fail closed to protect confidential information
+    - firewall: would fail closed to maintain security
+
+device attribute
+  - a characteristic determining device operation in a network environment
+  active vs passive
+    - active/active: devices share workload simultaneously; critical for failover or load balancing
+    - active/passive: one device active, another on standby; passive activates if active fails or is manually switches
+  inline monitoring vs tap/monitor mode
+    - inline monitoring: device is placed idrectly in traffic flow, allowing active intervention
+    - tap/monitor mode: device observes traffic without interfering
+
+network appliances
+  - essential for network functionality, security, and efficiency
+  types of network appliances
+    - jump server
+    - proxy server
+    - Intrustion Prevention System (IPS)/ intrustion detection system (IDS)
+    - load balancer
+    - sensors
+
+port security
+  - is vital for safeguarding network access and preventing unauthorized devices from communicating through network ports
+    - 802.1X authentication standard provides port-based network access control
+    - EAP is a universal authentication framework that defines message formats. its frequently used with 802.1X
+
+firewall types
+  - network security device or software that acts as a barrier between a trusted internal network and untrusted external networks such as the internet
+
+Virtual Private Network
+  - establishes a secure connection between two or more devices over the internet, even if they are not on the same private network
+
+remote access
+  - allows authorized users to connect to a network, systems, or application from a location outside the organizations physical premises
+  remote access technologies
+    - remote access service (RAS)
+    - Virtual Private Networks (VPNs)
+    - Terminal Access Controller Access Control System Plus (TACACS+)
+    - Challenge-Handshake Authentication Protocol (CHAP)
+
+Tunneling
+  - creates a secure pathway for data transmission accross networks via encapsulation
+    - protocols like Transport Layers Security (TLS) and Internet Protocol Security (IPsec) enhance the security of tunneling by providing encryption and integrity mechanisms
+    - IKE, the key management protocol for IPsec, has two phases. Phase 1 negotiates the ISAKMP SA, and PHase 2 negotiates the IPsec Sas.
+
+Software-Defined wide area network (SD-WAN)
+  - is a networking architecture flexibility by separating control mechanisms from network hardware
+  - simplifies network management, improves performance, and enhances reliability
+
+Secure Access Service Edge (SASE)
+  - is a cloud-native architecture the merges network security functions with WAN capabilities
+    - integrates network and security services into a unified platform, simplifying managaement and ensuring secure access
+    - provides secure and seamless access to resources regardless of user location
+
+
+
+
+
+
+
+
+
+
+
