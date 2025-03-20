@@ -1,85 +1,82 @@
 ## Chapter 12: Protect Data
 
-Data Types
-  - Regulated Data
-    - subject to laws and regulations due to sensitivity, such as medical records regulated by HIPAA
-  - trade secret
-    - confidential information providing a competitive advantage, like a proprietary algorithm
-  - intellectual property (IP) 
-    - protected creative works, inventions, and designs, including copyrighted source code
-  - legal information
-    - data related to legal processes or obligations, such as signed contracts or employee agreements
-  - financial information
-    - data concerning financial operations and performance, regulated by laws like SOX and GLBA, including balance sheets, income statements, and a tax records
-  - human- and non-human-readable data
-    - human-readable data (text documents)
-    - non-human-readable data (encrypted files)
+### Data Types
+- Regulated Data
+  - subject to laws and regulations due to sensitivity, such as medical records regulated by HIPAA
+- Trade Secret
+  - confidential information providing a competitive advantage, like a proprietary algorithm
+- Intellectual Property (IP) 
+  - protected creative works, inventions, and designs, including copyrighted source code
+- Legal Information
+  - data related to legal processes or obligations, such as signed contracts or employee agreements
+- Financial Information
+  - data concerning financial operations and performance, regulated by laws like SOX and GLBA, including balance sheets, income statements, and tax records
+- Human- and Non-Human-Readable Data
+  - human-readable data (text documents)
+  - non-human-readable data (encrypted files)
 
-Data Classifications
-  - confidential or proprietary
-    - information or assets that could cause grave damage to an organization if accessed without authorization
-  - sensitive
-    - data that could cause some damage to an organization if accessed without authorization
-  - public
-    - information openly available without causing harm or presenting risks if exposed
-  - private
-    - information or assets that could cause sever damage to an organization if accessed without authorization (Payroll Data)
-  - Restricted
-    - data requiring the highest level of security measures due to its sensitive nature or stringent legal obligations
-  - critical
-    - data essential to the continued function of a business, the lost of which would result in significant monetary loss for the organization
+### Data Classifications
+- Confidential or Proprietary
+  - information or assets that could cause grave damage to an organization if accessed without authorization
+- Sensitive
+  - data that could cause some damage to an organization if accessed without authorization
+- Public
+  - information openly available without causing harm or presenting risks if exposed
+- Private
+  - information or assets that could cause severe damage to an organization if accessed without authorization (e.g., Payroll Data)
+- Restricted
+  - data requiring the highest level of security measures due to its sensitive nature or stringent legal obligations
+- Critical
+  - data essential to the continued function of a business, the loss of which would result in significant monetary loss for the organization
 
-General Data Considerations
-  - Data States
-    - the states in which data exists: at rest, in transit, and in use
-  - handling procedures
-    - establish clear procedures for handling data throughout its lifecycle, from creation and storage to sharing and disposal
-  - security measures
-    - implement robust security measures, including encryption, access controls, monitoring, and incident response protocols to help safeguard data against unauthorized access, breaches, and other security threats
+### General Data Considerations
+- Data States
+  - the states in which data exists: at rest, in transit, and in use
+- Handling Procedures
+  - establish clear procedures for handling data throughout its lifecycle, from creation and storage to sharing and disposal
+- Security Measures
+  - implement robust security measures, including encryption, access controls, monitoring, and incident response protocols to help safeguard data against unauthorized access, breaches, and other threats
 
-Data Sovereignty & Geolocation
-  - Data Sovereignty
-    - legal and regulatory requirements for data bsaed on its collection or processing locations
-    - mandatse often dictate that data must remain within a country's borders
-  - Geolocation
-    - identification or estimation of real-world geographic location based on digital information
-    - uses technologies like GPS tagging, geofencing, and IP-based location services
+### Data Sovereignty & Geolocation
+- Data Sovereignty
+  - legal and regulatory requirements for data based on its collection or processing locations
+  - mandates often dictate that data must remain within a country's borders
+- Geolocation
+  - identification or estimation of real-world geographic location based on digital information
+  - uses technologies like GPS tagging, geofencing, and IP-based location services
 
-Methods to Secure Data
-  - geographic restriction
-    - limits access to data based on user's geographic location
-  - encryption 
-    - converts readable data to an encoded format
-  - hashing
-    - converts data to fixed-length strings for verifying integrity
-  - masking
-    - replaces specific data with fictitious but structurally similar data
-  - tokenization
-    - replaces sensitive information with a placeholder, reducing the risk of data breaches
-  - obfuscation
-    - makes data unintelligible without affecting functionality
+### Methods to Secure Data
+- Geographic Restriction
+  - limits access to data based on user's geographic location
+- Encryption 
+  - converts readable data to an encoded format
+- Hashing
+  - converts data to fixed-length strings for verifying integrity
+- Masking
+  - replaces specific data with fictitious but structurally similar data
+- Tokenization
+  - replaces sensitive information with a placeholder, reducing the risk of data breaches
+- Obfuscation
+  - makes data unintelligible without affecting functionality
 
-segmentation
-  - divides a network into segments that isolate data
-  examples
-    - finance segment
+### Segmentation
+- Divides a network into segments that isolate data
+  - Examples:
+    - Finance Segment
       - highly secure area of the network for sensitive financial information
-    - firewall segment
+    - Firewall Segment
       - also known as a screened subnet; a buffer zone between the external network (internet) and internal network
-    - engineering segment
+    - Engineering Segment
       - isolated environment for development and testing purposes
-    - sales segment
+    - Sales Segment
       - for customer relationship management (CRM) systems, sales records, and customer-related data
 
-Permission Restrictions
-  - specify who can perform which actions within a system or network
-    methods
-      - role-based access control (RBAC)
-        - access permissions are assigned to organizational roles
-      - Attribute-based access control (ABAC)
-        - access is granted based on attributes like location, time, or device type
-      - principle of least privilege
-        - ensures that users have only the minimum access necessary to perform their tasks
-
-
-
+### Permission Restrictions
+- Specify who can perform which actions within a system or network
+  - Methods:
+    - Role-Based Access Control (RBAC)
+      - access permissions are assigned to organizational roles
+    - Attribute-Based Access Control (ABAC)
+      - access is granted based on attributes like location, time, or device type
+    - Principle of Least Privilege
+      - ensures that users have only the minimum access necessary to perform their tasks
