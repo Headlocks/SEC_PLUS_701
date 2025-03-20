@@ -91,6 +91,11 @@
 
 ### Firewall Types
 - Network security device or software that acts as a barrier between a trusted internal network and untrusted external networks such as the internet.
+  - Web Application Firewall (WAF)
+  - NGFW (Next Generation Firewall)
+    - TLS Inspection
+    - Intrustion Prevention System 
+    - UTM (Unified Threat Managment)
 
 ### Virtual Private Network (VPN)
 - Establishes a secure connection between two or more devices over the internet, even if they are not on the same private network.
