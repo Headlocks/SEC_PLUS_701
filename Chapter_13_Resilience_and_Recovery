@@ -72,12 +72,13 @@
   - Types of backups
     - Full backup
     - Incremental backup
-    - Differential backup
+    - Differential backup (NO archive bit change)
     - Mirror backup
     - Continuous data protection (CDP)
     - Cloud backup
     - Virtual backup
     - Bare-metal backup
+    - Snapshot
 
 # Power Management
 - Involves provisioning, controlling, and efficiently utilizing electricity to maintain uninterrupted facility operation
