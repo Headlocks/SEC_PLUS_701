@@ -1,106 +1,103 @@
 ## Chapter 14: Security Techniques to Computing Resources
 
-secure baselines 
-  - standardized sets of minimum configuration and security controls for systems and software
-    - asset tagging    
-      - assigning unique indentifiers to each asset for easier tracking
-    - version control
-      - documenting all software versions used by the organization; helps identify outdates or unsupported version that may pose security risks
-    - schedule scans
-      - scheduling regular vulnerability scans to identify any new weaknesses
-    - manual review
-      - human reviews data, logs, and systems to help prioritize vulnerabiliities bsaed on actual oragnizational risk. human judgement and intuition can identify issues that automated tools miss.
-    - disable unnecessary services
-      - turn off services and features not required for the systems primary function
-    - user access control
-      - limit user permissions to what is necessary for their roles
-    - change log
-      - maintain a record of any changes made to the baseline, who made them, and why
-    - audit trail
-      - ensure that documentation is in a format that can be easily audited for compliance purposes
-    - validation testing
-      - confirm that the baseline settings do not disrupt necessary functions
-    - rollback plan
-      - have a plan to rever changes in the event of unforeseen issues during deployment
-    - patch management
-      - regularly update software and systems to patch known vulnerabilities
-    - review and update
-      - periodically review the secure baseline to ensure that it aligns with current best practices in cybersecurity
+### Secure Baselines
+- Standardized sets of minimum configuration and security controls for systems and software
+  - Asset tagging
+    - Assigning unique identifiers to each asset for easier tracking
+  - Version control
+    - Documenting all software versions used by the organization; helps identify outdated or unsupported versions that may pose security risks
+  - Schedule scans
+    - Scheduling regular vulnerability scans to identify any new weaknesses
+  - Manual review
+    - Human reviews data, logs, and systems to help prioritize vulnerabilities based on actual organizational risk. Human judgment and intuition can identify issues that automated tools miss.
+  - Disable unnecessary services
+    - Turn off services and features not required for the system's primary function
+  - User access control
+    - Limit user permissions to what is necessary for their roles
+  - Change log
+    - Maintain a record of any changes made to the baseline, who made them, and why
+  - Audit trail
+    - Ensure that documentation is in a format that can be easily audited for compliance purposes
+  - Validation testing
+    - Confirm that the baseline settings do not disrupt necessary functions
+  - Rollback plan
+    - Have a plan to reverse changes in the event of unforeseen issues during deployment
+  - Patch management
+    - Regularly update software and systems to patch known vulnerabilities
+  - Review and update
+    - Periodically review the secure baseline to ensure that it aligns with current best practices in cybersecurity
 
-hardening targets
-  - is the process of strengthening the security defenses of computing resources to resist attack
-    - common hardening techniques
-      - firmware updates
-      - network segmentation
-      - VLANs
-      - air-gapping
-      - disabling unnecessary features
-      - real-time monitoring
-      - data encryption
-      - changing default passwords
-      - ensuring network-level security
+### Hardening Targets
+- The process of strengthening the security defenses of computing resources to resist attack
+  - Common hardening techniques
+    - Firmware updates
+    - Network segmentation
+    - VLANs
+    - Air-gapping
+    - Disabling unnecessary features
+    - Real-time monitoring
+    - Data encryption
+    - Changing default passwords
+    - Ensuring network-level security
 
-wireless devices
-  - operate with out physical wired connections. they use methods such as Wi-Fi, Bluetooth, and cellular networks to communicate
-    - site survey  
-      - assess the current wireless environment and plan for Wi-Fi network optimization
-    - heat maps
-      - visualize wireless activity to determine optimal access point placement for coverage and performance
+### Wireless Devices
+- Operate without physical wired connections. They use methods such as Wi-Fi, Bluetooth, and cellular networks to communicate
+  - Site survey
+    - Assess the current wireless environment and plan for Wi-Fi network optimization
+  - Heat maps
+    - Visualize wireless activity to determine optimal access point placement for coverage and performance
 
-mobile solutions
-  - mobile device management (MDM) is crucial for successful implementation of Bring Your Own Device (BYOD) policies
-    - BYOD policies raise legal concerns regarding data ownership, privacy rights, and employee misconduct
-    - ensure clear separation of organizational and personal information
-    - encryption, regular software updates, and password complexity are essential for mitigating mobile device security risks.
+### Mobile Solutions
+- Mobile device management (MDM) is crucial for successful implementation of Bring Your Own Device (BYOD) policies
+  - BYOD policies raise legal concerns regarding data ownership, privacy rights, and employee misconduct
+  - Ensure clear separation of organizational and personal information
+  - Encryption, regular software updates, and password complexity are essential for mitigating mobile device security risks
 
-connection methods
-  bluetooth
-    - susceptible to attacks like bluejacking and bluesnarfing
-  Wi-Fi
-    - vulnerable to various exploits. example: firmware flaws that lead to buffer overflow
-  Celluar Connections
-    - including 2G, 3G, 4G and 5G all raise security concerns. using newer devices is generally best
-  GPS and geolocation technologies
-    - raise privacy and security concerns
-  Satellite communications (SATCOM) 
-    - require firmware updates to address vulnerabilities and prevent exploits
-  Infrared connections and wireless USB receivers 
-    - often overlooked in security reviews
+### Connection Methods
+- Bluetooth
+  - Susceptible to attacks like bluejacking and bluesnarfing
+- Wi-Fi
+  - Vulnerable to various exploits, e.g., firmware flaws that lead to buffer overflow
+- Cellular Connections
+  - Including 2G, 3G, 4G, and 5G, all raise security concerns. Using newer devices is generally best
+- GPS and Geolocation Technologies
+  - Raise privacy and security concerns
+- Satellite Communications (SATCOM)
+  - Require firmware updates to address vulnerabilities and prevent exploits
+- Infrared connections and wireless USB receivers
+  - Often overlooked in security reviews
 
-Wireless security settings
-  WPA3 (Wi-Fi Protected Access 3)
-    - uses Simultaneous Authentication of Equals (SAE) to replace teh vulnerable preshared key (PSK) system
-  RADIUS federation
-    - enables secure communication among multiple RADIUS servers
-  Cryptographic protocols
-    - WPA3-Personal and WPA3-Enterprise offer robust encryption methods like AES-CCMP and HMAC-SHA for data protection
-Authentication protocols
-    - LDAP, Kerberos, and 802.X are authenticaiton methods tailored to various environments
+### Wireless Security Settings
+- WPA3 (Wi-Fi Protected Access 3)
+  - Uses Simultaneous Authentication of Equals (SAE) to replace the vulnerable preshared key (PSK) system
+- RADIUS Federation
+  - Enables secure communication among multiple RADIUS servers
+- Cryptographic Protocols
+  - WPA3-Personal and WPA3-Enterprise offer robust encryption methods like AES-CCMP and HMAC-SHA for data protection
+- Authentication Protocols
+  - LDAP, Kerberos, and 802.1X are authentication methods tailored to various environments
 
-Application security
-  - refers to the security measures implemented at the application level
-    - input validation
-      - ensures data integrity by verifying the type and content of user or application input, preventing vulnerabilities like XSS and SQLi
-    - secure cookies
-      - implement the secure attribute in HTTP response cookies to prevent unauthorized access and transmission of sensitive information
-    - Static code analysis
-      - uses SAST tools to scan source code for vulnerabilities early in the development lifecycle
-        - provides real-time feedback to developers
-        - enables prompt issue resolution
-    - code signing
-      - digitally signs executables and scripts to verify authenticity and integrity
-        - ensures software has not been altered or corrupted
-        - prevents malicious tampering during transmission
+### Application Security
+- Refers to the security measures implemented at the application level
+  - Input validation
+    - Ensures data integrity by verifying the type and content of user or application input, preventing vulnerabilities like XSS and SQLi
+  - Secure cookies
+    - Implement the secure attribute in HTTP response cookies to prevent unauthorized access and transmission of sensitive information
+  - Static code analysis
+    - Uses SAST tools to scan source code for vulnerabilities early in the development lifecycle
+      - Provides real-time feedback to developers
+      - Enables prompt issue resolution
+  - Code signing
+    - Digitally signs executables and scripts to verify authenticity and integrity
+      - Ensures software has not been altered or corrupted
+      - Prevents malicious tampering during transmission
 
-sandboxxing
-  - creates a confined execution environment for running untrusted or suspicious code safely
-    - adds an additional layer of security
-    - reduces the risk of malware infection via email attachments whlie maintaining workflow efficiency for employees
+### Sandboxing
+- Creates a confined execution environment for running untrusted or suspicious code safely
+  - Adds an additional layer of security
+  - Reduces the risk of malware infection via email attachments while maintaining workflow efficiency for employees
 
-monitoring
-  - is crucial for proactive cybersecurity, providing continuous surveillance of systems, networks, and applications
-    - involves detecting, logging, and responding to specific activities or conditions to identify current issues and anticipate future vulnerabilities
-    - can flag unusual account activities such as sudden large withdrawalas, frequent international transactions, or simultaneous logins form multiple locations
-
-
-
+### Monitoring
+- Is crucial for proactive cybersecurity, providing continuous surveillance of systems, networks, and applications
+  - Involves detecting, logging, and responding to specific activities or conditions to identify current issues and anticipate future vulnerabilities
+  - Can flag unusual account activities such as sudden large withdrawals, frequent international transactions, or simultaneous logins from multiple locations
