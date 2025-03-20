@@ -1,101 +1,114 @@
 ## Chapter 11: Secure Enterprise Infrastructure
 
-Device Placement
-  - is the thoughtful positioning of hardware devices within a network
-  considerations
-    - security requirements
-    - network efficiency
-    - accessiblity
-  examples
-    - place firewalls close to the network perimeter to prevent unauthorized access
-    - position snesitive data servers in secure locations to minimize exposure to therats
+### Device Placement
+- Device placement is the thoughtful positioning of hardware devices within a network.
 
-security zones
-  - segregated areas in a network under specific security policies and controls
-  internal zones
-    - trusted segments in which sensitive or internal data is processed
-  external zones
-    - areas allowing connections from public internet or other untrusted networks
-  screened subnet
-    - specialized external zone that isolates public-facing services from the internet
-  specialized zones
-    - zones designed to meet regulatory compliance requirements
+#### Considerations
+- Security requirements
+- Network efficiency
+- Accessibility
 
-attack surface
-  - all the vulnerabilities and potential access points an attacker could use to gain access to the system
-  Larger Surface = Greater Risk
-  Strategies ot reduce the attack surface
-    - turn off unnecessary services
-    - close open ports
-    - apply patches and updates
-    - use firewalls
-    - implement strong authentication
+#### Examples
+- Place firewalls close to the network perimeter to prevent unauthorized access.
+- Position sensitive data servers in secure locations to minimize exposure to threats.
 
-connectivity
-  - how network, systems, and applications connect and communicate
-  security considerations
-    - encrypt data in transit
-    - secure connection endpoints
-    - employ secure protocols
-    - use VPNs or firewalls
-  remember connectivity when designing new systems with other departments
+### Security Zones
+- Security zones are segregated areas in a network under specific security policies and controls.
 
-failure modes
-  fail-open configuration    
-    - system remains available if a portion fails
-  fail-closed configuration
-    - entire systems becomes inaccessible if a portion fails
-  examples
-    - DNS server: may fail open to continue servicing other zones, but the database server may fail closed to protect confidential information
-    - firewall: would fail closed to maintain security
+#### Internal Zones
+- Trusted segments in which sensitive or internal data is processed.
 
-device attribute
-  - a characteristic determining device operation in a network environment
-  active vs passive
-    - active/active: devices share workload simultaneously; critical for failover or load balancing
-    - active/passive: one device active, another on standby; passive activates if active fails or is manually switches
-  inline monitoring vs tap/monitor mode
-    - inline monitoring: device is placed idrectly in traffic flow, allowing active intervention
-    - tap/monitor mode: device observes traffic without interfering
+#### External Zones
+- Areas allowing connections from the public internet or other untrusted networks.
 
-network appliances
-  - essential for network functionality, security, and efficiency
-  types of network appliances
-    - jump server
-    - proxy server
-    - Intrustion Prevention System (IPS)/ intrustion detection system (IDS)
-    - load balancer
-    - sensors
+#### Screened Subnet
+- Specialized external zone that isolates public-facing services from the internet.
 
-port security
-  - is vital for safeguarding network access and preventing unauthorized devices from communicating through network ports
-    - 802.1X authentication standard provides port-based network access control
-    - EAP is a universal authentication framework that defines message formats. its frequently used with 802.1X
+#### Specialized Zones
+- Zones designed to meet regulatory compliance requirements.
 
-firewall types
-  - network security device or software that acts as a barrier between a trusted internal network and untrusted external networks such as the internet
+### Attack Surface
+- The attack surface encompasses all the vulnerabilities and potential access points an attacker could use to gain access to the system.
+- Larger Surface = Greater Risk
 
-Virtual Private Network
-  - establishes a secure connection between two or more devices over the internet, even if they are not on the same private network
+#### Strategies to Reduce the Attack Surface
+- Turn off unnecessary services.
+- Close open ports.
+- Apply patches and updates.
+- Use firewalls.
+- Implement strong authentication.
 
-remote access
-  - allows authorized users to connect to a network, systems, or application from a location outside the organizations physical premises
-  remote access technologies
-    - remote access service (RAS)
-    - Virtual Private Networks (VPNs)
-    - Terminal Access Controller Access Control System Plus (TACACS+)
-    - Challenge-Handshake Authentication Protocol (CHAP)
+### Connectivity
+- Connectivity refers to how network, systems, and applications connect and communicate.
 
-Tunneling
-  - creates a secure pathway for data transmission accross networks via encapsulation
-    - protocols like Transport Layers Security (TLS) and Internet Protocol Security (IPsec) enhance the security of tunneling by providing encryption and integrity mechanisms
-    - IKE, the key management protocol for IPsec, has two phases. Phase 1 negotiates the ISAKMP SA, and PHase 2 negotiates the IPsec Sas.
+#### Security Considerations
+- Encrypt data in transit.
+- Secure connection endpoints.
+- Employ secure protocols.
+- Use VPNs or firewalls.
 
-Software-Defined wide area network (SD-WAN)
-  - is a networking architecture flexibility by separating control mechanisms from network hardware
-  - simplifies network management, improves performance, and enhances reliability
+### Failure Modes
+#### Fail-Open Configuration
+- The system remains available if a portion fails.
 
-Secure Access Service Edge (SASE)
-  - is a cloud-native architecture the merges network security functions with WAN capabilities
-    - integrates network and security services into a unified platform, simplifying managaement and ensuring secure access
-    - provides secure and seamless access to resources regardless of user location
+#### Fail-Closed Configuration
+- The entire system becomes inaccessible if a portion fails.
+
+#### Examples
+- DNS server: may fail open to continue servicing other zones, but the database server may fail closed to protect confidential information.
+- Firewall: would fail closed to maintain security.
+
+### Device Attributes
+- Characteristics determining device operation in a network environment.
+
+#### Active vs Passive
+- Active/Active: Devices share workload simultaneously; critical for failover or load balancing.
+- Active/Passive: One device active, another on standby; passive activates if active fails or is manually switched.
+
+#### Inline Monitoring vs Tap/Monitor Mode
+- Inline Monitoring: Device is placed directly in traffic flow, allowing active intervention.
+- Tap/Monitor Mode: Device observes traffic without interfering.
+
+### Network Appliances
+- Essential for network functionality, security, and efficiency.
+
+#### Types of Network Appliances
+- Jump server
+- Proxy server
+- Intrusion Prevention System (IPS) / Intrusion Detection System (IDS)
+- Load balancer
+- Sensors
+
+### Port Security
+- Vital for safeguarding network access and preventing unauthorized devices from communicating through network ports.
+- 802.1X authentication standard provides port-based network access control.
+- EAP is a universal authentication framework that defines message formats. It is frequently used with 802.1X.
+
+### Firewall Types
+- Network security device or software that acts as a barrier between a trusted internal network and untrusted external networks such as the internet.
+
+### Virtual Private Network (VPN)
+- Establishes a secure connection between two or more devices over the internet, even if they are not on the same private network.
+
+### Remote Access
+- Allows authorized users to connect to a network, systems, or application from a location outside the organization's physical premises.
+
+#### Remote Access Technologies
+- Remote Access Service (RAS)
+- Virtual Private Networks (VPNs)
+- Terminal Access Controller Access Control System Plus (TACACS+)
+- Challenge-Handshake Authentication Protocol (CHAP)
+
+### Tunneling
+- Creates a secure pathway for data transmission across networks via encapsulation.
+- Protocols like Transport Layer Security (TLS) and Internet Protocol Security (IPsec) enhance the security of tunneling by providing encryption and integrity mechanisms.
+- IKE, the key management protocol for IPsec, has two phases. Phase 1 negotiates the ISAKMP SA, and Phase 2 negotiates the IPsec SAs.
+
+### Software-Defined Wide Area Network (SD-WAN)
+- Networking architecture flexibility by separating control mechanisms from network hardware.
+- Simplifies network management, improves performance, and enhances reliability.
+
+### Secure Access Service Edge (SASE)
+- Cloud-native architecture that merges network security functions with WAN capabilities.
+- Integrates network and security services into a unified platform, simplifying management and ensuring secure access.
+- Provides secure and seamless access to resources regardless of user location.
