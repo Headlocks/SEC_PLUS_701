@@ -175,6 +175,7 @@
 ## Key Stretching
 
 - A cryptographic technique used to enhance the security of weak keys against brute-force attacks.
+  - PBKDF1/PBKDF2 (Password-Based Key Derivation Function 1 and 2) are key derivation functions with a sliding computational cost, used to reduce vulnerability to brute-force attacks.
 
 ### Salt
 
