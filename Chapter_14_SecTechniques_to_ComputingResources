@@ -79,7 +79,6 @@
 - Infrared connections and wireless USB receivers
   - Often overlooked in security reviews
 
-
 ### Wireless Security Settings
 - WPA3 (Wi-Fi Protected Access 3)
   - Uses Simultaneous Authentication of Equals (SAE) to replace the vulnerable preshared key (PSK) system
