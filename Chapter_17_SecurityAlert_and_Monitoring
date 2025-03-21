@@ -1,144 +1,135 @@
 ## Chapter 17: Security Alerting and Monitoring Concepts and Tools
 
-Monitoring and Computing Resources
-  - means continously overseeing an organization's IT assets to ensure they operate within normal parameters
-    - system monitoring
-      - ensures the entire system (servers, devices, and workstations) is vulnerability-free and performing optimally
-    - application monitoring
-      - ensures software applications are secure, responsive, and optimized for performance
-    - infrastructure monitoring
-      - ensures cohesive and secure operation of all technological components within an organization
+### Monitoring and Computing Resources
+- **System monitoring**
+  - Ensures the entire system (servers, devices, and workstations) is vulnerability-free and performing optimally.
+- **Application monitoring**
+  - Ensures software applications are secure, responsive, and optimized for performance.
+- **Infrastructure monitoring**
+  - Ensures cohesive and secure operation of all technological components within an organization.
 
-log aggregation
-  - involves gathering log data from various sources into a centralized repository for examination
-    - critical process
-    - helps turn isolated data points into a coherent narrative
-  - log aggregation tools and processes
-    - SIEM
-    - syslog-ng (can be added to SIEM)
-    - rsyslog (similar to SIEM)
+### Log Aggregation
+- Involves gathering log data from various sources into a centralized repository for examination.
+  - Critical process
+  - Helps turn isolated data points into a coherent narrative.
+- Log aggregation tools and processes:
+  - SIEM
+  - syslog-ng (can be added to SIEM)
+  - rsyslog (similar to SIEM)
 
-alerting
-  - is the early warning system for security infrastructure
-    - using predefined rules, alerts indicate when immediate attention is required
-    - alert turning refers to setting the alert sensitivity
-      - if to stringent, genuine alerts are likely to be ignored among many false positive
-      - if too lax, alerts may not trigger when genuine threats occur
+### Alerting
+- Acts as the early warning system for security infrastructure.
+  - Using predefined rules, alerts indicate when immediate attention is required.
+  - Alert tuning refers to setting the alert sensitivity.
+    - If too stringent, genuine alerts are likely to be ignored among many false positives.
+    - If too lax, alerts may not trigger when genuine threats occur.
 
-scanning 
-  - is a proactive measure for identifying potential weaknesses in systems, applications, and networks
-    - comprehensive; scanning checks for open ports, outdated software, weak email passwords, and more
-    - following remediation, scan again to ensure that new vulnerabilities didn't result from the fix
-    - automated scanners
-      - nessus
-      - openVAS
-      - qualys
+### Scanning 
+- Proactive measure for identifying potential weaknesses in systems, applications, and networks.
+  - Comprehensive; scanning checks for open ports, outdated software, weak email passwords, and more.
+  - Following remediation, scan again to ensure that new vulnerabilities didn't result from the fix.
+  - Automated scanners:
+    - Nessus
+    - OpenVAS
+    - Qualys
 
-reporting
-  - translates rechnical cybersecurity information for stakeholders
-    - essential for daily decision-making, resource allocation, and strategic planning
-    - when creating reports, consider your audients (IT or executives)
-      - technical reports 
-        - give detailed breakdowns of vulnerabilities, affected systems, and recommended actions for IT
-      - Executive reports
-        - focus on potential business impacts and make recommendations for strategic risk mitigation
+### Reporting
+- Translates technical cybersecurity information for stakeholders.
+  - Essential for daily decision-making, resource allocation, and strategic planning.
+  - When creating reports, consider your audience (IT or executives):
+    - **Technical reports**
+      - Provide detailed breakdowns of vulnerabilities, affected systems, and recommended actions for IT.
+    - **Executive reports**
+      - Focus on potential business impacts and make recommendations for strategic risk mitigation.
 
-archiving
-  - securely storing historical data for long-term retrieval and analysis
-    - digital version of a well-organized filing cabinet
-      - quick access to documents when needed for work and auditing
-    - considerations
-      - what data to store
-      - storage duration
-      - data storage security
+### Archiving
+- Securely storing historical data for long-term retrieval and analysis.
+  - Digital version of a well-organized filing cabinet.
+    - Quick access to documents when needed for work and auditing.
+  - Considerations:
+    - What data to store
+    - Storage duration
+    - Data storage security
 
-alert response and remediation/validation
-  - alert response
-    - involves validating whether an alert indicates a genuine security threat or a false positive, and then remediating if needed
-      - quarantining
-        - isolating suspicious files or problematic system activities in a secure environment
-      - alert tuning
-        - continually refining alerts to have a robust and response system
+### Alert Response and Remediation/Validation
+- **Alert response**
+  - Involves validating whether an alert indicates a genuine security threat or a false positive, and then remediating if needed.
+    - **Quarantining**
+      - Isolating suspicious files or problematic system activities in a secure environment.
+    - **Alert tuning**
+      - Continually refining alerts to have a robust and responsive system.
 
-security content automation protocol (SCAP)
-  - is a standardized solution for security automation. it helps implement best practices. for example, it ensure that patches have been applied
-    - scap specificiations
-      - languages: OVAL, XCCDF, OCIL, AI, ARF
-      - Enumerations: CVE, CPE, CCE
-      - Metrics, CVSS,CCSS
+### Security Content Automation Protocol (SCAP)
+- Standardized solution for security automation, helps implement best practices.
+  - SCAP specifications:
+    - Languages: OVAL, XCCDF, OCIL, AI, ARF
+    - Enumerations: CVE, CPE, CCE
+    - Metrics: CVSS, CCSS
 
-Benchmarks
-  - are standard points of reference for assessing a system's security level. referring to such guidelines can be helpful with:
-    - setting a baseline security posture
-    - maintaining consistency across an organization's sytems
-    - identifying and tracking measurements for improvement
-    - making security comparisons with industry peers and competitors
+### Benchmarks
+- Standard points of reference for assessing a system's security level.
+  - Setting a baseline security posture
+  - Maintaining consistency across an organization's systems
+  - Identifying and tracking measurements for improvement
+  - Making security comparisons with industry peers and competitors
 
-agents/agentless
-  - agent-based solution
-    - software agent is installed on each monitored system
-    - sends data to a centralized management system
-    - offers in-depth data and control, but may use extensive resources and be complex to deploy
-  - agentless solution
-    - monitors and manages systems without requiring software agents on each system
-    - uses existing protocols for remote tasks
-    - simple to implement and has a light footprint
-    - provides less insight and control
+### Agents/Agentless
+- **Agent-based solution**
+  - Software agent is installed on each monitored system.
+  - Sends data to a centralized management system.
+  - Offers in-depth data and control, but may use extensive resources and be complex to deploy.
+- **Agentless solution**
+  - Monitors and manages systems without requiring software agents on each system.
+  - Uses existing protocols for remote tasks.
+  - Simple to implement and has a light footprint.
+  - Provides less insight and control.
 
-Security Information and Event Management (SIEM)
-  - specialized device or software for security monitoring. it collects, correlates, and analyzes logs from multiple systems
-    - SIEM functions
-      - log collection
-      - log normalization
-      - log aggregation
-      - log correlation
-      - reporting
+### Security Information and Event Management (SIEM)
+- Specialized device or software for security monitoring. It collects, correlates, and analyzes logs from multiple systems.
+  - SIEM functions:
+    - Log collection
+    - Log normalization
+    - Log aggregation
+    - Log correlation
+    - Reporting
 
-netflow
-  - protocol that collects and monitors network traffic data
-    - provides various traffic insights
-      - source
-      - destination
-      - volume
-      - paths
-    - essential for traffic profiling and anomaly detection
+### NetFlow
+- Protocol that collects and monitors network traffic data.
+  - Provides various traffic insights:
+    - Source
+    - Destination
+    - Volume
+    - Paths
+  - Essential for traffic profiling and anomaly detection.
 
-antivirus software
-  - prevents, detects, and removes malware
-    - also known as anti-malware
-    - viruses and trojans can damage networks and are costly to overcome; ransomware alone has cost victims billions of dollars
-    - every endpoint device, including worksations, tablets, and phones, should have antivirus software to ensure comprehensive protection
+### Antivirus Software
+- Prevents, detects, and removes malware.
+  - Also known as anti-malware.
+  - Viruses and trojans can damage networks and are costly to overcome; ransomware alone has cost victims billions of dollars.
+  - Every endpoint device, including workstations, tablets, and phones, should have antivirus software to ensure comprehensive protection.
 
-data loss prevention (DLP)
-  - comprehensive data protection strategy that uses tools to detect potential data breaches and prevent exfiltration
-    - monitors, detects, and blocks data in use, in motion, and at rest
-    - enforces policies defined by regulatory bodies
-      - HIPPA
-      - PCI DCS
-      - GDPR
+### Data Loss Prevention (DLP)
+- Comprehensive data protection strategy that uses tools to detect potential data breaches and prevent exfiltration.
+  - Monitors, detects, and blocks data in use, in motion, and at rest.
+  - Enforces policies defined by regulatory bodies:
+    - HIPAA
+    - PCI DSS
+    - GDPR
 
-Simple Network Management Protocol (SNMP) Traps
-  - SNMPv3 is a popular protocol for managing and monitoring networks. SNMP traps are alerts sent from SNMP-enabled devices when they have status changes. this facilitates speedy response.
-    - optional SNMPv3 features
-      - authentication
-        - verifies the legitimacy of trap sources, preventing unauthorized devices from sending false alerts
-      - encryption
-        - offers encryption to maintain the confidentiality of trap content
+### Simple Network Management Protocol (SNMP) Traps
+- SNMPv3 is a popular protocol for managing and monitoring networks. SNMP traps are alerts sent from SNMP-enabled devices when they have status changes, facilitating speedy response.
+  - Optional SNMPv3 features:
+    - **Authentication**
+      - Verifies the legitimacy of trap sources, preventing unauthorized devices from sending false alerts.
+    - **Encryption**
+      - Offers encryption to maintain the confidentiality of trap content.
 
-vulnrability scanners
-  - automate the identification of weaknesses in systems and networks
-    - work as digital sentries by constantly monitoring
-    - stages of vulnerability scanning
-      - pre-assessment
-      - scanning
-      - post-scan anlysis
-      - remediation and verification
-      - continuous monitoring
-
-
-
-
-
-
-
-
+### Vulnerability Scanners
+- Automate the identification of weaknesses in systems and networks.
+  - Work as digital sentries by constantly monitoring.
+  - Stages of vulnerability scanning:
+    - Pre-assessment
+    - Scanning
+    - Post-scan analysis
+    - Remediation and verification
+    - Continuous monitoring
