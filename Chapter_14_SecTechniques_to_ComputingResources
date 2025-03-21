@@ -52,6 +52,10 @@
   - BYOD policies raise legal concerns regarding data ownership, privacy rights, and employee misconduct
   - Ensure clear separation of organizational and personal information
   - Encryption, regular software updates, and password complexity are essential for mitigating mobile device security risks
+    - Bring your own device (BYOD)
+    - Corporate owned personally enabled (COPE)
+    - Choose your own device (CYOD)
+    - Virtual Desktop Infrastructure (VDI)
 
 ### Connection Methods
 - Bluetooth
