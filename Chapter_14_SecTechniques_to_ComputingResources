@@ -83,8 +83,10 @@
 ### Wireless Security Settings
 - WPA3 (Wi-Fi Protected Access 3)
   - Uses Simultaneous Authentication of Equals (SAE) to replace the vulnerable preshared key (PSK) system
-- RADIUS Federation
+- RADIUS Federation (Remote Authentication Dial-in Service)
   - Enables secure communication among multiple RADIUS servers
+- TACACS (Terminal Access Controller Acess-Control System)
+  - used by administartion and it for secure connections
 - Cryptographic Protocols
   - WPA3-Personal and WPA3-Enterprise offer robust encryption methods like AES-CCMP and HMAC-SHA for data protection
 - Authentication Protocols
