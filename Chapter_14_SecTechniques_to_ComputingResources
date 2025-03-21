@@ -98,7 +98,7 @@
   - Secure cookies
     - Implement the secure attribute in HTTP response cookies to prevent unauthorized access and transmission of sensitive information
   - Static code analysis
-    - Uses SAST tools to scan source code for vulnerabilities early in the development lifecycle
+    - Uses Static Application Security Testing (SAST) tools to scan source code for vulnerabilities early in the development lifecycle
       - Provides real-time feedback to developers
       - Enables prompt issue resolution
   - Code signing
