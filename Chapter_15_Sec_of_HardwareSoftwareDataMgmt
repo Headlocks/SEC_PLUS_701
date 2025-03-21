@@ -1,0 +1,73 @@
+## Chapter 15: Security Implications of Hardware, Software, and Data Asset Management
+
+Acquisition/Procurement Process
+  - Acquiring hardware, software, and data assets in accordance with standards for security and compliance
+    - requires collaboration across departments
+    - elements of a procurement review
+      - vendor assessment
+      - product security standards
+      - product licensing and support
+      - cost to keep the asset secure
+
+Third-Party Risk Management (TRPM)
+  - Involves evaluating and managing risks associated with outsourcing services and buying products from third-party vendors
+    - perform due diligence before choosing third parties
+      - security policies
+      - track records
+      - compliance with industry standards
+
+Assignment/Accounting
+  - Establishes acountability and responsibility for each asset (hardware, software, or data)
+    - ownership
+      - designates individuals or departments responsible for assets from acquisition to decommisioning
+    - classification
+      - tags assets according to sensitivity and importance; sets the security level
+
+monitoring/asset tracking
+  - provides ongoing knowledge of asset location, status, and condition
+    - inventory
+      - detailed record of all organizational assets
+    - enumeration
+      - a map of inventoried assets' relationships and dependencies
+
+Disposal/Decommisioning
+  Decommissioning
+    - appropriately disposing of hardware, software, or data assets at the end of their useful tenure
+      - assets may contain sensitive information
+      - industries have strict regulations (HIPAA, SOX) mandating specific disposal procedures
+      - electronic waste can be hazardous
+
+Sanitization
+  - removing data from storage device to prevent recovery, typically by overwriting existing data with random information
+    - crucial during decommissioning to ensure no residual data is accessible
+  - diferent levels of sanitization
+    - for highly sensitive data, multiple passes of sanitization may be used in combination with physical destruction
+
+destruction  
+  - involves physically disassembling or obliterating hardware assets
+    - shredding
+      - shreds devices into small fragments
+    - degaussing
+      - applies a magnetic field to disrupt data
+    - incineration
+      - burns hardware in a controlled environment
+    - crushing
+      - uses a hydraulic press to deform the device
+    - drilling
+      - drills holes through hard drive platters
+    - acid bath
+      - immerses asset ina  corrosive liquid to dissolve parts
+
+certification
+  - documentation and validation of the disposal and decommissioning process
+    - ensure compliance with company policy and relevant laws or regulations
+    - certificate of destruction serves as a legally binding document confirming secure and responsible disposal of assets
+
+Data retention
+  - keeping specific types of information for a designated period
+    - mandated by company policy or regulations
+    - data must remain secure and accessible only to authorized personnel during the retention period
+    - upon expiration of the retention period, files should be sanitized or destroyed according to company and legal guidelines
+
+
+
