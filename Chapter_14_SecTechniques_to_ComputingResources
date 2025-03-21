@@ -60,6 +60,14 @@
 ### Connection Methods
 - Bluetooth
   - Susceptible to attacks like bluejacking and bluesnarfing
+  - bluejacking
+    - unsolicitied bluetooth
+  - bluesnarfing
+    - steal information 
+  - bluebugging
+    - turn on device microphone
+  - blueborne
+    - flood device with connection requests causing crashes
 - Wi-Fi
   - Vulnerable to various exploits, e.g., firmware flaws that lead to buffer overflow
 - Cellular Connections
@@ -70,6 +78,7 @@
   - Require firmware updates to address vulnerabilities and prevent exploits
 - Infrared connections and wireless USB receivers
   - Often overlooked in security reviews
+
 
 ### Wireless Security Settings
 - WPA3 (Wi-Fi Protected Access 3)
