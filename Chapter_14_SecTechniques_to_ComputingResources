@@ -105,6 +105,7 @@
     - Digitally signs executables and scripts to verify authenticity and integrity
       - Ensures software has not been altered or corrupted
       - Prevents malicious tampering during transmission
+    - Continous Integration/Continous Testing (CI/CT)
 
 ### Sandboxing
 - Creates a confined execution environment for running untrusted or suspicious code safely
