@@ -7,6 +7,8 @@
   - **Ports**: Virtual docks where network services can receive data.
   - **Protocols**: Rules and conventions governing data transmission and acceptance.
   - **Screened subnet**: A segment that separates the internal network from an external network (the internet).
+  - **stateless firewall**: reliant on pre-configured rules
+  - **statefull firewall**: remembers information and adapts
 
 ### IDS/IPS
 - **Intrusion Detection Systems (IDSs)**: Monitor and issue alerts about suspicious activities.
