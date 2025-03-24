@@ -1,2 +1,102 @@
 ## Chapter 18: Modifying Enterprise Capabilities to Enhance Security
 
+Firewall
+  - is a network security device or software that monitors incoming and outgoing network traffic
+    - firewall rules
+      - control the flow of data packets
+    - access control lists (ACLs)
+      - gover how traffic flows through ports
+    - ports
+      - are virtual docks where network services can receive data
+    - protocols
+      - are rules and conventions governing data transmission and acceptance
+    - screened subnet
+      - is a segment that separates the internal network from an internal network (the internet)
+
+IDS/IPS
+  - Intrustion Detection Sysetems (IDSs)
+    - monitor and issue alerts about suspicious activities.
+  - Intrustion Protection Systems (IPSs)
+    - proactive; they block known or potential threats
+      - these systems use predefined Signatures( such as specific strings of data) to identify threats. However, known signatures could become irrelevant as new variants of malware emerge
+      - Trends identified in analyses of logs can indicate the presence of new vulnerabilities
+
+Web Filter
+  - controls access to websites or specific web content based on predefined criteria
+    - agent-based web filtering
+      - deploys software directly onto individual user devices
+    - centralized proxy
+      - can serve as an intermediary between user devices and the internet
+    - reputation-based filtering 
+      - blocks or allows websites based on their histories
+
+Operating System Security
+  - is the first line of defense against unauthorized access and malicious attacks
+    - group policy
+      - created by system administrators to establish detailed rules (policies) for OS and application behavior
+    - SELinux (Security-Enhanced Linux)
+      - uses mandatory access controls to restrict the actions of users and system processes
+
+Implementation of Secure Protocols
+  - refers to creating encrypted pathways for communication
+    - protocol selection
+      - choosing the appropriate communication standard for data exchange (HTTPS)
+    - Port Selection
+      - choosing specific entry and exit points (ports) in the network for data
+    - transport method selection
+      - choosing a method of securely transporting data packets across the network
+
+DNS Filtering
+  - the practice of blocking access to specific websites, web pages, or IP addresses
+    - crucial for preventing access to malicious or inappropriate sites
+    - users might attempt to bypass with VPNs or other methods
+
+Email Security
+  - involves measures used to secure the access and content of email account or services
+    - Domain-Based Message Authentication, Reporting and Conformance (DMARC)
+      - helps receivers verify the authenticity of emails from specific domains
+    - DMARC Process
+      - SPF check
+      - DKIM check
+      - DMARC policy retrieval
+      - Policy enforcement
+      - Reporting
+
+File integrity monitoring
+  - involves the regular checking of files for changes or alterations
+    - alerts administrators to the unauthorized access or modification of files
+    - false positives are a challenge; many authorized changes could be flagged as suspicious
+
+Data Loss Prevention (DLP)  
+  - is a comprehensive approach to preventing users from sending sensitive or critical information outside the corporate network
+    - describes software products that let network administrators control data access and transfer  
+    - alerts administrators to unauthorized data transfer attempts
+    - aids in incident response
+
+Network Access Control (NAC)
+  - is a method to enforce policy-driven security solutions at the network entry level
+    - checks if devices comply with predefined security rules before granting access to the network
+    - drawbacks
+      - adds complexity to network administration
+      - can be circumvented, compromising network security
+
+Endpoint Detection and Response (EDR)/ Extended Detection and Response (XDR)
+  - EDR systems
+    - monitor endpoints such as desktop computers, laptops, and mobile deviecs
+    - detect and response to signs of malicious activites
+  - XDR systems
+    - take holistic view of network security, correlating data across various channels and layers like email, cloud, and network traffic
+    - identify complex, multi-stage attacks that may evade EDR systems
+
+user behavior analystics
+  - use machine learning algorithms to track, collect, and assess user behavior on a network
+    - analytics help IT detect unusual activity that could indicate security threats, such as sudden changes in file access patterns
+    - alert tuning is important to avoid excessive false positives
+
+
+
+
+
+
+
+
