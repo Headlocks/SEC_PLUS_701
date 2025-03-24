@@ -1,91 +1,87 @@
 ## Chapter 20: Understanding the Importance of Automation and Orchestration Related to Secure Operations
 
-Use Cases of Automation and Scripting
-  - vital in cyber security
-    - handle repetitive tasks efficiently and effectively 
-    - support policy compliance by consistently applying rules and configurations
-    - examples
-      - user provisioning
-      - resource provisioning
-      - policy enforcement
-      - incident response
-      - API integrations
+### Use Cases of Automation and Scripting
+- Vital in cyber security
+  - Handle repetitive tasks efficiently and effectively 
+  - Support policy compliance by consistently applying rules and configurations
+  - Examples:
+    - User provisioning
+    - Resource provisioning
+    - Policy enforcement
+    - Incident response
+    - API integrations
 
-User Provisioning
-  - involves setting up user accounts with appropriate permissions and roles
-    - manual user provisioning 
-      - can be time-consuming and is prone to errors
-    - automation tools integrated with HR software 
-      - can automate user provisioning, ensuring the right access for employees at the right time
-    - deprovisioning
-      - can also be automated
+### User Provisioning
+- Involves setting up user accounts with appropriate permissions and roles
+  - Manual user provisioning 
+    - Can be time-consuming and is prone to errors
+  - Automation tools integrated with HR software 
+    - Can automate user provisioning, ensuring the right access for employees at the right time
+  - Deprovisioning
+    - Can also be automated
 
-resource provisioning
-  - automates the setup, modification, or removal of digital assets such as virtual machines, databases, and storage units
-    - automated resource provisioning
-      - helps ensure uniformity, compliance, and time savings
-      - avoids the errors associated with manual provisioning
+### Resource Provisioning
+- Automates the setup, modification, or removal of digital assets such as virtual machines, databases, and storage units
+  - Automated resource provisioning
+    - Helps ensure uniformity, compliance, and time savings
+    - Avoids the errors associated with manual provisioning
 
-guard rails
-  - are automated safety measures or rules implemented within a system
-    - designed to restrict or control activities that could be harmful or noncompliant with security policies
-    - act as internal checkpoints or barriers guiding user behavior and system interactions
-    - enforce compliance with data privacy regulations like HIPAA
+### Guard Rails
+- Are automated safety measures or rules implemented within a system
+  - Designed to restrict or control activities that could be harmful or noncompliant with security policies
+  - Act as internal checkpoints or barriers guiding user behavior and system interactions
+  - Enforce compliance with data privacy regulations like HIPAA
 
-Security Groups
-  - is a group of users who are categorized together based on security policies
-  - security group automation
-    - applies templates based on resource roles or functions instead of configuring firewall rules individually
-  - using security groups helps maintain a consistent security posture
+### Security Groups
+- Is a group of users who are categorized together based on security policies
+- Security group automation
+  - Applies templates based on resource roles or functions instead of configuring firewall rules individually
+  - Using security groups helps maintain a consistent security posture
 
-ticket creation and escalation
-  - automation streamlines ticket creation and ticket escalation in incident response scenarios
-    - automated system detects irregularities, such as unauthorized login attempts, and generates tickets or incident reports accordingly
-    - in case of escalation, such as multiple unauthorized login attempts, tickets are automatically forwarded to higher levels of expertise or authority
-    - automation lets admins control permissions by enabling or disabling services and access based on specific conditions (regular work hours) or security incidents
+### Ticket Creation and Escalation
+- Automation streamlines ticket creation and ticket escalation in incident response scenarios
+  - Automated system detects irregularities, such as unauthorized login attempts, and generates tickets or incident reports accordingly
+  - In case of escalation, such as multiple unauthorized login attempts, tickets are automatically forwarded to higher levels of expertise or authority
+  - Automation lets admins control permissions by enabling or disabling services and access based on specific conditions (regular work hours) or security incidents
 
-Continuous Integration and Testing (CI/CT)
-  - involves the automated integration of code changes contributed by multiple developers into a single repository
-    - key processes
-      - code commitment
-      - static analysis
-      - automated build process
-      - automated testing
-      - deployment
+### Continuous Integration and Testing (CI/CT)
+- Involves the automated integration of code changes contributed by multiple developers into a single repository
+  - Key processes:
+    - Code commitment
+    - Static analysis
+    - Automated build process
+    - Automated testing
+    - Deployment
 
-Integrations and Application Programming Interfaces (APIs)
-  - automate the linking of computing services and software applications to establish coherent systems
-    - APIs enable different software entitites to seamlessly communicate with each other
-    - automation is overall beneficial but requires ongoing maintenance and monitoring for errors
+### Integrations and Application Programming Interfaces (APIs)
+- Automate the linking of computing services and software applications to establish coherent systems
+  - APIs enable different software entities to seamlessly communicate with each other
+  - Automation is overall beneficial but requires ongoing maintenance and monitoring for errors
 
-Benefits of Automation
-  - efficiency
-    - accelerates task execution, freeing human resources for other work
-  - workforce multiplier
-    - enhances team productivity
-  - employee retention
-    - improves job satisfaction and retention rates by removing tedious manual tasks
-  - reaction time
-    - facilitates quick response to security incidents or operational events
-  - baseline enforcement
-    - ensure consistent application of predefined security settings
-  - standardized infrastructure configurations
-    - maintains uniformity in system setups, reducing misconfigurations
-  - secure scaling
-    - helps organizations securely expand their digital infrastructures
+### Benefits of Automation
+- Efficiency
+  - Accelerates task execution, freeing human resources for other work
+- Workforce multiplier
+  - Enhances team productivity
+- Employee retention
+  - Improves job satisfaction and retention rates by removing tedious manual tasks
+- Reaction time
+  - Facilitates quick response to security incidents or operational events
+- Baseline enforcement
+  - Ensure consistent application of predefined security settings
+- Standardized infrastructure configurations
+  - Maintains uniformity in system setups, reducing misconfigurations
+- Secure scaling
+  - Helps organizations securely expand their digital infrastructures
 
-Other Considerations about Automation
-  - complexity
-    - automation often requires specialized skills for design, implementation, and maintenance
-  - cost
-    - automation involves initial investments in software, hardware, and human resources
-  - single points of failure
-    - systems wthout redundancies and fail-safes can become single points of failure
-  - ongoing supportability
-    - is needed for the effective, long-term operation of automated systems
-  - technical debt
-    - debt may accrue. thats the long-term cost of using outdated systems, shortcuts, and temporary fixes to implement an automation rollout
-
-
-
-
+### Other Considerations about Automation
+- Complexity
+  - Automation often requires specialized skills for design, implementation, and maintenance
+- Cost
+  - Automation involves initial investments in software, hardware, and human resources
+- Single points of failure
+  - Systems without redundancies and fail-safes can become single points of failure
+- Ongoing supportability
+  - Is needed for the effective, long-term operation of automated systems
+- Technical debt
+  - Debt may accrue. That's the long-term cost of using outdated systems, shortcuts, and temporary fixes to implement an automation rollout
