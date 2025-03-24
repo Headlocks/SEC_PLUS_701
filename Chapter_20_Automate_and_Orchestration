@@ -1,1 +1,91 @@
 ## Chapter 20: Understanding the Importance of Automation and Orchestration Related to Secure Operations
+
+Use Cases of Automation and Scripting
+  - vital in cyber security
+    - handle repetitive tasks efficiently and effectively 
+    - support policy compliance by consistently applying rules and configurations
+    - examples
+      - user provisioning
+      - resource provisioning
+      - policy enforcement
+      - incident response
+      - API integrations
+
+User Provisioning
+  - involves setting up user accounts with appropriate permissions and roles
+    - manual user provisioning 
+      - can be time-consuming and is prone to errors
+    - automation tools integrated with HR software 
+      - can automate user provisioning, ensuring the right access for employees at the right time
+    - deprovisioning
+      - can also be automated
+
+resource provisioning
+  - automates the setup, modification, or removal of digital assets such as virtual machines, databases, and storage units
+    - automated resource provisioning
+      - helps ensure uniformity, compliance, and time savings
+      - avoids the errors associated with manual provisioning
+
+guard rails
+  - are automated safety measures or rules implemented within a system
+    - designed to restrict or control activities that could be harmful or noncompliant with security policies
+    - act as internal checkpoints or barriers guiding user behavior and system interactions
+    - enforce compliance with data privacy regulations like HIPAA
+
+Security Groups
+  - is a group of users who are categorized together based on security policies
+  - security group automation
+    - applies templates based on resource roles or functions instead of configuring firewall rules individually
+  - using security groups helps maintain a consistent security posture
+
+ticket creation and escalation
+  - automation streamlines ticket creation and ticket escalation in incident response scenarios
+    - automated system detects irregularities, such as unauthorized login attempts, and generates tickets or incident reports accordingly
+    - in case of escalation, such as multiple unauthorized login attempts, tickets are automatically forwarded to higher levels of expertise or authority
+    - automation lets admins control permissions by enabling or disabling services and access based on specific conditions (regular work hours) or security incidents
+
+Continuous Integration and Testing (CI/CT)
+  - involves the automated integration of code changes contributed by multiple developers into a single repository
+    - key processes
+      - code commitment
+      - static analysis
+      - automated build process
+      - automated testing
+      - deployment
+
+Integrations and Application Programming Interfaces (APIs)
+  - automate the linking of computing services and software applications to establish coherent systems
+    - APIs enable different software entitites to seamlessly communicate with each other
+    - automation is overall beneficial but requires ongoing maintenance and monitoring for errors
+
+Benefits of Automation
+  - efficiency
+    - accelerates task execution, freeing human resources for other work
+  - workforce multiplier
+    - enhances team productivity
+  - employee retention
+    - improves job satisfaction and retention rates by removing tedious manual tasks
+  - reaction time
+    - facilitates quick response to security incidents or operational events
+  - baseline enforcement
+    - ensure consistent application of predefined security settings
+  - standardized infrastructure configurations
+    - maintains uniformity in system setups, reducing misconfigurations
+  - secure scaling
+    - helps organizations securely expand their digital infrastructures
+
+Other Considerations about Automation
+  - complexity
+    - automation often requires specialized skills for design, implementation, and maintenance
+  - cost
+    - automation involves initial investments in software, hardware, and human resources
+  - single points of failure
+    - systems wthout redundancies and fail-safes can become single points of failure
+  - ongoing supportability
+    - is needed for the effective, long-term operation of automated systems
+  - technical debt
+    - debt may accrue. thats the long-term cost of using outdated systems, shortcuts, and temporary fixes to implement an automation rollout
+
+
+
+
