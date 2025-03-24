@@ -1,0 +1,95 @@
+## Chapter 19: Implementing and Maintaining Identity and Access Management
+
+Provisioning/De-provisioning User Accounts
+  - Provisioning
+    - setting up a user account with necessary permissions and access settings
+  - De-provisioning
+    - disabling or removing permissions and settings from a user account
+  - well-managed provisioning and de-provisioning are crucial for ensuring users always have appropriate access
+
+Permission Assignments and Implications
+  - permission assignment
+    - granting specific levels of access or activities (read, edit, delete) to users, groups, or system processes
+  - type of permissions assignments
+    - user-level
+    - group-level
+    - role-based
+    - resource-based
+
+identity proofing
+  - is the process of verifying a user's or system's identity within an organization
+    - invovles multiple levels of authentication ranging from passwords to biometric data
+    - extends beyond initial authenticaiton; includes periodic re-authentication or session time-outs
+
+federation
+  - one system authenticates users and sends their authentication information to other systems
+
+Single Sign-On (SSO)
+  - enables one set of credentials for access to multiple services or applications
+    - minimizes the number of times a user needs to authenticate after initial login
+  - SSO protocols
+    - LDAP (Lightweight Directory Access Protocol)
+    - OAuth (Open Authorization)
+    - SAML (Security Assertion Markup Langauge)
+
+Interoperabiility
+  - is the ability of different systems to work together. its crucial for identity and access management (IAM) systems
+    - IAM systems need to integrate seamlessly with various databases, applications, and authentication protocols. Lack of integration interfereds with needs for access and auditing
+    - collaboration with external partners requires secure cross-boundary authentication and authorization
+  - Interopable IAM Systems
+    - can adop to new technologies and compliance requirements without overhauling existing infrastructure
+
+Attestation
+  - provides evidence or proof, allowing one program or system to authenticate itself to another
+  - remote attestation
+    - enables a system to make reliable statements about the software its running to another system, which can make authorization decisions based on that information
+  - TPM (Trusted Platform Model) quote operation
+    - verifies the contents of a TPM chip's platform configurations registers (PCRs) during provisioning
+  - Methods of attestation may be vulnerable to replay attacks, masquerading, and other cyberthreats
+
+Access Controls
+  - organize and manage admission to physical areas and computer systems
+  - Role-based access control (RBAC)
+    - is controlled by the fire system, not the resource owner. when users are assigned a role, they get access to its resources
+  - Rule-based access control
+    - is also known as lebel-based access control. Example of a rule governing access: During certain hours each day, access is only permitted to specific IP addresses
+  - Mandatory access control (MAC) 
+    - is the strictist control. its set by the system and uses security classifications for data
+  - Discretionary access control (DAC)
+    - generally determined by the owner
+  - attribute-based access control (ABAC)
+    - is dynamic and uses context. it can combine various user, group, and resource attributes to determine whether access should be granted
+  - least privilege
+    - means the user only has the access required for their job
+
+Multifactor Authentication (MFA)
+  - is the process of authenticating a user by validating two or more claims from different categories of factors
+    - two-factor authentication (2FA)
+      - a subset of MFA in which two factors are required to authenticate
+    - factor categories
+      - something you know
+      - something you have
+      - something you are
+    - biometrics (distinctive body measurements) and security keys (hardware devices) may be part of MFA
+
+Password Concepts
+  - guidelines and practices for ensuring strong, secure passwords
+    - passwords serve as the primary barrier to protect sensitive information and access controls
+    - issues to consider when setting password requirements
+      - password length
+      - password complexity
+      - password reuse
+      - password expiration
+      - password age
+
+Privileged Access Management (PAM) tools
+  - centrally manage access to privileged accounts based on the principle of least privilege
+    - just-in-time (JIT) permissions
+      - give access for a limited time
+    - ephemeral
+      - credentials are generated for specific sessions or tasks and invalidated shortly after completion. they expire more quickly than JIT permissions
+    - password vaulting
+      - means using a centralized, encrypted repository to store various access credentials
+
+
+
