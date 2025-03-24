@@ -1,124 +1,119 @@
 ## Chapter 21: Understanding Appropriate Incident Response Activities
 
-Incident Response Process
-  - Four Phases of the NIST incident Response Lifecycle
-    - Preparation
-    - Detection and Analysis
-    - Containment, Eradication, and Recovery
-    - Post-Incident Activity
+### Incident Response Process
+- **Four Phases of the NIST Incident Response Lifecycle**
+  - Preparation
+  - Detection and Analysis
+  - Containment, Eradication, and Recovery
+  - Post-Incident Activity
 
-Preparation
-  - Creates the plan for responding to and reocvering from security incidents
-    - designating a plan owner
-    - tech preparation
-    - training programs
+### Preparation
+- Creates the plan for responding to and recovering from security incidents
+  - Designating a plan owner
+  - Technical preparation
+  - Training programs
 
-detection and analysis
-  - are accomplished with a mix of automated monitoring and human expertise
-    - early detection is best. and early indicator of compromise (IoC) might be unusual network traffic or multiple failed logins
-    - analyze the IoC to understand the nature and scope of the threat
+### Detection and Analysis
+- Accomplished with a mix of automated monitoring and human expertise
+  - Early detection is best. An early indicator of compromise (IoC) might be unusual network traffic or multiple failed logins
+  - Analyze the IoC to understand the nature and scope of the threat
 
-containment, eradication, and recovery
-  - containment
-    - involves isolating the threat from the rest of the network
-      - short-term or long-term
-  - eradication
-    - involves completely removing the threat
-      - ensure affected systems are backed up, then reimage
-      - apply patches and change password
-  - recovery
-    - involves choosing a restoration point and validating the systme
-      - increase monitoring for 30+ days following incident 
+### Containment, Eradication, and Recovery
+- **Containment**
+  - Involves isolating the threat from the rest of the network
+    - Short-term or long-term
+- **Eradication**
+  - Involves completely removing the threat
+    - Ensure affected systems are backed up, then reimage
+    - Apply patches and change passwords
+- **Recovery**
+  - Involves choosing a restoration point and validating the system
+    - Increase monitoring for 30+ days following the incident
 
-post-incident activity
-  - is the "lessons learned" phase of incident response
-    - meet within two weeks
-    - complete documentation about the incident
-    - discuss the response process
-    - change the response process if needed
+### Post-Incident Activity
+- The "lessons learned" phase of incident response
+  - Meet within two weeks
+  - Complete documentation about the incident
+  - Discuss the response process
+  - Change the response process if needed
 
-training
-  - equips teams with the knowledge and protocols for effectively managing security incidents
-    - role-based training for individuals and departments
-    - tabletop exercises and simulations for practice responding
+### Training
+- Equips teams with the knowledge and protocols for effectively managing security incidents
+  - Role-based training for individuals and departments
+  - Tabletop exercises and simulations for practice responding
 
-testing
-  - the rigorous examination of incident response procedures, plans, and capabilities
-    - ensures effectiveness of cybersecurity incident response  
-    - identifies gaps in responding; serves as a feedback loop for refinement of response strategies
+### Testing
+- The rigorous examination of incident response procedures, plans, and capabilities
+  - Ensures effectiveness of cybersecurity incident response  
+  - Identifies gaps in responding; serves as a feedback loop for refinement of response strategies
 
-tabletop exercises
-  - simulate hypothetical situations that mirror real-world threats
-    - each particpant plays a role
-      - corresponding to their actual emergency responsibilities
-  - time pressure
-    - helps simulate the urgency of real incidents
-  - decision points
-    - pause the action for strategic discussions about how to proceed
-  - detailed records
-    - are kept of every action, decision, and discussion point
+### Tabletop Exercises
+- Simulate hypothetical situations that mirror real-world threats
+  - Each participant plays a role
+    - Corresponding to their actual emergency responsibilities
+  - Time pressure
+    - Helps simulate the urgency of real incidents
+  - Decision points
+    - Pause the action for strategic discussions about how to proceed
+  - Detailed records
+    - Are kept of every action, decision, and discussion point
 
-simulation exercises
-  - build upon tabletop exercises with simulated tech environments such as sandboxed or isolated replicas of networks
-  - tips for conducting a simulation
-    - define key peformance indicators (KPIs) to evaluate response effectiveness
-    - introduce unexpected elements (power outages) to test the team's adaptability
-    - include a post-exercise discussion to identify gaps and discuss improvements
+### Simulation Exercises
+- Build upon tabletop exercises with simulated tech environments such as sandboxed or isolated replicas of networks
+- **Tips for Conducting a Simulation**
+  - Define key performance indicators (KPIs) to evaluate response effectiveness
+  - Introduce unexpected elements (e.g., power outages) to test the team's adaptability
+  - Include a post-exercise discussion to identify gaps and discuss improvements
 
-root cause analysis
-  - is critical for identifying the reasons udnerlying security incidents
-    - data collection
-    - timeline analysis
-    - hypothesis development
-    - hypthesis confirmation or rejection
+### Root Cause Analysis
+- Critical for identifying the reasons underlying security incidents
+  - Data collection
+  - Timeline analysis
+  - Hypothesis development
+  - Hypothesis confirmation or rejection
 
-threat hunting
-  - is a proactive search through networks and data sets to detect and isolate advanced theats
-    - targets threats that evade traditional reactive security measures
-    - involves setting a specific type of threat, such as lateral moves or data exfiltration
-    - discoveries may lead to threat remediation and updated security measures
+### Threat Hunting
+- A proactive search through networks and data sets to detect and isolate advanced threats
+  - Targets threats that evade traditional reactive security measures
+  - Involves setting a specific type of threat, such as lateral moves or data exfiltration
+  - Discoveries may lead to threat remediation and updated security measures
 
-digital forensics
-  - is a multidisciplinary approach to collecting, analyzing, and preserving data
-    - involves the electronic data relevant to investigations or legal proceedings
-    - combines technical expertise with legal frameworks and ethical considerations
+### Digital Forensics
+- A multidisciplinary approach to collecting, analyzing, and preserving data
+  - Involves the electronic data relevant to investigations or legal proceedings
+  - Combines technical expertise with legal frameworks and ethical considerations
 
-legal hold and chain of custody
-  - legal hold
-    - is the process of preserving electronic evidence related to a legal case or investigation. it prevents the alteration or deletion of specific data.
-  - chain custody
-    - documents the path that evidence takes from acquisition to disposal
-      - helps ensure integrity and admissibility of evidence in legal proceedings
+### Legal Hold and Chain of Custody
+- **Legal Hold**
+  - The process of preserving electronic evidence related to a legal case or investigation. It prevents the alteration or deletion of specific data.
+- **Chain of Custody**
+  - Documents the path that evidence takes from acquisition to disposal
+    - Helps ensure integrity and admissibility of evidence in legal proceedings
 
-acquisition
-  - is the systematic collection of digital evidence meant to maintain its authenticity
-    - follows the order of volatility; captures the most volatile data first (CPU cache and registers)
-    - uses special tools to capture RAM
-    - create a bit-by-bit image of the hard drive
-    - captures network traffic and logs
-    - looks for suspicious artificats (residual data) such as changes in system settings
+### Acquisition
+- The systematic collection of digital evidence meant to maintain its authenticity
+  - Follows the order of volatility; captures the most volatile data first (e.g., CPU cache and registers)
+  - Uses special tools to capture RAM
+  - Creates a bit-by-bit image of the hard drive
+  - Captures network traffic and logs
+  - Looks for suspicious artifacts (residual data) such as changes in system settings
 
-reporting
-  - is the documenting of activities and findings throughout the forensic process
-    - serves as a record for internal review and may become critical evidence in legal proceedings
-    - elements ofa  well-structured report
-      - timeline of events
-      - tools used
-      - evidence found
-      - steps taken
+### Reporting
+- The documenting of activities and findings throughout the forensic process
+  - Serves as a record for internal review and may become critical evidence in legal proceedings
+  - Elements of a well-structured report:
+    - Timeline of events
+    - Tools used
+    - Evidence found
+    - Steps taken
 
-preservation
-  - involves safeguarding evidence from identificiation to the end of its lifecycle
-    - secure, climate-controlled environment
-    - tamper-evident storage
+### Preservation
+- Involves safeguarding evidence from identification to the end of its lifecycle
+  - Secure, climate-controlled environment
+  - Tamper-evident storage
 
-E-Discovery
-  - involves identifying, collecting, and producing electronically stored information in response to a legal request
-    - subject to specific rules and protocols
-    - uses specialized software for searching, identifying, and collecting electronic information
-    - ensures that collected information is relevant and not privileged before production
-
-
-
-
-
+### E-Discovery
+- Involves identifying, collecting, and producing electronically stored information in response to a legal request
+  - Subject to specific rules and protocols
+  - Uses specialized software for searching, identifying, and collecting electronic information
+  - Ensures that collected information is relevant and not privileged before production
