@@ -220,6 +220,8 @@
 
 - Takes data and splits it into equal blocks. Each block can be encrypted individually or together. A buffer will be added if more data is needed at the end of a block.
 
+- The main difference between a stream cipher and a block cipher lies in the way they encrypt data. A stream cipher encrypts plaintext digits one at a time, whereas a block cipher encrypts large blocks of digits at once.
+
 ## Modes of Operation
 
 ### Counter Mode (CTR or CTM)
