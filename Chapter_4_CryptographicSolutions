@@ -209,7 +209,10 @@
 
 - Entities, typically servers, responsible for issuing certificates to users in a Public Key Infrastructure (PKI) system, serving as trusted third parties to validate identities and secure digital communications.
 - root is the main certificate authority. 
-- Certificate Signing Request (CSR) is how you reach out to a Registration Authority (RA).
+- Certificate Signing Request (CSR) 
+  - is how you reach out to a Registration Authority (RA).
+- Certificate Revocation List (CRL)
+  - a list of digital certificates that have been revoked by the issuing certificate authority (CA) before their actual or assigned expiration date. In simple terms, a CRL is a type of blocklist of digital certificates that CAs deem as untrustworthy or that they are no longer willing to vouch for.
 
 ## Block Cipher
 
