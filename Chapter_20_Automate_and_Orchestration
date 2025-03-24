@@ -10,6 +10,9 @@
     - Policy enforcement
     - Incident response
     - API integrations
+- Security Orchestation Automation & Response (SOAR)
+  - works directly with SIEM systems
+  - can preconfigure responses to security threats
 
 ### User Provisioning
 - Involves setting up user accounts with appropriate permissions and roles
