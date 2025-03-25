@@ -1,0 +1,137 @@
+## Chapter 23: Summarizing Elements of Effective Security Governance
+
+Guidelines
+  - are general recommendations aimed at steering organizational behavior and decision making
+    - provide directional advice; suggestions and best practices for various security-related activites
+    - more relaxed than policies or standards, allowing for flexibility in implementation
+
+Policies
+  - formal, high-level statements or plans that outline an organization's general beliefs, goals, objectives, and acceptable procedures
+    - essential for setting the organization's approaches to various issues
+    - govern various aspects of business, include employee behavior and emergency procedures
+
+Types of Policies
+  - Acceptable use Policy (AUP)
+    - defines rules for the use of technology infrastructure
+      - may conflict with a BYOD policy
+  - information security policy
+    - provides guidelines and procedures for protecting data and technology assets
+      - examples
+        - password policy
+        - software update policy
+  - business continuity policy
+    - aims to ensure that essential operations continue despite a disruption
+      - examples
+        - daily remote backup policy
+        - crisis communications policy
+  - disaster recovery plan
+    - focuses on restoring IT infrastructure and operations post-crisis
+      - example:
+        - data recovery policy
+  - incident response policy
+    - outlines procedures to follow during cybersecurity incidents
+      - example:
+        - quarantine policy
+  - software development lifecycle (SDLC) policy
+    - governs the software development process, incorporating security and quality at every phase
+      - examples:
+        - coding policy
+        - software retirement policy
+  - change management policy
+    - guides how changes to IT systems and processes are proposed, reviewed, and implemented
+      - example:
+        - requiring board approval for an IT system change
+
+standards
+  - provide specific, detailed instructions for implementing security measures
+    - help ensure that practicies align with policies
+    - promote consistency and uniformity in security implementation
+
+types of standards
+  - password standards
+    - defines rules for creating, managing, and storing passwords
+  - access control standards
+    - determine who has access to specific resources within the organization's network and systems
+      - attribute-based access control (ABAC)
+      - Role-based access control (RBAC)
+      - Discretionary access control (DAC)
+      - Mandatory access control (MAC)
+  - physical security standards
+    - safeguard tangible assets like buildings, hardware, and personnel
+  - encrypted standards
+    - govern how data should be encrypted and decrypted within the organization
+
+procedures
+  - implement policies and standards through specific, detailed instructions
+    - change management procedures
+      - help transition individuals, teams, and the organization to a desired state
+        - proposal
+        - planning
+        - testing
+        - implementation
+        - review
+  - onboarding and offboarding procedures
+    - help integrate users or remove them from identity and access management systems
+      - examples:
+        - background checks
+        - user training
+        - adding or removing user permissions
+  - playbooks
+    - step-by-step guides to approaching various security scenarios. they aim to minimize the impacts of emergency incidents
+      - typical sections
+        - incident identification
+        - assessment
+        - response strategy
+        - recovery and restoration
+        - lessons learned
+
+external considerations
+  - factors outside an organization that influence its security governance
+    - regulatory
+      - industry-specific rules dictating various aspects of business operations (HIPAA)
+    - legal
+      - broader than regulatory; include a range of obligations and potential liabilities such as consumer data privacy laws and vendor contracts
+    - industry
+      - guidelines best practices, or requirements within an industry (such as following the PCI DSS)
+    - Local/Regional
+      - rules, regulations, and cultural norms that only apply to a certain geographic area
+    - national
+      - laws, regulations, and standards applicable within a country
+    - global
+      - laws, treaties, and standards that apply to organizations operating in multiple countries
+
+monitoring and revision
+  - continous monitoring
+    - involves regular log reviews, audits, and peformance metric analysis
+  - revision
+    - is the implementation of change in response to monitoring
+      - security information and event management (SIEM) systems help aggregate and analyze data for monitoring
+      - well-defined processes for monitoring and revision help organizations adapt to new conditions
+
+types of governance structures
+  - board
+    - sets strategic direction, approves policies, oversees risk management, ensures legal compliance
+  - committee
+    - provides detailed oversight, advises on specific issues, monitors and audits, facilitates stakeholder communication
+  - government entities
+    - set standards and regulations, enforce legal compliance, collaborate with private sector; subject to oversight committees
+  - centralized governance
+    - concentrates decision making authority, allows for uniform implementation. may lack responsiveness and can create a single point of failure
+  - decentralized governance
+    - distributes decision making authority, fostering innovation and adaptability. may lead to inconsistencies and gaps in security
+
+roles and responsibilities for systems and data
+  - owners
+    - responsible for asset classification, policy formulation, risk assessment, compliance oversight, budget allocation, and incident response
+  - controllers
+    - define data processing objectives, ensure legal compliance, maintain data quality, oversee security measures, facilitate data subject rights, and maintain accountability and recordkeeping
+  - processors
+    - handle data according to controller directives, implement security measures, ensure data accuracy, somply with legal and regulatory requirements, providing reporting and documentation, and respond to security incidents
+  - custodians/stewards
+    - implement and maintain security measures, ensure data quality, assist in compliance efforts, manage data storage and backups, and provide evidence for audits
+
+
+
+
+
+
