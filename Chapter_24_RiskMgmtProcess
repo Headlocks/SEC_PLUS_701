@@ -1,0 +1,107 @@
+## Chapter 24: Understanding Elements of the Risk Management Process
+
+risk identification
+  - systematically recognizing, documenting, and understanding potential threats, vulnerabilities, and hazards that could impact an organization's assets, opreations, or objectives
+    - cybersecurity threats
+    - natural distasters
+    - regulatory risks
+    - supply chain risks
+    - human errors
+
+risk assessment
+  - evaluating identified risks to determine their potential likelihood and impact
+    - ad hoc
+    - recurring
+    - one-time
+    - continuous
+
+risk analysis
+  - delving deep into each identified risk, examining specific details and characteristics
+    - 1) identify assets
+    - 2) identify vulnerabilities
+    - 3) identify threats and threat likelihood
+    - 4) assess potential impact
+  - risk register
+    - useful for tracking issues and rememedies
+
+risk matrix/heat map
+  - correlation of impact and probablity
+
+qualitative risk analysis vs quantitative risk analysis
+  qualitative
+    - assigns numeric values based on the probability and impact of risks, without assigning monetary values
+    - uses ranegs to represent probability and impact, such as 1 to 10 or 1 to 100
+  quantitative
+    - assigns exact monetary values to risks and losses
+    - calculates expected yearly loss in dollars for specific risks
+
+quantitative risk calculations
+  - three key values used in quantitativ risk calculations:
+    - single lost expectancy (SLE)
+      - the loss of value in dollars based on a single incident of a given type
+    - annualized rate of occurrence (ARO)
+      - the number of times per year that the type of incident occurs
+    - annualized loss expectancy (ALE)
+      - total loss in dollars per year from a type of incident
+    - SLE x ARO = ALE
+
+Exposure Factor (EF)
+  - is the percentage of loss that an asset would experience if a threat materialized. it helps calculate SLE (single loss expectancy)
+  - SLE = Asset value x EF
+
+probablility vs likelihood
+  - the terms are similar, but probability uses numbers
+    - probability
+      - quantifies the likelihood of a risk occuring. its often expressed as a percentage, and it can be used in calculations
+    - likelihood
+      - qualitatively describes the chance of an event occuring, often with a term like "likely" or "highly unlikely"
+
+Risk Register
+  - centralized repository for recording identified risks, their characteristics, and management plans. each risk receives a risk ID for easy tracking.
+    -key risk indicators (KRIs)
+      - metrics for measuring the potential impact and likelihood of identified risks
+    - risk owners
+      - individuals or departments responsible for managing specific risks
+    - risk threshold
+      - level of risk that an organization is willing to accept before taking action
+
+Risk Tolerance
+  - the amount of risk an organization is willing to accept as it pursues objectives
+    - shapes cybersecurity investment
+    - low risk tolerance leads to heavy investment and multilayered security
+    - high risk tolerance prioritized growth over stringent security protocols
+
+risk appetite
+  - level of risk an organization is willing to accept to pursue its objectives
+    - expansionary 
+      - willing to accept higher risk in exchange for rapid growth
+    - conservative
+      - prefers lower levels of risk, prioritizing staiblity and sutainable growth
+    - neutral
+      - balanced approach; accept risk, but not at the expense of stability
+
+risk management strategies
+  - systematic approaches to managing and mitigating risks
+    - **accept** some or all consequences of the risk
+    - **mitigate** the risk
+    - **transfer** the risk to a third party
+    - **avoid** the risk
+
+risk reporting
+  - documenting and sharing with stakeholders an organization's risk assessments, analysis findings, and risk management strategies
+    - executive summary
+    - detailed findings
+    - recommendations
+    - action plan
+
+business impact analysis
+  - business impact analysis (BIA)
+    - determines potential impacts of interrupting critical processes
+      - recovery time objective (RTO)
+        - time by which a process should be restored to avoid unacceptable consequences
+      - recovery point objective (RPO)
+        - maximum amount of data that can be lost due to a disruption
+      - mean time to repair (MTTR)
+        - average time required to repair a failed device or system
+      - Mean time between failures (MTBF)
+        - expected average time between failures for a system or component
