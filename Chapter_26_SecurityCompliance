@@ -1,102 +1,98 @@
 ## Chapter 26: Summarizing Elements of Effective Security Compliance
 
-compliance reporting
-  - provides insights to internal stakeholders and fulfills external obligations by creating detailed documents
-    - documents adhere to industry-specific regulations and standards
-    - internal stakeholders might be interested in metrics involving employee security training and thwarted attacks
-    - external compliance reports are often required within strict time frames. late or inaccurate reports may result in fines, legal action, and other negative consequences
+### Compliance Reporting
+- Provides insights to internal stakeholders and fulfills external obligations by creating detailed documents.
+  - Documents adhere to industry-specific regulations and standards.
+  - Internal stakeholders might be interested in metrics involving employee security training and thwarted attacks.
+  - External compliance reports are often required within strict time frames. Late or inaccurate reports may result in fines, legal action, and other negative consequences.
 
-compliance reporting examples
-  - FCPA compliance
-    - shows measures taken to prevent corruption (due diligence programs and accounting controls)
-  - PCI DSS Compliance
-    - details how customer payment data is protected
-  - HIPAA compliance
-    - shows measures taken to protect patient health records
-  - GDPR compliance
-    - shows protocols for safeguarding personal data and privacy rights
+#### Compliance Reporting Examples
+- **FCPA Compliance**
+  - Shows measures taken to prevent corruption (due diligence programs and accounting controls).
+- **PCI DSS Compliance**
+  - Details how customer payment data is protected.
+- **HIPAA Compliance**
+  - Shows measures taken to protect patient health records.
+- **GDPR Compliance**
+  - Shows protocols for safeguarding personal data and privacy rights.
 
-consequences of non-compliance
-  - fines
-    - monetary penalties for non-compliance
-  - sanctions
-    - restrictions or limitations imposed on organizations until compliance is achieved
-  - reputational damage
-    - neegative impact on an organizations public image and credibility
-  - loss of license
-    - one of the most severe consequences; the organization might need to shut down
-  - contractual impacts
-    - contracts may be terminated and legal disputes may result from not complying with contractual obligations
+### Consequences of Non-Compliance
+- **Fines**
+  - Monetary penalties for non-compliance.
+- **Sanctions**
+  - Restrictions or limitations imposed on organizations until compliance is achieved.
+- **Reputational Damage**
+  - Negative impact on an organization's public image and credibility.
+- **Loss of License**
+  - One of the most severe consequences; the organization might need to shut down.
+- **Contractual Impacts**
+  - Contracts may be terminated and legal disputes may result from not complying with contractual obligations.
 
-compliance monitoring
-  - ensuring adherence to regulatory guidelines and internal policies
-    - involves a range of activities such as due diligence, attestation, and acknowledgement
-    - uses internal and external monitoring mechanisms
-    - is streamlined by automation
+### Compliance Monitoring
+- Ensuring adherence to regulatory guidelines and internal policies.
+  - Involves a range of activities such as due diligence, attestation, and acknowledgement.
+  - Uses internal and external monitoring mechanisms.
+  - Is streamlined by automation.
 
-due diligence/care
-  - due diligence
-    - gather information and assessing risks before making decisions
-      - includes comprehensive reviews of systems, processes, and policies to identify vulnerabilities
-    - due care
-      - maintaining established systems or processes
-        - applying information gathered during due diligence
-        - updating security protocols
-        - conducting regular audits
-    
-attestation and acknowledgment
-  - attestation
-    - formal declaration or confirmation that specific criteria, processes, or systems meet the security standards
-     - provides assurance that data is being handled securely
-  - acknowledgement
-    - formally accepting or recognizing a policy
-      - compliance certificates and signed agreements are legally-binding acknowledgments that an organization will adhere to certain security protocols or standards
+### Due Diligence/Care
+- **Due Diligence**
+  - Gathering information and assessing risks before making decisions.
+    - Includes comprehensive reviews of systems, processes, and policies to identify vulnerabilities.
+- **Due Care**
+  - Maintaining established systems or processes.
+    - Applying information gathered during due diligence.
+    - Updating security protocols.
+    - Conducting regular audits.
 
-automation in compliance monitoring
-  - software can automate various tasks that help ensure compliance monitoring.
-    - examples:
-      - configuration management tools
-      - automated vulnerability scanners
-      - SIEM systems
+### Attestation and Acknowledgment
+- **Attestation**
+  - Formal declaration or confirmation that specific criteria, processes, or systems meet the security standards.
+    - Provides assurance that data is being handled securely.
+- **Acknowledgement**
+  - Formally accepting or recognizing a policy.
+    - Compliance certificates and signed agreements are legally-binding acknowledgements that an organization will adhere to certain security protocols or standards.
 
-Privacy
-  - an ethical obligation and a legal mandate
-    - involves safeguarding data against unauthorized access and ensuring data is used properly
-    - legal frameworks govern cybersecurity privacy at various jurisdictional levels
+### Automation in Compliance Monitoring
+- Software can automate various tasks that help ensure compliance monitoring.
+  - Examples:
+    - Configuration management tools.
+    - Automated vulnerability scanners.
+    - SIEM systems.
 
-legal implications
-  - an organization's responsibilities, liabilities, and potential penalties related to handling personal data. vary by jurisdiction, data type, and data use
-    - local and regional examples
-      - CCPA (California)
-      - SHIELD Act (New York)
-      - GDPR (European Union)
-    - National Examples
-      - COPPA (USA)
-      - PIPEDA (Canada)
+### Privacy
+- An ethical obligation and a legal mandate.
+  - Involves safeguarding data against unauthorized access and ensuring data is used properly.
+  - Legal frameworks govern cybersecurity privacy at various jurisdictional levels.
 
-Data roles
-  - data subject
-    - an individual whose personal data is being processed
-  - controller
-    - decides how and why data will be processed
-  - processor
-    - processes personal data on behalf of the controller, complying with security measures
-  - ownership
-    - refers to who has legal rights and control over data (power to set access levels and give auditing permissions)
+### Legal Implications
+- An organization's responsibilities, liabilities, and potential penalties related to handling personal data, varying by jurisdiction, data type, and data use.
+  - Local and Regional Examples:
+    - CCPA (California)
+    - SHIELD Act (New York)
+    - GDPR (European Union)
+  - National Examples:
+    - COPPA (USA)
+    - PIPEDA (Canada)
 
-data inventory and retention
-  - data inventory
-    - a catalog or map that identifies where different types of data are stored
-      - crucial for risk assessment and data protection strategies
-  - data retention policies
-    - dictate how long specific data types should be stored
+### Data Roles
+- **Data Subject**
+  - An individual whose personal data is being processed.
+- **Controller**
+  - Decides how and why data will be processed.
+- **Processor**
+  - Processes personal data on behalf of the controller, complying with security measures.
+- **Ownership**
+  - Refers to who has legal rights and control over data (power to set access levels and give auditing permissions).
 
-right to be forgotten
-  - lets individuals request the deletion of their personal data. security analysts follow up with data erasure in accordance with regulations
-    - locate and erase specified data from all systems, including backups
-    - run verification checks to confirm complete removal of data
-    - keep detailed documentation of the entire process
+### Data Inventory and Retention
+- **Data Inventory**
+  - A catalog or map that identifies where different types of data are stored.
+    - Crucial for risk assessment and data protection strategies.
+- **Data Retention Policies**
+  - Dictate how long specific data types should be stored.
 
-
-
-
+### Right to be Forgotten
+- Lets individuals request the deletion of their personal data. Security analysts follow up with data erasure in accordance with regulations.
+  - Locate and erase specified data from all systems, including backups.
+  - Run verification checks to confirm complete removal of data.
+  - Keep detailed documentation of the entire process.
