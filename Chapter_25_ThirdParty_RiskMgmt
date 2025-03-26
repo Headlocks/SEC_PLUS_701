@@ -1,2 +1,93 @@
 ## Chapter 25: Understanding the Processes Associated with Third-Party Risk Assessment and Management
 
+Vendor Assessment
+  - evaluating a vendor to ensure they meet organizational requirements before engaging in a business relationship
+  - contracts can help protect the organization
+    - Service Level Agreement (SLA)
+      - defines each party's responsibilities, including vendor's protocol in case of service failure
+    - business partners agreement (BPA)
+      - defines each party's responsibilities, the profit arrangement, and exit strategies
+
+penetration testing
+  - simulating cyberattacks to identify vulnerabilities
+    - can be used to test a vendors security
+      - unknown environment tests
+      - known environment tests
+      - partially known environment tests
+
+right-to-audit clause
+  - grants one party the authority to conduct audits on another to ensure compliance with specific criteria
+    - fosters transparency and accountability
+    - scope and types of audit permitted should be clearly defined
+    - may be invoked in case of suspected non-compliance or following a security incident involving the vendor
+
+evidence of internal audits
+  - documentation and findings of audits conducted within the vendor's organization
+    - evidence may include audit reports, corrective action plans, and compliance certificates
+    - evaluates compliance with legal requirements and internal policies
+    - focus could be finances, security, or operations
+    - essential when evaluating a vendor's risk
+
+independent assessments
+  - evaluation by a third party not directly involved in a vendor's business operations
+    - provides an unbiased view of the vendor's compliance and risk management status
+    - examples
+      - SOC 2 reports
+      - ISO certifications
+      - results of third-party penetration tests
+
+supply chain analysis
+  - thoroughly evaluating every element and process in a vendor's supply chain
+    - weak links can expose the organization to risks
+    - tools and techniques
+      - supplier audits
+      - SWOT analysis
+      - Data analytics
+      - Machine learning predictions
+
+vendor selection
+  - evaluating and choosing a third-party service or product provider that best aligns with an organization's needs, goals, and risk tolerance
+    - due diligence
+      - a comprehensive appraisal of a vendor's business practices, financial stability, reputation, and compliance with relevant laws and regulations
+    - conflict of interest
+      - a vendor's competing professional or personal interests could interfere with their ability to act in the best interests of the organization
+
+Agreement Types
+  - service-level agreement (SLA)
+    - defines the expected level of service from a service provider
+  - memorandum of agreement (MOA)
+    - specifies a cooperative, generally non-legally binding relationship
+  - Memorandum of understanding (MOU)
+    - less formal than an MOA, it oultines mutual roles and responsibilities in a project or partnership
+  - master service agreement (MSA)
+    - parties agree to most of the terms that will govern future projects
+  - work order/statement of work (WO/SOW)
+    - describes work activities, deliverables, and timeline
+  - non-disclosure agreement (NDA)
+    - legally binding contract establishing a confidential relationship; involves sensitive information
+  - business partners agreement (BPA)
+    - outlines terms and conditions of a partnership
+
+vendor monitoring
+  - continuous oversight and evaluation of vendors to ensure they meet or exceed contractual obligations
+    - covers various areas such as reliability, data protection, and ethical considerations (Labor practices)
+    - periodic reviews assess vendors' capabilities in response to evolving regulations and emerging threats
+
+questionnaires
+  - vendor questionnaires
+    - forms used to gather nuanced information about a vendor's operational resilience, data handling practices, and corporate culture
+      - probe topics such as
+        - data encryption
+        - multifactor authentication
+        - incident response
+
+rules of engagement
+  - agreed-upon guidelines dictating how activities and interactions should occur between an organization and a vendor
+    - ensure clear expectations and responsibilities
+    - procedures for:
+      - security vulnerability reporting
+      - escalating issues
+      - changing the service provided
+
+
+
