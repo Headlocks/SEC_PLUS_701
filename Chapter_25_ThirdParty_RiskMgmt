@@ -12,8 +12,11 @@
 - Simulating cyberattacks to identify vulnerabilities.
   - Can be used to test a vendor's security:
     - Unknown environment tests
+      - 3rd party company with no knowledge of the environment
     - Known environment tests
+      - Internal IT does the testing
     - Partially known environment tests
+      - 3rd party company and they are provided information about the environment
 
 ### Right-to-Audit Clause
 - Grants one party the authority to conduct audits on another to ensure compliance with specific criteria.
