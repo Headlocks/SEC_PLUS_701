@@ -1,0 +1,73 @@
+## Chapter 28: Implementing Security Awareness Practices
+
+Phishing
+  - Social Engineering attack aimed at tricking individuals into shareing sensitive data
+    - often conducted via email, messaging apps, and websites
+    - user education and awareness are vital to keeping systems secure
+
+signs of phishing attempts
+  - mismatched URLs
+  - Errors in grammar and spelling
+  - Requests for sensitive information
+  - unexpected attachements
+  - "too good to be true" offers
+
+suspicious message protocol
+  - 1) isolate the threat
+  - 2) analyze the content
+  - 3) notify security team
+  - 4) make users aware
+  - 5) update security measures
+
+anomalous behavior recognition
+  - identifies actions or patterns deviating from established norms in a network or system
+    - may indicate malicious threats or unintentional (but still risky) behaviors
+    - crucial for preemptive threat detection
+
+anomoalous behaviors
+  - unexpected behaviors
+    - deviations form established norms or baseline behaviors
+      - unusual login times
+      - high data transfer rates
+      - multiple failed login attempts
+  - risky behaviors
+    - actions that expose an organization to vulnerabilities or therats; may be deliberate or have malicious intent
+  - unintentional behaviors
+    - actions that inadvertently jeopardize cybersecurity; usually involve lack of awareness
+
+user guidance and training
+  - empowers employees with security knowledge and training to help protect the organization
+    - policy documents
+      - acceptable use policy (AUP)
+      - information security policy (ISP)
+      - Remote/Hybrid work policies
+      - incident response handbook
+    - training
+      - password management
+      - social engineering
+      - insider threats
+      - operational security
+
+reporting and monitoring
+  - are both initial and recurring
+    - initial reporting
+      - documenting and communicating details of security incidents or vulnerabilities as the first response
+    - initial monitoring
+      - working to contain a threat that with help of real-time log data
+    - recurring reporting
+      - periodically reviewing and auditing to assess security measures
+    - recurring monitoring
+      - continuously scanning networks and systems for new vulnerabilities and threats
+
+development phase
+  - lay the groundwork for a security awareness program by defining its objectives, scop, and measurable goals
+    - create a detailed project plan outlining a timeline, resources, and budget
+    - identify key stakeholdres and define their roles
+    - create training materials and assessments
+
+execution phase
+  - put the security awareness program into action
+    - use real-time monitoring to ensure the program is effective
+    - make program adjustments as needed
+    - periodically review the program to keep it relevant and effective
+
