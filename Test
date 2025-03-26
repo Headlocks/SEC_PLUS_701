@@ -1,0 +1,8 @@
+Port scan types
+
+  SYN - sends SYN, recieves an ACK, sends a RST. stealthy and half-open
+  ACK - sends ACK, waits for RST or no response. firewall detection
+  TCP - full 3 way handshake. full connection (less stealthy)
+  XMAS - sends FIN, PSH, URG and waits for no response. stealthy and unusual flags.
+
+
