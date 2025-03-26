@@ -1,73 +1,72 @@
 ## Chapter 28: Implementing Security Awareness Practices
 
-Phishing
-  - Social Engineering attack aimed at tricking individuals into shareing sensitive data
-    - often conducted via email, messaging apps, and websites
-    - user education and awareness are vital to keeping systems secure
+### Phishing
+- Social Engineering attack aimed at tricking individuals into sharing sensitive data
+  - Often conducted via email, messaging apps, and websites
+  - User education and awareness are vital to keeping systems secure
 
-signs of phishing attempts
-  - mismatched URLs
-  - Errors in grammar and spelling
-  - Requests for sensitive information
-  - unexpected attachements
-  - "too good to be true" offers
+### Signs of Phishing Attempts
+- Mismatched URLs
+- Errors in grammar and spelling
+- Requests for sensitive information
+- Unexpected attachments
+- "Too good to be true" offers
 
-suspicious message protocol
-  - 1) isolate the threat
-  - 2) analyze the content
-  - 3) notify security team
-  - 4) make users aware
-  - 5) update security measures
+### Suspicious Message Protocol
+1. Isolate the threat
+2. Analyze the content
+3. Notify the security team
+4. Make users aware
+5. Update security measures
 
-anomalous behavior recognition
-  - identifies actions or patterns deviating from established norms in a network or system
-    - may indicate malicious threats or unintentional (but still risky) behaviors
-    - crucial for preemptive threat detection
+### Anomalous Behavior Recognition
+- Identifies actions or patterns deviating from established norms in a network or system
+  - May indicate malicious threats or unintentional (but still risky) behaviors
+  - Crucial for preemptive threat detection
 
-anomoalous behaviors
-  - unexpected behaviors
-    - deviations form established norms or baseline behaviors
-      - unusual login times
-      - high data transfer rates
-      - multiple failed login attempts
-  - risky behaviors
-    - actions that expose an organization to vulnerabilities or therats; may be deliberate or have malicious intent
-  - unintentional behaviors
-    - actions that inadvertently jeopardize cybersecurity; usually involve lack of awareness
+### Anomalous Behaviors
+- Unexpected Behaviors
+  - Deviations from established norms or baseline behaviors
+    - Unusual login times
+    - High data transfer rates
+    - Multiple failed login attempts
+- Risky Behaviors
+  - Actions that expose an organization to vulnerabilities or threats; may be deliberate or have malicious intent
+- Unintentional Behaviors
+  - Actions that inadvertently jeopardize cybersecurity; usually involve lack of awareness
 
-user guidance and training
-  - empowers employees with security knowledge and training to help protect the organization
-    - policy documents
-      - acceptable use policy (AUP)
-      - information security policy (ISP)
-      - Remote/Hybrid work policies
-      - incident response handbook
-    - training
-      - password management
-      - social engineering
-      - insider threats
-      - operational security
+### User Guidance and Training
+- Empowers employees with security knowledge and training to help protect the organization
+  - Policy Documents
+    - Acceptable Use Policy (AUP)
+    - Information Security Policy (ISP)
+    - Remote/Hybrid Work Policies
+    - Incident Response Handbook
+  - Training
+    - Password management
+    - Social engineering
+    - Insider threats
+    - Operational security
 
-reporting and monitoring
-  - are both initial and recurring
-    - initial reporting
-      - documenting and communicating details of security incidents or vulnerabilities as the first response
-    - initial monitoring
-      - working to contain a threat that with help of real-time log data
-    - recurring reporting
-      - periodically reviewing and auditing to assess security measures
-    - recurring monitoring
-      - continuously scanning networks and systems for new vulnerabilities and threats
+### Reporting and Monitoring
+- Are both initial and recurring
+  - Initial Reporting
+    - Documenting and communicating details of security incidents or vulnerabilities as the first response
+  - Initial Monitoring
+    - Working to contain a threat with the help of real-time log data
+  - Recurring Reporting
+    - Periodically reviewing and auditing to assess security measures
+  - Recurring Monitoring
+    - Continuously scanning networks and systems for new vulnerabilities and threats
 
-development phase
-  - lay the groundwork for a security awareness program by defining its objectives, scop, and measurable goals
-    - create a detailed project plan outlining a timeline, resources, and budget
-    - identify key stakeholdres and define their roles
-    - create training materials and assessments
+### Development Phase
+- Lay the groundwork for a security awareness program by defining its objectives, scope, and measurable goals
+  - Create a detailed project plan outlining a timeline, resources, and budget
+  - Identify key stakeholders and define their roles
+  - Create training materials and assessments
 
-execution phase
-  - put the security awareness program into action
-    - use real-time monitoring to ensure the program is effective
-    - make program adjustments as needed
-    - periodically review the program to keep it relevant and effective
-
+### Execution Phase
+- Put the security awareness program into action
+  - Use real-time monitoring to ensure the program is effective
+  - Make program adjustments as needed
+  - Periodically review the program to keep it relevant and effective
