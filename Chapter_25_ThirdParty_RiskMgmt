@@ -36,7 +36,14 @@
   - Provides an unbiased view of the vendor's compliance and risk management status.
   - Examples:
     - SOC 2 reports
+      - compliance controls that service organizations can use to report on their practices relevant to security, availability, processing integrity, confidentiality, and privacy
+        - Type I
+          - reports affirm that controls are in place
+        - Type II
+          - attest to the controls being in place and working effectivily over a period of time. Most common.
     - ISO certifications
+      - ISO 270000 series
+        - is a set of international standards for information security management that provides a framework for organizations to manage and protect their information assets.
     - Results of third-party penetration tests
 
 ### Supply Chain Analysis
