@@ -1,1 +1,93 @@
 ## Chapter 27: Understanding the Types and Purposes of Audits and Assessments
+
+attestation
+  - formal act of affirming or certifying validity of a process, system, or a data set
+    - adds trust and integrity to an organization's cybersecurity posture
+    - confirms that specific security controls are in place and functioning as intended
+    - often takes the form of signed statements or digital certificates
+
+attestation process
+  - 1) evaluataion
+  - 2) documentation
+  - 3) approval
+  - 4) issuance
+  - 5) review and update
+
+internal
+  - self-audits conducted internally by the organization to ensure alignment with external requirements and internal policies
+    - proactive
+    - self-assessments
+      - are audits conducted by staff responsible for the assessed areas
+    - internal compliance audits
+      - are overseen by internal committees
+
+compliance audit
+  - define scope
+    - identify the applicable laws, regulations, and policies
+  - gather data
+    - collect evidence such as logs configurations, and employee interviews
+  - analyze
+    - evaluate data against the defined scope
+  - report
+    - document findings, including non-compliance, and recommend corrective actions
+
+internal audit committee
+  - oversight body comprised of senior management and subject matter experts
+    -responsibilities
+      - audit planning
+      - review
+      - oversight
+      - accountability
+
+external
+  - evaluations conducted by entities outside the organization
+    - regulatory audit
+      - mandated by law or industry standards
+    - independent third-party audit
+      - conducted by an unbiased organization
+    - examination
+      - verifies specific claims or compliance assertions
+    - assessment
+      - evaluates the overall security posture
+
+penetration testing
+  - diagnostic tool to assess cybersecurity by simulating cyberattacks
+    - proactively identifies vulnerabilities and evaluates the effectiveness of defensive mechanisms
+    - helps organizations meet compliance requirements
+
+penetration testing lifecycle
+  - 1) Planning
+  - 2) Reconnaissance
+  - 3) Scanning
+  - 4) Gaining Access
+  - 5) Maintaining Access
+  - 6) Analysis and Reporting
+
+types of penetration tests
+  - physical penetration testing
+    - targets physical barriers such as door locks and surveillance systems
+  - offensive penetration testing (red teaming)
+    - mimics the actions of threat actors to identify vulnerabilities
+  - defensive penetration testing (blue teaming)
+    - focuses on managing simulated attacks to evaluate defensive strategies
+  - integrated penetration testing (purple teaming)
+    - combines offensive and defensive methodologies
+  - known environment penetration testing (white box testing)
+    - testers have comprehensive information about the system's architecture
+  - partially known environment penetration testing (gray box testing)
+    - testers have a subset of system information
+  - unknown environment penetration testing (black box testing)
+    - testers have no knowledge of the system's architecture
+
+reconnaissance
+  - collecting preliminary data or intelligence about the target
+    - passive reconnaissance
+      - low-profile approach to gathering information
+      - identifies potential vulnerabilities or areas of interest without alerting the target
+    - active reconnaissance
+      - involves direct interaction with the target system; may target intrusion detection systems
+      - provides more detail about system vulnerabilities
+
+
+
+
